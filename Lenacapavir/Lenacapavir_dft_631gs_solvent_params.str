@@ -17,229 +17,231 @@ read rtf card append
 ! Impropers were added on aromatic rings to ensure planarity of the molecule
 ! There is probably room to improve. 
 ! My best fit of MM dihedral PES to the QM has an RMSE f 4.4 kcal/mol - Juan Rey
+! Atom names follow the convention of QNG to match molecular structures from the RCSB
 ! I left comments on specifying the source for each parameter
 ! "penalty" is the highest penalty score of the associated parameters.
 ! Penalties lower than 10 indicate the analogy is fair; penalties between 10
 ! and 50 mean some basic validation is recommended; penalties higher than
 ! 50 indicate poor analogy and mandate extensive validation/optimization.
 
-RESI LCV             0.000 ! param penalty= 200.500 ; charge penalty= 149.014
+RESI QNG             0.000 ! param penalty= 200.500 ; charge penalty= 149.014
 GROUP            ! CHARGE   CH_PENALTY
-ATOM C1     CG2R51  0.341!   37.075  !frag1_C1
-ATOM C2     CG2R51 -0.141!   37.282  !frag1_C2
-ATOM C3     CG3RC1 -0.021!   28.865  !frag1_C3
-ATOM C4     CG3RC1 -0.071!   35.707  !frag1_C4
-ATOM C5     CG2R52  0.059!   83.862  !frag1_C5
-ATOM N6     NG2R51 -0.202!   26.219  !frag1_N6
-ATOM N7     NG2R50 -0.044!   12.934  !frag1_N7
-ATOM C8     CG321   0.286!    9.826
-ATOM C9     CG3C50  0.417!   43.920  !frag1_C9
-ATOM F10    FGA2   -0.215!   22.630  !frag1_F10
-ATOM F11    FGA2   -0.215!   22.630  !frag1_F11
-ATOM C12    CG3C31 -0.198!   25.988  !frag1_C12
-ATOM H13    HGA1    0.090!    1.014
-ATOM H14    HGA1    0.090!    2.905
-ATOM C15    CG302   0.463!   80.038  !frag1_C15
-ATOM H16    HGA2    0.090!    0.000
-ATOM H17    HGA2    0.090!    0.000
-ATOM H18    HGA2    0.090!    2.500
-ATOM H19    HGA2    0.090!    2.500
-ATOM F20    FGA3   -0.165 !    5.469 !frag1_F20
-ATOM F21    FGA3   -0.165 !    5.469 !frag1_F21
-ATOM F22    FGA3   -0.165 !    5.469 !frag1_F22
-ATOM N23    NG2S1  -0.424 !    9.785
-ATOM H24    HGP1    0.348 !    3.479
-ATOM C25    CG2O1   0.467!    10.278  ! frag_51  atom with this charge had lower penalty
-ATOM O26    OG2D1  -0.502 !    0.000
-ATOM H27    HGA1    0.090 !    2.250
-ATOM C28    CG311   0.117!    16.772  ! frag4_C9
-ATOM C29    CG321  -0.132 !    4.337
-ATOM C30    CG2R61  0.091 !    1.696
-ATOM C31    CG2R61 -0.256 !    0.620
-ATOM C32    CG2R66  0.317 !    0.656
-ATOM C33    CG2R61 -0.188 !    0.000
-ATOM C34    CG2R66  0.317 !    0.656
-ATOM C35    CG2R61 -0.256 !    0.620
-ATOM H36    HGA2    0.090 !    0.300
-ATOM H37    HGA2    0.090 !    0.300
-ATOM H38    HGR62   0.182 !    0.000
-ATOM F39    FGR1   -0.196 !    0.000
-ATOM H40    HGR62   0.190 !    0.000
-ATOM F41    FGR1   -0.196 !    0.000
-ATOM H42    HGR62   0.177 !    0.000
-ATOM C43    CG2R61  0.344!    22.501  !frag22_C3
-ATOM C44    CG2R61  0.082!    52.080  !frag22_C4
-ATOM C45    CG2R61 -0.093 !    3.675 
-ATOM C46    CG2R61 -0.116 !    2.570
-ATOM C47    CG2R67  0.012 !    4.501
-ATOM N48    NG2R60 -0.506!    31.026  !frag22_N8
-ATOM C49    CG1T1  -0.199!    53.042  !frag22_C9
-ATOM C50    CG1T1   0.456!    39.459  !frag22_C10
-ATOM H51    HGR61   0.115 !    0.300
-ATOM H52    HGR61   0.115 !    0.000
-ATOM C53    CG301   0.118!    51.772  !frag22_C13
-ATOM C54    CG331  -0.365!    28.793  !frag22_C14
-ATOM C55    CG331  -0.365!    28.793  !frag22_C15
-ATOM S56    SG3O2   0.293!    21.324  !frag22_S16
-ATOM C57    CG331   0.032 !    8.532
-ATOM O58    OG2P1  -0.382 !    8.453
-ATOM O59    OG2P1  -0.382 !    8.453
-ATOM H60    HGA3    0.090 !    2.057
-ATOM H61    HGA3    0.090 !    2.057
-ATOM H62    HGA3    0.090 !    2.057
-ATOM H63    HGA3    0.090 !    2.057
-ATOM H64    HGA3    0.090 !    2.057
-ATOM H65    HGA3    0.090 !    2.057
-ATOM H66    HGA3    0.090 !    0.090
-ATOM H67    HGA3    0.090 !    0.090
-ATOM H68    HGA3    0.090 !    0.090
-ATOM C69    CG2R67  0.000!   103.333  ! frag_4 C21
-ATOM C70    CG2RC0  0.155!   134.895  ! frag_21 C3 
-ATOM C71    CG2RC0  0.176!   132.001  ! frag_21 C4
-ATOM C72    CG2R61 -0.022 !    7.288
-ATOM C73    CG2R61 -0.474 !    0.998
-ATOM C74    CG2R61 -0.175!    17.163  ! frag_4 C26
-ATOM Cl75   CLGR1  -0.129!     3.536  ! added +0.05 to compensate for LP
-ATOM C76    CG2R53  0.523!    75.097  ! frag21_C9
-ATOM N77    NG2R51 -0.057!    25.023  ! frag21_C10
-ATOM N78    NG2R50 -0.695!    39.126  ! frag21_C11
-ATOM C79    CG321  -0.076!    13.191  ! frag21_C12
-ATOM C80    CG302   0.310 !    6.024
-ATOM F81    FGA3   -0.195 !    2.615
-ATOM F82    FGA3   -0.195 !    2.615
-ATOM N83    NG311  -0.695!    65.202  ! frag21_N16
-ATOM H84    HGR62   0.225 !    0.658
-ATOM H85    HGR61   0.275 !    0.000
-ATOM H86    HGA2    0.090 !    0.787
-ATOM H87    HGA2    0.090 !    0.787
-ATOM F88    FGA3   -0.195 !    2.500
-ATOM S89    SG3O2   0.438 !    9.890
-ATOM C90    CG331  -0.022 !    3.017
-ATOM H91    HGA3    0.090 !    0.000
-ATOM H92    HGA3    0.090 !    0.000
-ATOM O93    OG2P1  -0.385 !    4.499
-ATOM O94    OG2P1  -0.385 !    4.499
-ATOM H95    HGP1    0.349 !    5.799
-ATOM H96    HGA3    0.090 !    0.000
-!ATOM LP1    LPH     0.050 ! on CL75
+ATOM  C32    CG2R51  0.341!   37.075  !frag1_C1
+ATOM  C31    CG2R51 -0.141!   37.282  !frag1_C2
+ATOM  C36    CG3RC1 -0.021!   28.865  !frag1_C3
+ATOM  C37    CG3RC1 -0.071!   35.707  !frag1_C4
+ATOM  C35    CG2R52  0.059!   83.862  !frag1_C5
+ATOM  N33    NG2R51 -0.202!   26.219  !frag1_N6
+ATOM  N34    NG2R50 -0.044!   12.934  !frag1_N7
+ATOM  C30    CG321   0.286!    9.826
+ATOM  C38    CG3C50  0.417!   43.920  !frag1_C9
+ATOM  F41    FGA2   -0.215!   22.630  !frag1_F10
+ATOM  F42    FGA2   -0.215!   22.630  !frag1_F11
+ATOM  C39    CG3C31 -0.198!   25.988  !frag1_C12
+ATOM  H15    HGA1    0.090!    1.014
+ATOM  H16    HGA1    0.090!    2.905
+ATOM  C40    CG302   0.463!   80.038  !frag1_C15
+ATOM  H14    HGA2    0.090!    0.000
+ATOM  H13    HGA2    0.090!    0.000
+ATOM  H17    HGA2    0.090!    2.500
+ATOM  H18    HGA2    0.090!    2.500
+ATOM  F53    FGA3   -0.165 !    5.469 !frag1_F20
+ATOM  F64    FGA3   -0.165 !    5.469 !frag1_F21
+ATOM  F52    FGA3   -0.165 !    5.469 !frag1_F22
+ATOM  N43    NG2S1  -0.424 !    9.785
+ATOM  H32    HGP1    0.348 !    3.479
+ATOM  C28    CG2O1   0.467!    10.278  ! frag_51  atom with this charge had lower penalty
+ATOM  O29    OG2D1  -0.502 !    0.000
+ATOM  H1     HGA1    0.090 !    2.250
+ATOM  C01    CG311   0.117!    16.772  ! frag4_C9
+ATOM  C19    CG321  -0.132 !    4.337
+ATOM  C20    CG2R61  0.091 !    1.696
+ATOM  C25    CG2R61 -0.256 !    0.620
+ATOM  C24    CG2R66  0.317 !    0.656
+ATOM  C23    CG2R61 -0.188 !    0.000
+ATOM  C22    CG2R66  0.317 !    0.656
+ATOM  C21    CG2R61 -0.256 !    0.620
+ATOM  H9     HGA2    0.090 !    0.300
+ATOM  H8     HGA2    0.090 !    0.300
+ATOM  H12    HGR62   0.182 !    0.000
+ATOM  F26    FGR1   -0.196 !    0.000
+ATOM  H11    HGR62   0.190 !    0.000
+ATOM  F27    FGR1   -0.196 !    0.000
+ATOM  H10    HGR62   0.177 !    0.000
+ATOM  C05    CG2R61  0.344!    22.501  !frag22_C3
+ATOM  C02    CG2R61  0.082!    52.080  !frag22_C4
+ATOM  C03    CG2R61 -0.093 !    3.675 
+ATOM  C04    CG2R61 -0.116 !    2.570
+ATOM  C13    CG2R67  0.012 !    4.501
+ATOM  N06    NG2R60 -0.506!    31.026  !frag22_N8
+ATOM  C44    CG1T1  -0.199!    53.042  !frag22_C9
+ATOM  C45    CG1T1   0.456!    39.459  !frag22_C10
+ATOM  H2     HGR61   0.115 !    0.300
+ATOM  H3     HGR61   0.115 !    0.000
+ATOM  C46    CG301   0.118!    51.772  !frag22_C13
+ATOM  C54    CG331  -0.365!    28.793  !frag22_C14
+ATOM  C56    CG331  -0.365!    28.793  !frag22_C15
+ATOM  S55    SG3O2   0.293!    21.324  !frag22_S16
+ATOM  C58    CG331   0.032 !    8.532
+ATOM  O59    OG2P1  -0.382 !    8.453
+ATOM  O57    OG2P1  -0.382 !    8.453
+ATOM  H24    HGA3    0.090 !    2.057
+ATOM  H22    HGA3    0.090 !    2.057
+ATOM  H23    HGA3    0.090 !    2.057
+ATOM  H25    HGA3    0.090 !    2.057
+ATOM  H26    HGA3    0.090 !    2.057
+ATOM  H27    HGA3    0.090 !    2.057
+ATOM  H30    HGA3    0.090 !    0.090
+ATOM  H29    HGA3    0.090 !    0.090
+ATOM  H28    HGA3    0.090 !    0.090
+ATOM  C07    CG2R67  0.000!   103.333  ! frag_4 C21
+ATOM  C08    CG2RC0  0.155!   134.895  ! frag_21 C3 
+ATOM  C09    CG2RC0  0.176!   132.001  ! frag_21 C4
+ATOM  C10    CG2R61 -0.022 !    7.288
+ATOM  C11    CG2R61 -0.474 !    0.998
+ATOM  C12    CG2R61 -0.175!    17.163  ! frag_4 C26
+ATOM  CL47   CLGR1  -0.129!     3.536  ! added +0.05 to compensate for LP
+ATOM  C16    CG2R53  0.523!    75.097  ! frag21_C9
+ATOM  N14    NG2R51 -0.057!    25.023  ! frag21_C10
+ATOM  N15    NG2R50 -0.695!    39.126  ! frag21_C11
+ATOM  C18    CG321  -0.076!    13.191  ! frag21_C12
+ATOM  C60    CG302   0.310 !    6.024
+ATOM  F63    FGA3   -0.195 !    2.615
+ATOM  F61    FGA3   -0.195 !    2.615
+ATOM  N17    NG311  -0.695 !   65.202  ! frag21_N16
+ATOM  H4     HGR62   0.225 !    0.658
+ATOM  H5     HGR61   0.275 !    0.000
+ATOM  H6     HGA2    0.090 !    0.787
+ATOM  H7     HGA2    0.090 !    0.787
+ATOM  F62    FGA3   -0.195 !    2.500
+ATOM  S48    SG3O2   0.438 !    9.890
+ATOM  C49    CG331  -0.022 !    3.017
+ATOM  H20    HGA3    0.090 !    0.000
+ATOM  H21    HGA3    0.090 !    0.000
+ATOM  O51    OG2P1  -0.385 !    4.499
+ATOM  O50    OG2P1  -0.385 !    4.499
+ATOM  H31    HGP1    0.349 !    5.799
+ATOM  H19    HGA3    0.090 !    0.000
+!ATOM LP1    LPH     0.050 ! on CL47
+               ! Bond order
+BOND H4   C11 ! 1
+BOND O57  S55 ! 2
+BOND H5   C12 ! 1
+BOND C11  C12 ! 1
+BOND C11  C10 ! 2
+BOND H8   C19 ! 1
+BOND C12  C07 ! 2
+BOND H10  C21 ! 1
+BOND F27  C22 ! 1
+BOND H28  C58 ! 1
+BOND H22  C54 ! 1
+BOND C21  C22 ! 1
+BOND C21  C20 ! 2
+BOND S55  O59 ! 2
+BOND S55  C58 ! 1
+BOND S55  C46 ! 1
+BOND C22  C23 ! 2
+BOND CL47 C10 ! 1
+BOND H9   C19 ! 1
+BOND C19  C20 ! 1
+BOND C19  C01 ! 1
+BOND C20  C25 ! 1
+BOND C10  C09 ! 1
+BOND C58  H29 ! 1
+BOND C58  H30 ! 1
+BOND H3   C04 ! 1
+BOND C23  H11 ! 1
+BOND C23  C24 ! 1
+BOND H2   C03 ! 1
+BOND C04  C03 ! 2
+BOND C04  C13 ! 1
+BOND C54  H24 ! 1
+BOND C54  C46 ! 1
+BOND C54  H23 ! 1
+BOND C03  C02 ! 1
+BOND C25  C24 ! 2
+BOND C25  H12 ! 1
+BOND C07  C13 ! 1
+BOND C07  C08 ! 1
+BOND C24  F26 ! 1
+BOND C13  C05 ! 2
+BOND C02  C44 ! 1
+BOND C02  N06 ! 2
+BOND C44  C45 ! 3
+BOND C45  C46 ! 1
+BOND C05  N06 ! 1
+BOND C05  C01 ! 1
+BOND C46  C56 ! 1
+BOND C01  H1  ! 1
+BOND C01  N43 ! 1
+BOND C09  C08 ! 2
+BOND C09  C16 ! 1
+BOND C08  N14 ! 1
+BOND H31  N17 ! 1
+BOND H25  C56 ! 1
+BOND C56  H27 ! 1
+BOND C56  H26 ! 1
+BOND N43  H32 ! 1
+BOND N43  C28 ! 1
+BOND C16  N17 ! 1
+BOND C16  N15 ! 2
+BOND F53  C40 ! 1
+BOND N14  N15 ! 1
+BOND N14  C18 ! 1
+BOND N17  S48 ! 1
+BOND F62  C60 ! 1
+BOND H6   C18 ! 1
+BOND C28  O29 ! 2
+BOND C28  C30 ! 1
+BOND C18  C60 ! 1
+BOND C18  H7  ! 1
+BOND C40  F64 ! 1
+BOND C40  F52 ! 1
+BOND C40  C35 ! 1
+BOND C60  F63 ! 1
+BOND C60  F61 ! 1
+BOND N34  C35 ! 2
+BOND N34  N33 ! 1
+BOND H19  C49 ! 1
+BOND O50  S48 ! 2
+BOND H13  C30 ! 1
+BOND S48  C49 ! 1
+BOND S48  O51 ! 2
+BOND C30  N33 ! 1
+BOND C30  H14 ! 1
+BOND C35  C31 ! 1
+BOND N33  C32 ! 1
+BOND H20  C49 ! 1
+BOND C49  H21 ! 1
+BOND C31  C32 ! 2
+BOND C31  C36 ! 1
+BOND C32  C38 ! 1
+BOND F41  C38 ! 1
+BOND H15  C36 ! 1
+BOND C36  C37 ! 1
+BOND C36  C39 ! 1
+BOND C38  C37 ! 1
+BOND C38  F42 ! 1
+BOND C37  H16 ! 1
+BOND C37  C39 ! 1
+BOND C39  H18 ! 1
+BOND C39  H17 ! 1
 
-BOND C1   C9  
-BOND C1   C2  
-BOND C1   N6  
-BOND C2   C3  
-BOND C2   C5  
-BOND C3   C4  
-BOND C3   C12 
-BOND C3   H13 
-BOND C4   C9  
-BOND C4   H14 
-BOND C4   C12 
-BOND C5   N7  
-BOND C5   C15 
-BOND N6   C8  
-BOND N6   N7  
-BOND C8   H16 
-BOND C8   H17 
-BOND C8   C25 
-BOND C9   F11 
-BOND C9   F10 
-BOND C12  H18 
-BOND C12  H19 
-BOND C15  F20 
-BOND C15  F21 
-BOND C15  F22 
-BOND N23  H24 
-BOND N23  C28 
-BOND N23  C25 
-BOND C25  O26 
-BOND H27  C28 
-BOND C28  C29 
-BOND C28  C43 
-BOND C29  H36 
-BOND C29  H37 
-BOND C29  C30 
-BOND C30  C35 
-BOND C30  C31 
-BOND C31  H38 
-BOND C31  C32 
-BOND C32  C33 
-BOND C32  F39 
-BOND C33  C34 
-BOND C33  H40 
-BOND C34  C35 
-BOND C34  F41 
-BOND C35  H42 
-BOND C43  N48 
-BOND C43  C47 
-BOND C44  C45 
-BOND C44  N48 
-BOND C44  C49 
-BOND C45  C46 
-BOND C45  H51 
-BOND C46  H52 
-BOND C46  C47 
-BOND C47  C69 
-BOND C49  C50 
-BOND C50  C53 
-BOND C53  C55 
-BOND C53  S56 
-BOND C53  C54 
-BOND C54  H60 
-BOND C54  H61 
-BOND C54  H62 
-BOND C55  H64 
-BOND C55  H65 
-BOND C55  H63 
-BOND S56  C57 
-BOND S56  O59 
-BOND S56  O58 
-BOND C57  H66 
-BOND C57  H67 
-BOND C57  H68 
-BOND C69  C70 
-BOND C69  C74 
-BOND C70  C71 
-BOND C70  N77 
-BOND C71  C72 
-BOND C71  C76 
-BOND C72  C73 
-BOND C72  CL75
-BOND C73  C74 
-BOND C73  H84 
-BOND C74  H85 
-BOND C76  N78 
-BOND C76  N83 
-BOND N77  N78 
-BOND N77  C79 
-BOND C79  H86 
-BOND C79  H87 
-BOND C79  C80 
-BOND C80  F81 
-BOND C80  F82 
-BOND C80  F88 
-BOND N83  S89 
-BOND N83  H95 
-BOND S89  O94 
-BOND S89  C90 
-BOND S89  O93 
-BOND C90  H96 
-BOND C90  H91 
-BOND C90  H92 
-IMPR C25    C8     N23    O26   
-IMPR C76    C71    N78    N83   
-IMPR C44    C49    N48    C45 
-IMPR C71    C72    C70    C76
-IMPR C70    C71    C69    N77
-IMPR C72    CL75   C73    C71
-IMPR C1     C9     C2     N6
-IMPR C2     C3     C5     C1
-IMPR C69    C74    C47    C70
-IMPR C47    C43    C46    C69
-IMPR N6     C1     N7     C8
-IMPR C5     N7     C2     C15
+IMPR C28    C30    N43    O29   
+IMPR C16    C09    N15    N17   
+IMPR C02    C44    N06    C03 
+IMPR C09    C10    C08    C16
+IMPR C08    C09    C07    N14
+IMPR C10    CL47   C11    C09
+IMPR C32    C38    C31    N33
+IMPR C31    C36    C35    C32
+IMPR C07    C12    C13    C08
+IMPR C13    C05    C04    C07
+IMPR N33    C32    N34    C30
+IMPR C35    N34    C31    C40
 ! Manually added impropers to keep the atoms coplanar
 
-!LONEPAIR COLI LP1    CL75   C72    DIST 1.6400 SCAL 0.0
+!LONEPAIR COLI LP1    CL47   C10    DIST 1.6400 SCAL 0.0
 
 END
 
