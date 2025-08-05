@@ -27,8 +27,8 @@ Current parameters:
 | BI-2          |               |        | https://doi.org/10.1021/acs.jpclett.6b00517 | Y               |
 | PF74          |               | CI     | https://doi.org/10.1021/acs.jpclett.6b00517 | N               |
 
-|---------------------------------------|
+
 | Name                  | Also Known As |
 |-----------------------|---------------|
 | Inositol Hexaphosphate| IP6           |
-|---------------------------------------|
+
