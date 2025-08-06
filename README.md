@@ -13,22 +13,22 @@ Type abbreviations:
 
 Current parameters:
 
-| Name          | Also Known As | Type   | Publication                                 | added to github |
-|---------------|---------------|--------|---------------------------------------------|-----------------|
-| Primitegravir | PIR, STP0404  | ALLINI | https://doi.org/10.1128/mbio.03560-22       | N	             |
-| BI-D          |               | ALLINI | https://doi.org/10.1128/mbio.03560-22       | N               |
-| EKC110        |               | ALLINI | https://doi.org/10.1101/2024.10.09.617473   | N               |
-| Bevirimat     | BVM           | MI     | https://doi.org/10.1128/mbio.00465-24       | N               |
-| Lenacapavir   | LEN, GS-6207  | CI     | In preperation                              | Y               |
-| PF-46396      |               | MI     | In preperation                              | N               |
-| GS-9822       |               | ALLINI | In preperation                              | N               |
-| Dolutegravir  | DTG           | INSTI  | In preperation                              | N               |
-| BI-1          |               |        | https://doi.org/10.1021/acs.jpclett.6b00517 | Y               |
-| BI-2          |               |        | https://doi.org/10.1021/acs.jpclett.6b00517 | Y               |
-| PF74          |               | CI     | https://doi.org/10.1021/acs.jpclett.6b00517 | N               |
+| Name          | Also Known As | Type   | Publication                                 | added to github (str, pdb) |
+|---------------|---------------|--------|---------------------------------------------|----------------------------|
+| Primitegravir | PIR, STP0404  | ALLINI | https://doi.org/10.1128/mbio.03560-22       | (Y,N) 	                    |
+| BI-D          |               | ALLINI | https://doi.org/10.1128/mbio.03560-22       | (Y,N)                      |
+| EKC110        |               | ALLINI | https://doi.org/10.1101/2024.10.09.617473   | (Y,N)                      |
+| Bevirimat     | BVM           | MI     | https://doi.org/10.1128/mbio.00465-24       | (N,N)                      |
+| Lenacapavir   | LEN, GS-6207  | CI     | In preperation                              | (Y,Y)                      |
+| PF-46396      |               | MI     | In preperation                              | (Y,N)                      |
+| GS-9822       |               | ALLINI | In preperation                              | (Y,N)                      |
+| Dolutegravir  | DTG           | INSTI  | In preperation                              | (Y,N)                      |
+| BI-1          |               |        | https://doi.org/10.1021/acs.jpclett.6b00517 | (Y,Y)                      |
+| BI-2          |               |        | https://doi.org/10.1021/acs.jpclett.6b00517 | (Y,Y)                      |
+| PF74          |               | CI     | https://doi.org/10.1021/acs.jpclett.6b00517 | (N,N)                      |
 
 
-| Name                  | Also Known As |
-|-----------------------|---------------|
-| Inositol Hexaphosphate| IP6           |
+| Name                  | Also Known As | added to github (str, pdb) |
+|-----------------------|---------------|----------------------------|
+| Inositol Hexaphosphate| IP6           | (Y,N)                      |
 
