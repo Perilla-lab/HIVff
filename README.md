@@ -20,6 +20,7 @@ Current parameters:
 | EKC110        |               | ALLINI | https://doi.org/10.1128/mbio.00465-24       | (Y,N)                      |
 | Bevirimat     | BVM           | MI     | https://doi.org/10.1101/2024.10.09.617473   | (N,N)                      |
 | Lenacapavir   | LEN, GS-6207  | CI     | In preperation                              | (Y,Y)                      |
+| GS-CA-1       |               | CI     | In preperation                              | (Y,Y)                      |
 | PF-46396      |               | MI     | In preperation                              | (Y,Y)                      |
 | GS-9822       |               | ALLINI | In preperation                              | (Y,Y)                      |
 | Dolutegravir  | DTG           | INSTI  | In preperation                              | (Y,Y)                      |
