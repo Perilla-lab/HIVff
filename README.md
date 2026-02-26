@@ -18,15 +18,16 @@ Current parameters:
 | Primitegravir | PIR, STP0404  | ALLINI | https://doi.org/10.1128/mbio.03560-22       | (Y,N) 	                    |
 | BI-D          |               | ALLINI | https://doi.org/10.1128/mbio.03560-22       | (Y,Y)                      |
 | EKC110        |               | ALLINI | https://doi.org/10.1128/mbio.00465-24       | (Y,N)                      |
+| GS-9822       |               | ALLINI | In preperation                              | (Y,Y)                      |
 | Bevirimat     | BVM           | MI     | https://doi.org/10.1101/2024.10.09.617473   | (N,N)                      |
+| PF-46396      |               | MI     | In preperation                              | (Y,Y)                      |
 | Lenacapavir   | LEN, GS-6207  | CI     | In preperation                              | (Y,Y)                      |
 | GS-CA-1       |               | CI     | In preperation                              | (Y,Y)                      |
-| PF-46396      |               | MI     | In preperation                              | (Y,Y)                      |
-| GS-9822       |               | ALLINI | In preperation                              | (Y,Y)                      |
+| PF74          | PF-3450074    | CI     | https://doi.org/10.1021/acs.jpclett.6b00517 | (~,Y)                      |
 | Dolutegravir  | DTG           | INSTI  | In preperation                              | (Y,Y)                      |
-| BI-1          |               |        | https://doi.org/10.1021/acs.jpclett.6b00517 | (Y,Y)                      |
-| BI-2          |               |        | https://doi.org/10.1021/acs.jpclett.6b00517 | (Y,Y)                      |
-| PF74          | PF-3450074    | CI     | https://doi.org/10.1021/acs.jpclett.6b00517 | (N,N)                      |
+| Bictegravir   | BIC           | INSTI  | ?                                           | (~,~)                      |
+| BI-1          |               |  ?     | ?                                           | (Y,Y)                      |
+| BI-2          |               |  ?     | ?                                           | (Y,Y)                      |
 
 
 | Name                  | Also Known As | added to github (str, pdb) |
