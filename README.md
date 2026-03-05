@@ -22,10 +22,10 @@ Current parameters:
 | BI-D          |               | ALLINI | https://doi.org/10.1128/mbio.03560-22       | (Y,Y)                      |
 | EKC110        |               | ALLINI | https://doi.org/10.1128/mbio.00465-24       | (Y,N)                      |
 | GS-9822       |               | ALLINI | In preperation                              | (Y,Y)                      |
-| Bevirimat     | BVM           | MI     | https://doi.org/10.1101/2024.10.09.617473   | (N,N)                      |
-| PF-46396      |               | MI     | In preperation                              | (Y,Y)                      |
 | Dolutegravir  | DTG           | INSTI  | In preperation                              | (Y,Y)                      |
 | Bictegravir   | BIC           | INSTI  | ?                                           | (~,~)                      |
+| Bevirimat     | BVM           | MI     | https://doi.org/10.1101/2024.10.09.617473   | (N,N)                      |
+| PF-46396      |               | MI     | In preperation                              | (Y,Y)                      |
 | BI-1          |               |  ?     | ?                                           | (Y,Y)                      |
 | BI-2          |               |  ?     | ?                                           | (Y,Y)                      |
 
