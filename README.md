@@ -6,10 +6,10 @@ Pfizer (PF)
 Gilead Science (GS)
 
 Type abbreviations:
-- Maturation inhibitor (MI)
 - Capsid inhibitor (CI)
 - Allosteric integrase inhibitor (ALLINI)
 - Integrase strand transfer inhibitor (INSTI)
+- Maturation inhibitor (MI)
 
 Current parameters:
 
