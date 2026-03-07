@@ -17,7 +17,9 @@ Current parameters:
 |---------------|---------------|--------|---------------------------------------------|----------------------------|
 | Lenacapavir   | LEN, GS-6207  | CI     | In preperation                              | (Y,Y)                      |
 | GS-CA-1       |               | CI     | In preperation                              | (Y,Y)                      |
-| PF74          | PF-3450074    | CI     | https://doi.org/10.1021/acs.jpclett.6b00517 | (~,Y)                      |
+| PF74          | PF-3450074    | CI     | https://doi.org/10.1021/acs.jpclett.6b00517 | (Y,Y)                      |
+| BI-1          |               | CI     | https://doi.org/10.1021/acs.jpclett.6b00517 | (Y,Y)                      |
+| BI-2          |               | CI     | https://doi.org/10.1021/acs.jpclett.6b00517 | (Y,Y)                      |
 | Primitegravir | PIR, STP0404  | ALLINI | https://doi.org/10.1128/mbio.03560-22       | (Y,N) 	                    |
 | BI-D          |               | ALLINI | https://doi.org/10.1128/mbio.03560-22       | (Y,Y)                      |
 | EKC110        |               | ALLINI | https://doi.org/10.1128/mbio.00465-24       | (Y,N)                      |
@@ -26,8 +28,7 @@ Current parameters:
 | Bictegravir   | BIC           | INSTI  | ?                                           | (~,~)                      |
 | Bevirimat     | BVM           | MI     | https://doi.org/10.1101/2024.10.09.617473   | (N,N)                      |
 | PF-46396      |               | MI     | In preperation                              | (Y,Y)                      |
-| BI-1          |               |  ?     | ?                                           | (Y,Y)                      |
-| BI-2          |               |  ?     | ?                                           | (Y,Y)                      |
+
 
 
 | Name                  | Also Known As | added to github (str, pdb) |
