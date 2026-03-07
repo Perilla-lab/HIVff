@@ -1,3 +1,5 @@
 # Ignore validation folders
 **/toBeChecked/
+**/misc-files/
+**/test/
 /pics/*
