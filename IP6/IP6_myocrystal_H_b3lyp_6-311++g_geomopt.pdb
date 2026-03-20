@@ -1,0 +1,46 @@
+REMARK original generated coordinate pdb file
+REMARK myo inositol hexakisphosphate (myo-IP6)
+REMARK structure geometry optimized at b3lyp/6-311++g** scrf=(iefpcm,solvent=water) level
+ATOM      1  C1  IHP A 403      -1.322  -0.515  -0.501  1.00  0.00      I    C
+ATOM      2  C2  IHP A 403      -0.167  -1.451  -0.098  1.00  0.00      I    C
+ATOM      3  C3  IHP A 403       1.168  -0.819  -0.538  1.00  0.00      I    C
+ATOM      4  C4  IHP A 403       1.363   0.533   0.203  1.00  0.00      I    C
+ATOM      5  C5  IHP A 403       0.199   1.468  -0.297  1.00  0.00      I    C
+ATOM      6  C6  IHP A 403      -1.162   0.862   0.195  1.00  0.00      I    C
+ATOM      7  O11 IHP A 403      -2.582  -1.121  -0.236  1.00  0.00      I    O
+ATOM      8  P1  IHP A 403      -3.491  -1.870  -1.461  1.00  0.00      I    P
+ATOM      9  O21 IHP A 403      -3.834  -0.780  -2.503  1.00  0.00      I    O
+ATOM     10  O31 IHP A 403      -2.615  -3.000  -2.046  1.00  0.00      I    O
+ATOM     11  O41 IHP A 403      -4.713  -2.375  -0.663  1.00  0.00      I    O
+ATOM     12  O12 IHP A 403      -0.176  -1.684   1.314  1.00  0.00      I    O
+ATOM     13  P2  IHP A 403      -0.313  -3.196   2.079  1.00  0.00      I    P
+ATOM     14  O22 IHP A 403      -1.553  -3.047   2.992  1.00  0.00      I    O
+ATOM     15  O32 IHP A 403       0.998  -3.333   2.888  1.00  0.00      I    O
+ATOM     16  O42 IHP A 403      -0.479  -4.254   0.969  1.00  0.00      I    O
+ATOM     17  O13 IHP A 403       2.251  -1.720  -0.358  1.00  0.00      I    O
+ATOM     18  P3  IHP A 403       2.903  -2.594  -1.659  1.00  0.00      I    P
+ATOM     19  O23 IHP A 403       4.085  -3.321  -0.985  1.00  0.00      I    O
+ATOM     20  O33 IHP A 403       3.332  -1.558  -2.723  1.00  0.00      I    O
+ATOM     21  O43 IHP A 403       1.795  -3.545  -2.163  1.00  0.00      I    O
+ATOM     22  O14 IHP A 403       2.651   1.084  -0.041  1.00  0.00      I    O
+ATOM     23  P4  IHP A 403       3.818   1.361   1.182  1.00  0.00      I    P
+ATOM     24  O24 IHP A 403       4.502   0.018   1.515  1.00  0.00      I    O
+ATOM     25  O34 IHP A 403       3.066   1.955   2.394  1.00  0.00      I    O
+ATOM     26  O44 IHP A 403       4.772   2.350   0.475  1.00  0.00      I    O
+ATOM     27  O15 IHP A 403       0.346   2.826   0.100  1.00  0.00      I    O
+ATOM     28  P5  IHP A 403       0.551   4.108  -1.024  1.00  0.00      I    P
+ATOM     29  O25 IHP A 403      -0.441   5.184  -0.535  1.00  0.00      I    O
+ATOM     30  O35 IHP A 403       0.217   3.518  -2.411  1.00  0.00      I    O
+ATOM     31  O45 IHP A 403       2.015   4.579  -0.889  1.00  0.00      I    O
+ATOM     32  O16 IHP A 403      -2.257   1.725  -0.095  1.00  0.00      I    O
+ATOM     33  P6  IHP A 403      -3.492   2.115   1.025  1.00  0.00      I    P
+ATOM     34  O26 IHP A 403      -3.378   3.643   1.236  1.00  0.00      I    O
+ATOM     35  O36 IHP A 403      -3.202   1.309   2.308  1.00  0.00      I    O
+ATOM     36  O46 IHP A 403      -4.800   1.731   0.299  1.00  0.00      I    O
+ATOM     37  H1  IHP A 403      -1.239  -0.340  -1.583  1.00  0.00      I    H
+ATOM     38  H2  IHP A 403      -0.297  -2.395  -0.621  1.00  0.00      I    H
+ATOM     39  H3  IHP A 403       1.088  -0.587  -1.609  1.00  0.00      I    H
+ATOM     40  H4  IHP A 403       1.239   0.371   1.277  1.00  0.00      I    H
+ATOM     41  H5  IHP A 403       0.201   1.452  -1.392  1.00  0.00      I    H
+ATOM     42  H6  IHP A 403      -1.119   0.711   1.276  1.00  0.00      I    H
+END
