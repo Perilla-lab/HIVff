@@ -20,18 +20,18 @@ Current parameters:
 | PF74          | PF-3450074    | CI     | https://doi.org/10.1021/acs.jpclett.6b00517 | (Y,Y)                      |
 | BI-1          |               | CI     | https://doi.org/10.1021/acs.jpclett.6b00517 | (Y,Y)                      |
 | BI-2          |               | CI     | https://doi.org/10.1021/acs.jpclett.6b00517 | (Y,Y)                      |
-| Primitegravir | PIR, STP0404  | ALLINI | https://doi.org/10.1128/mbio.03560-22       | (Y,N) 	                    |
+| Primitegravir | PIR, STP0404  | ALLINI | https://doi.org/10.1128/mbio.03560-22       | (Y,Y) 	                    |
 | BI-D          |               | ALLINI | https://doi.org/10.1128/mbio.03560-22       | (Y,Y)                      |
-| EKC110        |               | ALLINI | https://doi.org/10.1128/mbio.00465-24       | (Y,N)                      |
+| EKC110        |               | ALLINI | https://doi.org/10.1128/mbio.00465-24       | (Y,Y)                      |
 | GS-9822       |               | ALLINI | In preperation                              | (Y,Y)                      |
 | Dolutegravir  | DTG           | INSTI  | In preperation                              | (Y,Y)                      |
 | Bictegravir   | BIC           | INSTI  | ?                                           | (~,~)                      |
-| Bevirimat     | BVM           | MI     | https://doi.org/10.1101/2024.10.09.617473   | (N,N)                      |
+| Bevirimat     | BVM           | MI     | https://doi.org/10.1101/2024.10.09.617473   | (Y,Y)                      |
 | PF-46396      |               | MI     | In preperation                              | (Y,Y)                      |
 
 
 
 | Name                  | Also Known As | added to github (str, pdb) |
 |-----------------------|---------------|----------------------------|
-| Inositol Hexaphosphate| IP6           | (Y,N)                      |
+| Inositol Hexaphosphate| IP6           | (Y,Y)                      |
 
