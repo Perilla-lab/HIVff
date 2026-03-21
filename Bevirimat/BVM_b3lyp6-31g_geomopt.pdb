@@ -1,0 +1,197 @@
+TITLE      BVM geo_opt
+REMARK   1 File created by GaussView 5.0.9
+REMARK	BVM structure optimized at b3lyp/6-31G* level
+HETATM    1  O1  BVM A   1      -4.942  -0.434  -0.292                       O
+HETATM    2  O2  BVM A   1       6.967  -2.287   1.079                       O
+HETATM    3  O3  BVM A   1       6.046  -0.464   2.058                       O
+HETATM    4  O4  BVM A   1      -5.301   1.192  -1.829                       O
+HETATM    5  O5  BVM A   1      -9.855  -0.310  -0.518                       O
+HETATM    6  O6  BVM A   1     -10.132   1.285   1.078                       O
+HETATM    7  C1  BVM A   1       1.753  -1.303   0.100                       C
+HETATM    8  C2  BVM A   1       3.107  -0.877  -0.673                       C
+HETATM    9  C3  BVM A   1       0.811  -0.040   0.213                       C
+HETATM   10  C4  BVM A   1       3.788   0.312   0.110                       C
+HETATM   11  C5  BVM A   1      -0.688  -0.281   0.683                       C
+HETATM   12  C6  BVM A   1       5.181   0.639  -0.468                       C
+HETATM   13  C7  BVM A   1      -1.281  -1.399  -0.247                       C
+HETATM   14  C8  BVM A   1       6.113  -0.596  -0.398                       C
+HETATM   15  C9  BVM A   1       0.994  -2.407  -0.683                       C
+HETATM   16  C10 BVM A   1       1.528   1.109   0.951                       C
+HETATM   17  C11 BVM A   1       4.111  -2.072  -0.750                       C
+HETATM   18  C12 BVM A   1       2.836   1.508   0.251                       C
+HETATM   19  C13 BVM A   1      -0.428  -2.677  -0.169                       C
+HETATM   20  C14 BVM A   1       5.520  -1.708  -1.264                       C
+HETATM   21  C15 BVM A   1      -2.834  -1.641  -0.194                       C
+HETATM   22  C16 BVM A   1       6.013   1.783   0.166                       C
+HETATM   23  C17 BVM A   1      -1.498   1.019   0.404                       C
+HETATM   24  C18 BVM A   1       2.110  -1.894   1.491                       C
+HETATM   25  C19 BVM A   1       2.801  -0.463  -2.139                       C
+HETATM   26  C20 BVM A   1       7.439   0.015  -0.877                       C
+HETATM   27  C21 BVM A   1       7.511   1.360  -0.114                       C
+HETATM   28  C22 BVM A   1      -0.801  -0.586   2.200                       C
+HETATM   29  C23 BVM A   1      -3.513  -0.267  -0.432                       C
+HETATM   30  C24 BVM A   1      -3.020   0.838   0.498                       C
+HETATM   31  C25 BVM A   1       6.388  -1.174   1.074                       C
+HETATM   32  C26 BVM A   1      -3.335  -2.305   1.106                       C
+HETATM   33  C27 BVM A   1      -3.251  -2.559  -1.368                       C
+HETATM   34  C28 BVM A   1       5.763   3.208  -0.294                       C
+HETATM   35  C29 BVM A   1       6.259   4.263   0.671                       C
+HETATM   36  C30 BVM A   1       5.210   3.571  -1.458                       C
+HETATM   37  C31 BVM A   1      -5.753   0.359  -1.064                       C
+HETATM   38  C32 BVM A   1      -7.212   0.062  -0.833                       C
+HETATM   39  C33 BVM A   1      -7.931   1.037   0.141                       C
+HETATM   40  C34 BVM A   1      -7.887   2.485  -0.377                       C
+HETATM   41  C35 BVM A   1      -7.318   0.978   1.550                       C
+HETATM   42  C36 BVM A   1      -9.477   0.613   0.243                       C
+HETATM   43  H1  BVM A   1       0.678   0.312  -0.818                       H
+HETATM   44  H2  BVM A   1       4.011  -0.039   1.122                       H
+HETATM   45  H3  BVM A   1       5.078   0.880  -1.538                       H
+HETATM   46  H4  BVM A   1      -1.119  -1.007  -1.266                       H
+HETATM   47  H5  BVM A   1       1.575  -3.338  -0.662                       H
+HETATM   48  H6  BVM A   1       0.902  -2.124  -1.738                       H
+HETATM   49  H7  BVM A   1       0.874   1.987   1.015                       H
+HETATM   50  H8  BVM A   1       1.757   0.821   1.985                       H
+HETATM   51  H9  BVM A   1       3.683  -2.866  -1.379                       H
+HETATM   52  H10 BVM A   1       4.262  -2.504   0.243                       H
+HETATM   53  H11 BVM A   1       3.327   2.299   0.831                       H
+HETATM   54  H12 BVM A   1       2.609   1.954  -0.728                       H
+HETATM   55  H13 BVM A   1      -0.871  -3.469  -0.784                       H
+HETATM   56  H14 BVM A   1      -0.403  -3.070   0.855                       H
+HETATM   57  H15 BVM A   1       5.489  -1.400  -2.322                       H
+HETATM   58  H16 BVM A   1       6.159  -2.594  -1.190                       H
+HETATM   59  H17 BVM A   1       5.866   1.726   1.248                       H
+HETATM   60  H18 BVM A   1      -1.196   1.812   1.099                       H
+HETATM   61  H19 BVM A   1      -1.250   1.383  -0.604                       H
+HETATM   62  H20 BVM A   1       2.766  -1.251   2.080                       H
+HETATM   63  H21 BVM A   1       1.219  -2.087   2.088                       H
+HETATM   64  H22 BVM A   1       2.626  -2.851   1.378                       H
+HETATM   65  H23 BVM A   1       2.017   0.293  -2.232                       H
+HETATM   66  H24 BVM A   1       3.693  -0.051  -2.618                       H
+HETATM   67  H25 BVM A   1       2.499  -1.326  -2.742                       H
+HETATM   68  H26 BVM A   1       7.408   0.196  -1.965                       H
+HETATM   69  H27 BVM A   1       8.292  -0.640  -0.669                       H
+HETATM   70  H28 BVM A   1       8.031   1.220   0.839                       H
+HETATM   71  H29 BVM A   1       8.051   2.128  -0.683                       H
+HETATM   72  H30 BVM A   1      -1.761  -0.252   2.605                       H
+HETATM   73  H31 BVM A   1      -0.023  -0.060   2.761                       H
+HETATM   74  H32 BVM A   1      -0.713  -1.649   2.437                       H
+HETATM   75  H33 BVM A   1      -3.318   0.044  -1.465                       H
+HETATM   76  H34 BVM A   1      -3.333   0.616   1.525                       H
+HETATM   77  H35 BVM A   1      -3.521   1.771   0.216                       H
+HETATM   78  H36 BVM A   1      -3.223  -1.667   1.985                       H
+HETATM   79  H37 BVM A   1      -2.791  -3.237   1.297                       H
+HETATM   80  H38 BVM A   1      -4.398  -2.546   1.013                       H
+HETATM   81  H39 BVM A   1      -4.340  -2.549  -1.475                       H
+HETATM   82  H40 BVM A   1      -2.813  -2.221  -2.316                       H
+HETATM   83  H41 BVM A   1      -2.944  -3.598  -1.207                       H
+HETATM   84  H42 BVM A   1       5.726   4.191   1.630                       H
+HETATM   85  H43 BVM A   1       7.323   4.117   0.900                       H
+HETATM   86  H44 BVM A   1       6.128   5.279   0.280                       H
+HETATM   87  H46 BVM A   1       4.833   2.848  -2.175                       H
+HETATM   88  H47 BVM A   1       5.102   4.620  -1.730                       H
+HETATM   89  H48 BVM A   1      -7.331  -0.956  -0.455                       H
+HETATM   90  H49 BVM A   1      -7.727   0.115  -1.796                       H
+HETATM   91  H50 BVM A   1      -6.867   2.892  -0.408                       H
+HETATM   92  H51 BVM A   1      -8.299   2.549  -1.393                       H
+HETATM   93  H52 BVM A   1      -8.506   3.105   0.278                       H
+HETATM   94  H53 BVM A   1      -6.302   1.398   1.589                       H
+HETATM   95  H54 BVM A   1      -7.966   1.539   2.228                       H
+HETATM   96  H55 BVM A   1      -7.262  -0.057   1.913                       H
+TER      96      BVM A   1
+END
+CONECT    1   29   37
+CONECT    2   31
+CONECT    3   31
+CONECT    4   37
+CONECT    5   42
+CONECT    6   42
+CONECT    7    8    9   15   24
+CONECT    8    7   10   17   25
+CONECT    9    7   11   16   43
+CONECT   10    8   12   18   44
+CONECT   11    9   13   23   28
+CONECT   12   10   14   22   45
+CONECT   13   11   19   21   46
+CONECT   14   12   20   26   31
+CONECT   15    7   19   47   48
+CONECT   16    9   18   49   50
+CONECT   17    8   20   51   52
+CONECT   18   10   16   53   54
+CONECT   19   13   15   55   56
+CONECT   20   17   14   57   58
+CONECT   21   13   29   32   33
+CONECT   22   12   27   34   59
+CONECT   23   11   30   60   61
+CONECT   24    7   62   63   64
+CONECT   25    8   65   66   67
+CONECT   26   14   27   68   69
+CONECT   27   22   26   70   71
+CONECT   28   11   72   73   74
+CONECT   29   21    1   30   75
+CONECT   30   29   23   76   77
+CONECT   31    2   14    3
+CONECT   32   21   78   79   80
+CONECT   33   21   81   82   83
+CONECT   34   22   35   36
+CONECT   35   34   84   85   86
+CONECT   36   34   87   88
+CONECT   37    1    4   38
+CONECT   38   37   39   89   90
+CONECT   39   38   40   41   42
+CONECT   40   39   91   92   93
+CONECT   41   39   94   95   96
+CONECT   42    5   39    6
+CONECT   43    9
+CONECT   44   10
+CONECT   45   12
+CONECT   46   13
+CONECT   47   15
+CONECT   48   15
+CONECT   49   16
+CONECT   50   16
+CONECT   51   17
+CONECT   52   17
+CONECT   53   18
+CONECT   54   18
+CONECT   55   19
+CONECT   56   19
+CONECT   57   20
+CONECT   58   20
+CONECT   59   22
+CONECT   60   23
+CONECT   61   23
+CONECT   62   24
+CONECT   63   24
+CONECT   64   24
+CONECT   65   25
+CONECT   66   25
+CONECT   67   25
+CONECT   68   26
+CONECT   69   26
+CONECT   70   27
+CONECT   71   27
+CONECT   72   28
+CONECT   73   28
+CONECT   74   28
+CONECT   75   29
+CONECT   76   30
+CONECT   77   30
+CONECT   78   32
+CONECT   79   32
+CONECT   80   32
+CONECT   81   33
+CONECT   82   33
+CONECT   83   33
+CONECT   84   35
+CONECT   85   35
+CONECT   86   35
+CONECT   87   36
+CONECT   88   36
+CONECT   89   38
+CONECT   90   38
+CONECT   91   40
+CONECT   92   40
+CONECT   93   40
+CONECT   94   41
+CONECT   95   41
+CONECT   96   41
