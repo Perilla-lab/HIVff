@@ -25,7 +25,7 @@ Current parameters:
 | EKC110        |               | ALLINI | https://doi.org/10.1128/mbio.00465-24       | (Y,Y)                      |
 | GS-9822       |               | ALLINI | In preperation                              | (Y,Y)                      |
 | Dolutegravir  | DTG           | INSTI  | In preperation                              | (Y,Y)                      |
-| Bictegravir   | BIC           | INSTI  | ?                                           | (~,~)                      |
+| Bictegravir   | BIC           | INSTI  | In preparation                              | (Y,Y)                      |
 | Bevirimat     | BVM           | MI     | https://doi.org/10.1101/2024.10.09.617473   | (Y,Y)                      |
 | PF-46396      |               | MI     | In preperation                              | (Y,Y)                      |
 
