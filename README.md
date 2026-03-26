@@ -16,6 +16,7 @@ Current parameters:
 | Name          | Also Known As | Type   | Publication                                 | added to github (str, pdb) |
 |---------------|---------------|--------|---------------------------------------------|----------------------------|
 | Lenacapavir   | LEN, GS-6207  | CI     | In preperation                              | (Y,Y)                      |
+| LEN10         | Lenacapavir   | CI     | In preperation                              | (Y,Y)                      |
 | GS-CA-1       |               | CI     | In preperation                              | (Y,Y)                      |
 | PF74          | PF-3450074    | CI     | https://doi.org/10.1021/acs.jpclett.6b00517 | (Y,Y)                      |
 | BI-1          |               | CI     | https://doi.org/10.1021/acs.jpclett.6b00517 | (Y,Y)                      |
