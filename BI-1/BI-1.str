@@ -7,41 +7,41 @@
 ! Note: CGenFF = par_all36_cgenff.prm
 
 
-RESI BI1-05.p       0.000 ! param penalty= 102.000 ; charge penalty=  86.970
+RESI BI1       0.000 ! param penalty= 102.000 ; charge penalty=  86.970
 GROUP            ! CHARGE   CH_PENALTY
-ATOM N1      NG2R51 -0.081 !   21.782
-ATOM H1      HGP1    0.331 !    1.160
-ATOM N2      NG2R50 -0.591 !   26.791
-ATOM C3      CG2R52  0.071 !   49.818
-ATOM C4      CG3C51  0.552 !   86.970
-ATOM H4      HGA1    0.090 !    3.878
-ATOM N5      NG2R53 -0.478 !   47.204
-ATOM H5      HGP1    0.357 !    3.787
-ATOM C6      CG2R53  0.321 !   31.288
-ATOM O6      OG2D1  -0.528 !   13.914
-ATOM C7      CG2R51 -0.180 !   57.548
-ATOM C8      CG2R51  0.146 !   38.664
-ATOM C9      CG2R61  0.034 !   35.292
-ATOM C10     CG2R61 -0.116 !    4.384
-ATOM H10     HGR61   0.115 !    0.050
-ATOM C11     CG2R61 -0.118 !    0.380
-ATOM H11     HGR61   0.115 !    0.000
-ATOM C12     CG2R61 -0.115 !    0.000
-ATOM H12     HGR61   0.115 !    0.000
-ATOM C13     CG2R61 -0.118 !    0.380
-ATOM H13     HGR61   0.115 !    0.000
-ATOM C14     CG2R61 -0.116 !    4.384
-ATOM H14     HGR61   0.115 !    0.050
-ATOM C15     CG2R61 -0.025 !   81.957
-ATOM C16     CG2R61  0.173 !    9.300
-ATOM H16     HGR62   0.121 !    5.020
-ATOM N17     NG2R60 -0.603 !    5.020
-ATOM C18     CG2R61  0.177 !    0.000
-ATOM H18     HGR62   0.124 !    0.000
-ATOM C19     CG2R61 -0.110 !    4.374
-ATOM H19     HGR61   0.115 !    0.000
-ATOM C20     CG2R61 -0.123 !    8.162
-ATOM H20     HGR61   0.115 !    0.500
+ATOM N1      NG2R51 -0.190 !  
+ATOM H1      HGP1    0.364 !  
+ATOM N2      NG2R50 -0.504 !  
+ATOM C3      CG2R52  0.313 !  
+ATOM C4      CG3C51 -0.011 !  
+ATOM H4      HGA1    0.090 !  
+ATOM N5      NG2R53 -0.344 !  
+ATOM H5      HGP1    0.301 !  
+ATOM C6      CG2R53  0.426 !  
+ATOM O6      OG2D1  -0.538 !  
+ATOM C7      CG2R51 -0.101 !  
+ATOM C8      CG2R51  0.194 !  
+ATOM C9      CG2R61  0.000 !  
+ATOM C10     CG2R61 -0.115 !  
+ATOM H10     HGR61   0.115 !  
+ATOM C11     CG2R61 -0.115 !  
+ATOM H11     HGR61   0.115 !  
+ATOM C12     CG2R61 -0.115 !  
+ATOM H12     HGR61   0.115 !  
+ATOM C13     CG2R61 -0.115 !  
+ATOM H13     HGR61   0.115 !  
+ATOM C14     CG2R61 -0.115 !  
+ATOM H14     HGR61   0.115 !  
+ATOM C15     CG2R61  0.000 !  
+ATOM C16     CG2R61  0.180 !  
+ATOM H16     HGR62   0.120 !  
+ATOM N17     NG2R60 -0.600 !  
+ATOM C18     CG2R61  0.180 !  
+ATOM H18     HGR62   0.120 !  
+ATOM C19     CG2R61 -0.115 !  
+ATOM H19     HGR61   0.115 !  
+ATOM C20     CG2R61 -0.115 !  
+ATOM H20     HGR61   0.115 !  
 
 BOND H18  C18
 BOND H19  C19
