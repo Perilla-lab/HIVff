@@ -44,6 +44,47 @@ ATOM H18    HGP1     0.420000
 ATOM C19    CG2R61  -0.115000
 ATOM H19    HGR61    0.115000
 ATOM C20    CG2R61  -0.115000
+ATOM H20    HGR61    0.115000
+               ! TYP INR
+BOND O18  H18  ! 1   0
+BOND O18  C18  ! 1   0
+BOND H17  C17  ! 1   0
+BOND C18  C17  ! 2   1
+BOND C18  C19  ! 1   1
+BOND C17  C16  ! 1   1
+BOND H19  C19  ! 1   0
+BOND C19  C20  ! 2   1
+BOND C16  H16  ! 1   0
+BOND C16  C15  ! 2   1
+BOND C20  C15  ! 1   1
+BOND C20  H20  ! 1   0
+BOND H5   N5   ! 1   0
+BOND C15  C4   ! 1   0
+BOND H4   C4   ! 1   0
+BOND N5   C4   ! 1   1
+BOND N5   C6   ! 1   1
+BOND C4   C7   ! 1   1
+BOND C6   O6   ! 2   0
+BOND C6   C8   ! 1   1
+BOND H13  C13  ! 1   0
+BOND H14  C14  ! 1   0
+BOND C7   C8   ! 2   1
+BOND C7   C3   ! 1   1
+BOND C13  C14  ! 1   1
+BOND C13  C12  ! 2   1
+BOND C14  C9   ! 2   1
+BOND C8   N1   ! 1   1
+BOND H12  C12  ! 1   0
+BOND C12  C11  ! 1   1
+BOND C9   C3   ! 1   0
+BOND C9   C10  ! 1   1
+BOND C3   N2   ! 2   1
+BOND C11  C10  ! 2   1
+BOND C11  H11  ! 1   0
+BOND C10  H10  ! 1   0
+BOND N1   N2   ! 1   1
+BOND N1   H1   ! 1   0
+IMPR C6     C8     N5     O6    
 
 END
 
