@@ -1,0 +1,400 @@
+# electronic Ligand Builder and Optimisation Workbench (eLBOW)
+#   - a module of PHENIX version 1.21.2-5419-
+#   - file written: Sat Apr 11 04:14:54 2026
+#
+#   Input file: BIC_b3lyp_6-31gd_geomOpt.pdb
+#   Random seed: 3628800
+#
+# Restraints Editor Exclusively Ligands (REEL)
+#   - a module of PHENIX
+#   - file written: Sat Apr 11 23:08:56 2026
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+BIC BIC 'Unknown ' ligand 49 32 . 
+#
+data_comp_BIC
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+BIC         F1     F   F     0     -0.197    -1.3320    1.8910    1.4440
+BIC         F2     F   F     0     -0.197    -1.5420    6.5510    0.7720
+BIC         F3     F   F     0     -0.184    -5.4530    3.9570    0.5340
+BIC         O4     O   O2    0     -0.497     6.4810    8.7870   -2.4210
+BIC         O5     O   O     0     -0.38      4.7410    6.4410   -5.8150
+BIC         O6     O   O     0     -0.829     2.5970    4.8830   -4.7880
+BIC         O7     O   O     0     -0.496     1.3710    4.1610   -2.4850
+BIC         O8     O   O     0     -0.367     1.7440    6.6200    0.9420
+BIC         N9     N   NT    0     -0.224     5.5200    8.1300   -4.5170
+BIC         N10    N   NR6   0     -0.259     3.6070    7.5880   -2.5800
+BIC         N11    N   NH1   0     -0.52      0.8530    4.6980    0.0750
+BIC         C12    C   CH1   0     -0.29      6.8580    7.9730   -5.1240
+BIC         C13    C   CH1   0     0.302      7.7660    8.5330   -3.0280
+BIC         C14    C   CH2   0     -0.188     7.7820    9.0280   -4.4860
+BIC         C15    C   CH2   0     -0.184     7.5320    6.6690   -4.6270
+BIC         C16    C   CH2   0     -0.184     8.0020    7.0090   -3.1830
+BIC         C17    C   CH1   0     0.468      5.4520    9.0200   -3.3950
+BIC         C18    C   CH2   0     -0.496     4.0940    8.9500   -2.7210
+BIC         C19    C   C     0     0.318      4.5830    7.0720   -4.7690
+BIC         C20    C   CR6   0     -0.09      3.5910    6.7890   -3.7520
+BIC         C21    C   CR16  0     0.167      2.9520    7.2460   -1.4680
+BIC         C22    C   CR6   0     0.498      2.7520    5.6110   -3.8020
+BIC         C23    C   CR6   0     -0.33      2.2140    6.0780   -1.3470
+BIC         C24    C   CR6   0     0.442      2.0470    5.2110   -2.4930
+BIC         C25    C   C     0     0.489      1.5970    5.8450   -0.0170
+BIC         C26    C   CH2   0     0.055      0.1630    4.3380    1.2900
+BIC         C27    C   CR6   0     -0.012    -1.3410    4.2300    1.1110
+BIC         C28    C   CR6   0     0.406     -2.0290    3.0180    1.1760
+BIC         C29    C   CR6   0     0.406     -2.1360    5.3480    0.8360
+BIC         C30    C   CR16  0     -0.526    -3.4030    2.8880    0.9900
+BIC         C31    C   CR16  0     -0.526    -3.5120    5.2930    0.6400
+BIC         C32    C   CR6   0     0.476     -4.1180    4.0450    0.7200
+BIC         H33    H   HCH1  0     0.09       6.7870    8.0200   -6.2130
+BIC         H34    H   HCH1  0     0.09       8.5060    9.0160   -2.3800
+BIC         H35    H   HCH2  0     0.09       8.7910    8.9300   -4.9030
+BIC         H36    H   HCH2  0     0.09       7.4690   10.0690   -4.6120
+BIC         H37    H   HCH2  0     0.09       6.8470    5.8230   -4.6840
+BIC         H38    H   HCH2  0     0.09       8.3910    6.4420   -5.2740
+BIC         H39    H   HCH2  0     0.09       9.0630    6.7680   -3.0370
+BIC         H40    H   HCH2  0     0.09       7.4320    6.4780   -2.4160
+BIC         H41    H   HCH1  0     0.09       5.5690   10.0610   -3.7420
+BIC         H42    H   HCH2  0     0.09       4.1710    9.4110   -1.7340
+BIC         H43    H   HCH2  0     0.09       3.3810    9.5260   -3.3280
+BIC         H44    H   HCR6  0     0.085      2.9920    7.9380   -0.6340
+BIC         H45    H   HNH1  0     0.314      0.8010    4.1430   -0.7890
+BIC         H46    H   HCH2  0     0.09       0.4020    5.1210    2.0160
+BIC         H47    H   HCH2  0     0.09       0.5320    3.3840    1.6840
+BIC         H48    H   HCR6  0     0.19      -3.8860    1.9200    1.0480
+BIC         H49    H   HCR6  0     0.19      -4.0820    6.1890    0.4280
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+BIC   F1      C28   single        1.352 0.02
+BIC   F2      C29   single        1.343 0.02
+BIC   F3      C32   single        1.351 0.02
+BIC   O4      C13   single        1.444 0.02
+BIC   O4      C17   single        1.436 0.02
+BIC   O5      C19   double        1.232 0.02
+BIC   O6      C22   double        1.235 0.02
+BIC   O7      C24   double        1.249 0.02
+BIC   O8      C25   double        1.242 0.02
+BIC   N9      C12   single        1.478 0.02
+BIC   N9      C17   single        1.434 0.02
+BIC   N9      C19   single        1.436 0.02
+BIC   N10     C18   single        1.453 0.02
+BIC   N10     C20   aromatic      1.419 0.02
+BIC   N10     C21   aromatic      1.335 0.02
+BIC   N11     C25   single        1.370 0.02
+BIC   N11     C26   single        1.443 0.02
+BIC   N11     H45   single        1.028 0.02
+BIC   C12     C14   single        1.541 0.02
+BIC   C12     C15   single        1.550 0.02
+BIC   C12     H33   single        1.092 0.02
+BIC   C13     C14   single        1.540 0.02
+BIC   C13     C16   single        1.550 0.02
+BIC   C13     H34   single        1.096 0.02
+BIC   C14     H35   single        1.096 0.02
+BIC   C14     H36   single        1.094 0.02
+BIC   C15     C16   single        1.556 0.02
+BIC   C15     H37   single        1.090 0.02
+BIC   C15     H38   single        1.099 0.02
+BIC   C16     H39   single        1.098 0.02
+BIC   C16     H40   single        1.093 0.02
+BIC   C17     C18   single        1.518 0.02
+BIC   C17     H41   single        1.104 0.02
+BIC   C18     H42   single        1.092 0.02
+BIC   C18     H43   single        1.099 0.02
+BIC   C19     C20   single        1.449 0.02
+BIC   C20     C22   aromatic      1.447 0.02
+BIC   C21     C23   aromatic      1.387 0.02
+BIC   C21     H44   single        1.084 0.02
+BIC   C22     C24   aromatic      1.540 0.02
+BIC   C23     C24   aromatic      1.447 0.02
+BIC   C23     C25   single        1.485 0.02
+BIC   C26     C27   single        1.518 0.02
+BIC   C26     H46   single        1.094 0.02
+BIC   C26     H47   single        1.096 0.02
+BIC   C27     C28   aromatic      1.395 0.02
+BIC   C27     C29   aromatic      1.399 0.02
+BIC   C28     C30   aromatic      1.393 0.02
+BIC   C29     C31   aromatic      1.391 0.02
+BIC   C30     C32   aromatic      1.387 0.02
+BIC   C30     H48   single        1.083 0.02
+BIC   C31     C32   aromatic      1.390 0.02
+BIC   C31     H49   single        1.083 0.02
+#
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+BIC   C17     O4      C13         112.41 3.0
+BIC   C19     N9      C17         124.33 3.0
+BIC   C19     N9      C12         116.14 3.0
+BIC   C17     N9      C12         115.49 3.0
+BIC   C21     N10     C20         122.57 3.0
+BIC   C21     N10     C18         119.03 3.0
+BIC   C20     N10     C18         116.84 3.0
+BIC   H45     N11     C26         123.28 3.0
+BIC   H45     N11     C25         115.02 3.0
+BIC   C26     N11     C25         121.67 3.0
+BIC   H33     C12     C15         112.59 3.0
+BIC   H33     C12     C14         114.98 3.0
+BIC   C15     C12     C14         100.52 3.0
+BIC   H33     C12     N9          110.25 3.0
+BIC   C15     C12     N9          110.58 3.0
+BIC   C14     C12     N9          107.47 3.0
+BIC   H34     C13     C16         112.94 3.0
+BIC   H34     C13     C14         114.28 3.0
+BIC   C16     C13     C14         102.70 3.0
+BIC   H34     C13     O4          105.96 3.0
+BIC   C16     C13     O4          110.52 3.0
+BIC   C14     C13     O4          110.54 3.0
+BIC   H36     C14     H35         107.73 3.0
+BIC   H36     C14     C13         114.32 3.0
+BIC   H35     C14     C13         109.94 3.0
+BIC   H36     C14     C12         115.61 3.0
+BIC   H35     C14     C12         109.47 3.0
+BIC   C13     C14     C12          99.54 3.0
+BIC   H38     C15     H37         107.46 3.0
+BIC   H38     C15     C16         110.81 3.0
+BIC   H37     C15     C16         114.07 3.0
+BIC   H38     C15     C12         108.96 3.0
+BIC   H37     C15     C12         111.28 3.0
+BIC   C16     C15     C12         104.19 3.0
+BIC   H40     C16     H39         107.70 3.0
+BIC   H40     C16     C15         112.79 3.0
+BIC   H39     C16     C15         111.55 3.0
+BIC   H40     C16     C13         109.15 3.0
+BIC   H39     C16     C13         110.47 3.0
+BIC   C15     C16     C13         105.17 3.0
+BIC   H41     C17     C18         106.14 3.0
+BIC   H41     C17     N9          109.54 3.0
+BIC   C18     C17     N9          111.18 3.0
+BIC   H41     C17     O4          106.88 3.0
+BIC   C18     C17     O4          109.42 3.0
+BIC   N9      C17     O4          113.34 3.0
+BIC   H43     C18     H42         108.88 3.0
+BIC   H43     C18     C17         108.12 3.0
+BIC   H42     C18     C17         108.59 3.0
+BIC   H43     C18     N10         109.10 3.0
+BIC   H42     C18     N10         109.36 3.0
+BIC   C17     C18     N10         112.72 3.0
+BIC   C20     C19     N9          117.89 3.0
+BIC   C20     C19     O5          125.73 3.0
+BIC   N9      C19     O5          116.29 3.0
+BIC   C22     C20     C19         122.13 3.0
+BIC   C22     C20     N10         119.58 3.0
+BIC   C19     C20     N10         117.53 3.0
+BIC   H44     C21     C23         119.34 3.0
+BIC   H44     C21     N10         117.32 3.0
+BIC   C23     C21     N10         123.33 3.0
+BIC   C24     C22     C20         116.59 3.0
+BIC   C24     C22     O6          117.91 3.0
+BIC   C20     C22     O6          125.45 3.0
+BIC   C25     C23     C24         124.59 3.0
+BIC   C25     C23     C21         115.56 3.0
+BIC   C24     C23     C21         119.80 3.0
+BIC   C23     C24     C22         117.71 3.0
+BIC   C23     C24     O7          124.15 3.0
+BIC   C22     C24     O7          118.15 3.0
+BIC   C23     C25     N11         114.66 3.0
+BIC   C23     C25     O8          123.01 3.0
+BIC   N11     C25     O8          122.33 3.0
+BIC   H47     C26     H46         108.11 3.0
+BIC   H47     C26     C27         108.29 3.0
+BIC   H46     C26     C27         110.21 3.0
+BIC   H47     C26     N11         111.03 3.0
+BIC   H46     C26     N11         106.00 3.0
+BIC   C27     C26     N11         113.09 3.0
+BIC   C29     C27     C28         115.03 3.0
+BIC   C29     C27     C26         121.95 3.0
+BIC   C28     C27     C26         123.01 3.0
+BIC   C30     C28     C27         124.15 3.0
+BIC   C30     C28     F1          117.21 3.0
+BIC   C27     C28     F1          118.63 3.0
+BIC   C31     C29     C27         123.93 3.0
+BIC   C31     C29     F2          117.79 3.0
+BIC   C27     C29     F2          118.28 3.0
+BIC   H48     C30     C32         121.74 3.0
+BIC   H48     C30     C28         121.07 3.0
+BIC   C32     C30     C28         117.18 3.0
+BIC   H49     C31     C32         121.65 3.0
+BIC   H49     C31     C29         121.04 3.0
+BIC   C32     C31     C29         117.31 3.0
+BIC   C31     C32     C30         122.39 3.0
+BIC   C31     C32     F3          118.79 3.0
+BIC   C30     C32     F3          118.82 3.0
+#
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+BIC CONST_01   C24     C22     C20     N10          -7.03   0.0 0
+BIC CONST_02   C24     C23     C21     N10          -4.57   0.0 0
+BIC CONST_03   C23     C21     N10     C20           0.88   0.0 0
+BIC CONST_04   C23     C24     C22     C20           3.48   0.0 0
+BIC CONST_05   C22     C20     N10     C21           5.21   0.0 0
+BIC CONST_06   C22     C24     C23     C21           2.15   0.0 0
+BIC CONST_07   C32     C30     C28     C27           0.20   0.0 0
+BIC CONST_08   C32     C31     C29     C27          -0.27   0.0 0
+BIC CONST_09   C31     C29     C27     C28           0.16   0.0 0
+BIC CONST_10   C31     C32     C30     C28          -0.30   0.0 0
+BIC CONST_11   C30     C28     C27     C29          -0.13   0.0 0
+BIC CONST_12   C30     C32     C31     C29           0.34   0.0 0
+BIC CONST_13   C20     C19     N9      C12         149.22   0.0 0
+BIC CONST_14   C20     C19     N9      C17          -7.09   0.0 0
+BIC CONST_15   C29     C27     C28     F1         -179.69   0.0 0
+BIC CONST_16   C32     C30     C28     F1          179.77   0.0 0
+BIC CONST_17   C28     C27     C29     F2          179.34   0.0 0
+BIC CONST_18   C32     C31     C29     F2         -179.45   0.0 0
+BIC CONST_19   C28     C30     C32     F3         -179.99   0.0 0
+BIC CONST_20   C29     C31     C32     F3         -179.97   0.0 0
+BIC CONST_21   N10     C20     C22     O6          175.69   0.0 0
+BIC CONST_22   C19     C20     C22     O6          -14.55   0.0 0
+BIC CONST_23   C23     C24     C22     O6         -179.03   0.0 0
+BIC CONST_24   C20     C22     C24     O7         -176.39   0.0 0
+BIC CONST_25   C21     C23     C24     O7         -178.00   0.0 0
+BIC CONST_26   C25     C23     C21     N10         177.82   0.0 0
+BIC CONST_27   C25     C23     C24     C22         179.53   0.0 0
+BIC CONST_28   C30     C28     C27     C26        -178.71   0.0 0
+BIC CONST_29   C31     C29     C27     C26         178.76   0.0 0
+BIC CONST_30   C12     N9      C19     O5          -27.40   0.0 0
+BIC CONST_31   C17     N9      C19     O5          176.30   0.0 0
+BIC CONST_32   H44     C21     N10     C18         -12.47   0.0 0
+BIC CONST_33   H48     C30     C28     C27         179.77   0.0 0
+BIC CONST_34   H49     C31     C29     C27        -179.91   0.0 0
+BIC CONST_35   C26     N11     C25     C23        -178.67   0.0 0
+BIC CONST_36   H45     N11     C25     C23          -0.74   0.0 0
+BIC CONST_37   C26     N11     C25     O8            1.65   0.0 0
+BIC   Var_01   C12     C14     C13     O4          -71.22  30.0 1
+BIC   Var_02   C15     C16     C13     O4           94.32  30.0 3
+BIC   Var_03   C12     N9      C17     O4          -47.68  30.0 1
+BIC   Var_04   C19     N9      C17     O4          108.76  30.0 1
+BIC   Var_05   N10     C18     C17     O4          -82.99  30.0 1
+BIC   Var_06   C13     C14     C12     N9           63.89  30.0 1
+BIC   Var_07   C16     C15     C12     N9          -76.16  30.0 3
+BIC   Var_08   C13     O4      C17     N9           41.94  30.0 1
+BIC   Var_09   N10     C18     C17     N9           42.96  30.0 1
+BIC   Var_10   N10     C20     C19     N9            0.58  30.0 1
+BIC   Var_11   C22     C20     C19     N9         -169.38  30.0 1
+BIC   Var_12   C18     C17     N9      C12        -171.43  30.0 1
+BIC   Var_13   C16     C13     C14     C12          46.70  30.0 1
+BIC   Var_14   C13     C16     C15     C12          -8.43  30.0 3
+BIC   Var_15   C18     C17     O4      C13         166.64  30.0 1
+BIC   Var_16   C15     C12     C14     C13         -51.78  30.0 1
+BIC   Var_17   C17     N9      C12     C14          -9.23  30.0 1
+BIC   Var_18   C19     N9      C12     C14        -167.66  30.0 1
+BIC   Var_19   C16     C15     C12     C14          37.15  30.0 3
+BIC   Var_20   C17     O4      C13     C14          18.56  30.0 1
+BIC   Var_21   C15     C16     C13     C14         -23.61  30.0 3
+BIC   Var_22   C17     N9      C12     C15          99.58  30.0 1
+BIC   Var_23   C19     N9      C12     C15         -58.84  30.0 1
+BIC   Var_24   C17     O4      C13     C16         -94.45  30.0 1
+BIC   Var_25   C20     N10     C18     C17         -52.14  30.0 1
+BIC   Var_26   C21     N10     C18     C17         141.74  30.0 1
+BIC   Var_27   C19     N9      C17     C18         -14.99  30.0 1
+BIC   Var_28   N10     C20     C19     O5          176.84  30.0 1
+BIC   Var_29   C22     C20     C19     O5            6.88  30.0 1
+BIC   Var_30   H35     C14     C13     O4          173.92  30.0 1
+BIC   Var_31   H36     C14     C13     O4           52.62  30.0 1
+BIC   Var_32   H39     C16     C13     O4         -145.19  30.0 3
+BIC   Var_33   H40     C16     C13     O4          -26.95  30.0 3
+BIC   Var_34   H42     C18     C17     O4           38.34  30.0 1
+BIC   Var_35   H43     C18     C17     O4          156.33  30.0 1
+BIC   Var_36   H37     C15     C12     N9           47.20  30.0 3
+BIC   Var_37   H38     C15     C12     N9          165.52  30.0 3
+BIC   Var_38   H41     C17     C18     N10         162.01  30.0 1
+BIC   Var_39   H34     C13     C14     C12         169.38  30.0 1
+BIC   Var_40   H33     C12     C14     C13        -172.95  30.0 1
+BIC   Var_41   C21     C23     C25     O8           -1.41  30.0 3
+BIC   Var_42   C24     C23     C25     O8         -178.89  30.0 3
+BIC   Var_43   C21     C23     C25     N11         178.91  30.0 3
+BIC   Var_44   C24     C23     C25     N11           1.43  30.0 3
+BIC   Var_45   C28     C27     C26     N11         111.14  30.0 2
+BIC   Var_46   C29     C27     C26     N11         -67.35  30.0 2
+BIC   Var_47   H46     C26     C27     C28        -130.42  30.0 2
+BIC   Var_48   H47     C26     C27     C28         -12.35  30.0 2
+BIC   Var_49   C27     C26     N11     C25         119.33  30.0 3
+#
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+BIC plan-1    F1  0.020
+BIC plan-1    F2  0.020
+BIC plan-1    F3  0.020
+BIC plan-1    C26 0.020
+BIC plan-1    C27 0.020
+BIC plan-1    C28 0.020
+BIC plan-1    C29 0.020
+BIC plan-1    C30 0.020
+BIC plan-1    C31 0.020
+BIC plan-1    C32 0.020
+BIC plan-1    H48 0.020
+BIC plan-1    H49 0.020
+BIC plan-2    O8  0.020
+BIC plan-2    N11 0.020
+BIC plan-2    C23 0.020
+BIC plan-2    C25 0.020
+BIC plan-2    C26 0.020
+BIC plan-2    H45 0.020
+BIC plan-3    O6  0.020
+BIC plan-3    O7  0.020
+BIC plan-3    N10 0.020
+BIC plan-3    C18 0.020
+BIC plan-3    C19 0.020
+BIC plan-3    C20 0.020
+BIC plan-3    C21 0.020
+BIC plan-3    C22 0.020
+BIC plan-3    C23 0.020
+BIC plan-3    C24 0.020
+BIC plan-3    C25 0.020
+BIC plan-3    H44 0.020
+BIC plan-4    O5  0.020
+BIC plan-4    N9  0.020
+BIC plan-4    C12 0.020
+BIC plan-4    C17 0.020
+BIC plan-4    C19 0.020
+BIC plan-4    C20 0.020
+#
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+BIC chir_01   C12     N9      C14     C15   both
+BIC chir_02   C13     O4      C14     C16   both
+BIC chir_03   C17     O4      N9      C18   both
+#

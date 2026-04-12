@@ -1,0 +1,297 @@
+# electronic Ligand Builder and Optimisation Workbench (eLBOW)
+#   - a module of PHENIX version 1.21.2-5419-
+#   - file written: Sat Apr 11 02:39:04 2026
+#
+#   Input file: BI-1.pdb
+#   Random seed: 3628800
+#
+# Restraints Editor Exclusively Ligands (REEL)
+#   - a module of PHENIX
+#   - file written: Sat Apr 11 23:05:48 2026
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+BI1 BI1 'Unknown ' ligand 33 21 . 
+#
+data_comp_BI1
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+BI1         N1     N   NR15  0     -0.19     -3.4890    1.9120   11.2770
+BI1         H1     H   HNR5  0     0.364     -3.7140    1.2230   11.9880
+BI1         N2     N   N     0     -0.504    -3.5610    3.2270   11.5940
+BI1         C3     C   CR5   0     0.313     -3.1920    3.8870   10.4700
+BI1         C4     C   CR15  0     -0.011    -2.5170    2.8230    8.0290
+BI1         H4     H   HCR5  0     0.09      -1.4990    3.1750    7.8390
+BI1         N5     N   NR15  0     -0.344    -2.5170    1.3480    7.9140
+BI1         H5     H   HNR5  0     0.301     -2.2840    0.8440    7.0680
+BI1         C6     C   CR5   0     0.426     -2.8660    0.6770    9.0890
+BI1         O6     O   O     0     -0.538    -2.9430   -0.5240    9.2670
+BI1         C7     C   CR55  0     -0.101    -2.9230    2.9620    9.4450
+BI1         C8     C   CR55  0     0.194     -3.1100    1.7310   10.0030
+BI1         C9     C   CR6   0     0.0       -3.1270    5.3450   10.4320
+BI1         C10    C   CR16  0     -0.115    -4.0730    6.1100   11.1290
+BI1         H10    H   HCR6  0     0.115     -4.8570    5.6210   11.7030
+BI1         C11    C   CR16  0     -0.115    -4.0230    7.5060   11.0940
+BI1         H11    H   HCR6  0     0.115     -4.7630    8.0870   11.6380
+BI1         C12    C   CR16  0     -0.115    -3.0250    8.1510   10.3670
+BI1         H12    H   HCR6  0     0.115     -2.9850    9.2370   10.3420
+BI1         C13    C   CR16  0     -0.115    -2.0730    7.4000    9.6780
+BI1         H13    H   HCR6  0     0.115     -1.2870    7.9010    9.1190
+BI1         C14    C   CR16  0     -0.115    -2.1210    6.0030    9.7120
+BI1         H14    H   HCR6  0     0.115     -1.3520    5.4430    9.1870
+BI1         C15    C   CR6   0     0.0       -3.5510    3.4960    7.1760
+BI1         C16    C   CR16  0     0.18      -4.8490    3.0070    7.0220
+BI1         H16    H   HCR6  0     0.12      -5.1750    2.0970    7.5210
+BI1         N17    N   N     0     -0.6      -5.8070    3.5910    6.2660
+BI1         C18    C   CR16  0     0.18      -5.4640    4.7290    5.6290
+BI1         H18    H   HCR6  0     0.12      -6.2510    5.1810    5.0330
+BI1         C19    C   CR16  0     -0.115    -4.2090    5.3060    5.7080
+BI1         H19    H   HCR6  0     0.115     -3.9860    6.2240    5.1740
+BI1         C20    C   CR16  0     -0.115    -3.2440    4.6780    6.4900
+BI1         H20    H   HCR6  0     0.115     -2.2530    5.1200    6.5600
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+BI1   N1      H1    single        1.015 0.02
+BI1   N1      N2    aromatic      1.355 0.02
+BI1   N1      C8    aromatic      1.341 0.02
+BI1   N2      C3    aromatic      1.355 0.02
+BI1   C3      C7    aromatic      1.407 0.02
+BI1   C3      C9    single        1.460 0.02
+BI1   C4      H4    single        1.094 0.02
+BI1   C4      N5    single        1.479 0.02
+BI1   C4      C7    single        1.480 0.02
+BI1   C4      C15   single        1.500 0.02
+BI1   N5      H5    single        1.012 0.02
+BI1   N5      C6    single        1.397 0.02
+BI1   C6      O6    double        1.217 0.02
+BI1   C6      C8    single        1.416 0.02
+BI1   C7      C8    aromatic      1.364 0.02
+BI1   C9      C10   aromatic      1.402 0.02
+BI1   C9      C14   aromatic      1.401 0.02
+BI1   C10     H10   single        1.088 0.02
+BI1   C10     C11   aromatic      1.397 0.02
+BI1   C11     H11   single        1.087 0.02
+BI1   C11     C12   aromatic      1.393 0.02
+BI1   C12     H12   single        1.087 0.02
+BI1   C12     C13   aromatic      1.395 0.02
+BI1   C13     H13   single        1.087 0.02
+BI1   C13     C14   aromatic      1.398 0.02
+BI1   C14     H14   single        1.087 0.02
+BI1   C15     C16   aromatic      1.396 0.02
+BI1   C15     C20   aromatic      1.401 0.02
+BI1   C16     H16   single        1.088 0.02
+BI1   C16     N17   aromatic      1.353 0.02
+BI1   N17     C18   aromatic      1.349 0.02
+BI1   C18     H18   single        1.086 0.02
+BI1   C18     C19   aromatic      1.384 0.02
+BI1   C19     H19   single        1.085 0.02
+BI1   C19     C20   aromatic      1.392 0.02
+BI1   C20     H20   single        1.087 0.02
+#
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+BI1   C8      N1      N2          111.61 3.0
+BI1   C8      N1      H1          129.50 3.0
+BI1   N2      N1      H1          118.89 3.0
+BI1   C3      N2      N1          105.33 3.0
+BI1   C9      C3      C7          128.99 3.0
+BI1   C9      C3      N2          121.35 3.0
+BI1   C7      C3      N2          109.65 3.0
+BI1   C15     C4      C7          108.24 3.0
+BI1   C15     C4      N5          113.77 3.0
+BI1   C7      C4      N5           99.67 3.0
+BI1   C15     C4      H4          113.48 3.0
+BI1   C7      C4      H4          113.04 3.0
+BI1   N5      C4      H4          107.90 3.0
+BI1   C6      N5      H5          121.42 3.0
+BI1   C6      N5      C4          114.42 3.0
+BI1   H5      N5      C4          124.16 3.0
+BI1   C8      C6      O6          129.00 3.0
+BI1   C8      C6      N5          103.20 3.0
+BI1   O6      C6      N5          127.80 3.0
+BI1   C8      C7      C4          110.13 3.0
+BI1   C8      C7      C3          105.61 3.0
+BI1   C4      C7      C3          144.25 3.0
+BI1   C7      C8      C6          112.57 3.0
+BI1   C7      C8      N1          107.78 3.0
+BI1   C6      C8      N1          139.64 3.0
+BI1   C14     C9      C10         118.92 3.0
+BI1   C14     C9      C3          120.95 3.0
+BI1   C10     C9      C3          120.13 3.0
+BI1   C11     C10     H10         119.22 3.0
+BI1   C11     C10     C9          120.56 3.0
+BI1   H10     C10     C9          120.22 3.0
+BI1   C12     C11     H11         120.10 3.0
+BI1   C12     C11     C10         120.08 3.0
+BI1   H11     C11     C10         119.81 3.0
+BI1   C13     C12     H12         120.10 3.0
+BI1   C13     C12     C11         119.84 3.0
+BI1   H12     C12     C11         120.06 3.0
+BI1   C14     C13     H13         119.86 3.0
+BI1   C14     C13     C12         120.17 3.0
+BI1   H13     C13     C12         119.97 3.0
+BI1   H14     C14     C13         118.61 3.0
+BI1   H14     C14     C9          120.96 3.0
+BI1   C13     C14     C9          120.42 3.0
+BI1   C20     C15     C16         116.45 3.0
+BI1   C20     C15     C4          120.40 3.0
+BI1   C16     C15     C4          123.14 3.0
+BI1   N17     C16     H16         113.90 3.0
+BI1   N17     C16     C15         124.68 3.0
+BI1   H16     C16     C15         121.41 3.0
+BI1   C18     N17     C16         116.62 3.0
+BI1   C19     C18     H18         121.01 3.0
+BI1   C19     C18     N17         123.76 3.0
+BI1   H18     C18     N17         115.23 3.0
+BI1   C20     C19     H19         121.04 3.0
+BI1   C20     C19     C18         118.22 3.0
+BI1   H19     C19     C18         120.74 3.0
+BI1   H20     C20     C19         118.99 3.0
+BI1   H20     C20     C15         120.75 3.0
+BI1   C19     C20     C15         120.26 3.0
+#
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+BI1 CONST_01   C7      C3      N2      N1            1.44   0.0 0
+BI1 CONST_02   C3      C7      C8      N1            0.95   0.0 0
+BI1 CONST_03   C7      C8      N1      N2           -0.08   0.0 0
+BI1 CONST_04   C8      C7      C3      N2           -1.51   0.0 0
+BI1 CONST_05   C8      N1      N2      C3           -0.85   0.0 0
+BI1 CONST_06   C12     C11     C10     C9           -0.25   0.0 0
+BI1 CONST_07   C12     C13     C14     C9            0.28   0.0 0
+BI1 CONST_08   C13     C14     C9      C10          -0.74   0.0 0
+BI1 CONST_09   C13     C12     C11     C10          -0.23   0.0 0
+BI1 CONST_10   C14     C9      C10     C11           0.73   0.0 0
+BI1 CONST_11   C14     C13     C12     C11           0.21   0.0 0
+BI1 CONST_12   C18     N17     C16     C15          -0.30   0.0 0
+BI1 CONST_13   C18     C19     C20     C15          -0.18   0.0 0
+BI1 CONST_14   C19     C20     C15     C16           0.16   0.0 0
+BI1 CONST_15   C19     C18     N17     C16           0.28   0.0 0
+BI1 CONST_16   C20     C15     C16     N17           0.09   0.0 0
+BI1 CONST_17   C20     C19     C18     N17          -0.05   0.0 0
+BI1 CONST_18   C9      C3      N2      N1         -179.04   0.0 0
+BI1 CONST_19   C11     C10     C9      C3         -179.71   0.0 0
+BI1 CONST_20   C13     C14     C9      C3          179.70   0.0 0
+BI1 CONST_21   C9      C3      C7      C4           -0.48   0.0 0
+BI1 CONST_22   N17     C16     C15     C4          179.71   0.0 0
+BI1 CONST_23   C19     C20     C15     C4         -179.47   0.0 0
+BI1 CONST_24   C9      C3      C7      C8          179.02   0.0 0
+BI1 CONST_25   C3      N2      N1      H1          179.13   0.0 0
+BI1 CONST_26   H10     C10     C9      C3            0.18   0.0 0
+BI1 CONST_27   H14     C14     C9      C3           -1.59   0.0 0
+BI1 CONST_28   H16     C16     C15     C4           -0.16   0.0 0
+BI1 CONST_29   H20     C20     C15     C4            0.42   0.0 0
+BI1 CONST_30   H11     C11     C10     C9          179.94   0.0 0
+BI1 CONST_31   H13     C13     C14     C9          179.82   0.0 0
+BI1 CONST_32   H12     C12     C11     C10        -179.85   0.0 0
+BI1 CONST_33   H19     C19     C20     C15         179.78   0.0 0
+BI1 CONST_34   H18     C18     N17     C16        -179.71   0.0 0
+BI1   Var_01   N5      C6      C8      N1          178.96  30.0 1
+BI1   Var_02   C10     C9      C3      N2          -36.79  30.0 2
+BI1   Var_03   C14     C9      C3      N2          142.77  30.0 2
+BI1   Var_04   N5      C4      C7      C3          179.58  30.0 1
+BI1   Var_05   C15     C4      C7      C3          -61.30  30.0 1
+BI1   Var_06   C8      C6      N5      C4            0.30  30.0 1
+BI1   Var_07   C8      C7      C4      N5            0.08  30.0 1
+BI1   Var_08   C16     C15     C4      N5           41.00  30.0 2
+BI1   Var_09   C20     C15     C4      N5         -139.39  30.0 2
+BI1   Var_10   C7      C8      C6      N5           -0.23  30.0 1
+BI1   Var_11   C7      C4      N5      C6           -0.24  30.0 1
+BI1   Var_12   C15     C4      N5      C6         -115.20  30.0 1
+BI1   Var_13   C10     C9      C3      C7          142.63  30.0 2
+BI1   Var_14   C14     C9      C3      C7          -37.82  30.0 2
+BI1   Var_15   C16     C15     C4      C7          -68.79  30.0 2
+BI1   Var_16   C20     C15     C4      C7          110.82  30.0 2
+BI1   Var_17   C15     C4      C7      C8          119.21  30.0 1
+BI1   Var_18   O6      C6      C8      N1           -0.75  30.0 1
+BI1   Var_19   O6      C6      N5      C4         -179.99  30.0 1
+BI1   Var_20   C7      C8      C6      O6         -179.95  30.0 1
+BI1   Var_21   H4      C4      C7      C3           65.29  30.0 1
+BI1   Var_22   C7      C4      N5      H5          179.99  30.0 1
+#
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+BI1 plan-1    C3  0.020
+BI1 plan-1    C9  0.020
+BI1 plan-1    C10 0.020
+BI1 plan-1    H10 0.020
+BI1 plan-1    C11 0.020
+BI1 plan-1    H11 0.020
+BI1 plan-1    C12 0.020
+BI1 plan-1    H12 0.020
+BI1 plan-1    C13 0.020
+BI1 plan-1    H13 0.020
+BI1 plan-1    C14 0.020
+BI1 plan-1    H14 0.020
+BI1 plan-2    N1  0.020
+BI1 plan-2    H1  0.020
+BI1 plan-2    N2  0.020
+BI1 plan-2    C3  0.020
+BI1 plan-2    C4  0.020
+BI1 plan-2    C6  0.020
+BI1 plan-2    C7  0.020
+BI1 plan-2    C8  0.020
+BI1 plan-2    C9  0.020
+BI1 plan-3    C4  0.020
+BI1 plan-3    C15 0.020
+BI1 plan-3    C16 0.020
+BI1 plan-3    H16 0.020
+BI1 plan-3    N17 0.020
+BI1 plan-3    C18 0.020
+BI1 plan-3    H18 0.020
+BI1 plan-3    C19 0.020
+BI1 plan-3    H19 0.020
+BI1 plan-3    C20 0.020
+BI1 plan-3    H20 0.020
+BI1 plan-4    N5  0.020
+BI1 plan-4    C6  0.020
+BI1 plan-4    O6  0.020
+BI1 plan-4    C8  0.020
+#
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+BI1 chir_01   C4      N5      C7      C15   both
+#

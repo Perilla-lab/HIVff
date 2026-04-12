@@ -1,0 +1,473 @@
+# electronic Ligand Builder and Optimisation Workbench (eLBOW)
+#   - a module of PHENIX version 1.21.2-5419-
+#   - file written: Sat Apr 11 05:36:29 2026
+#
+#   Input file: PIR_from_crystal.pdb
+#   Random seed: 3628800
+#
+# Restraints Editor Exclusively Ligands (REEL)
+#   - a module of PHENIX
+#   - file written: Sat Apr 11 23:46:25 2026
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+STP STP 'Unknown ' ligand 65 35 . 
+#
+data_comp_STP
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+STP         C1     C   CH3   0     -0.307   -19.6100    1.6770   15.0590
+STP         C2     C   CH3   0     -0.264   -18.7210   -1.0510    8.7510
+STP         C3     C   CH3   0     -0.195   -21.1490   -2.8420    9.5050
+STP         C4     C   CH3   0     -0.188   -19.9080   -6.4640   13.6320
+STP         C5     C   CH3   0     -0.27    -14.1970    1.3030   13.8360
+STP         C6     C   CH3   0     -0.27    -15.5010    1.4770   15.9330
+STP         C7     C   CH3   0     -0.27    -16.1730   -0.1500   14.1660
+STP         C8     C   CR16  0     -0.227   -15.1470    0.6950    9.3930
+STP         C9     C   CR16  0     -0.227   -16.0370    2.9190    9.1150
+STP         C10    C   CR16  0     -0.094   -16.1880    0.4100   10.2710
+STP         C11    C   CR16  0     -0.094   -17.0890    2.6260    9.9840
+STP         C12    C   CR15  0     0.219    -21.0190   -3.1590   14.5200
+STP         C13    C   CR15  0     0.014    -20.9930   -4.4710   12.7020
+STP         C14    C   CH2   0     0.171    -22.0580   -2.0850   12.3260
+STP         C15    C   C     0     0.619    -17.7620    4.0500   13.1330
+STP         C16    C   CR6   0     0.197    -15.0780    1.9470    8.8250
+STP         C17    C   CR6   0     0.348    -19.4530    1.0600   13.6680
+STP         C18    C   CR5   0     -0.338   -21.3930   -3.1940   13.1650
+STP         C19    C   CR5   0     -0.072   -19.4410   -0.9580   10.0880
+STP         C20    C   CR5   0     0.309    -20.5190   -1.7740   10.4110
+STP         C21    C   CR6   0     -0.034   -17.1520    1.3670   10.5750
+STP         C22    C   CR6   0     -0.189   -18.2770    0.9410   11.5690
+STP         C23    C   CR6   0     -0.07    -18.4380    1.5320   12.8490
+STP         C24    C   CR56  0     0.299    -20.1620   -0.4790   12.1160
+STP         C25    C   CR56  0     -0.015   -19.1960   -0.1040   11.2030
+STP         C26    C   CH1   0     0.028    -17.6060    2.6220   13.5960
+STP         C27    C   CT    0     0.235    -15.6220    1.2540   14.4140
+STP         N1     N   N     0     -0.574   -20.4640   -4.3240   14.7920
+STP         N2     N   N     0     -0.515   -20.2620    0.0980   13.3030
+STP         N3     N   NR5   0     0.243    -20.4450   -5.1000   13.7110
+STP         N4     N   NR5   0     -0.417   -20.9340   -1.4570   11.6140
+STP         O1     O   O     0     -0.76    -17.2410    4.9560   13.8370
+STP         O2     O   OC    0     -0.76    -18.4030    4.3320   12.0940
+STP         O3     O   O2    0     -0.446   -16.2500    2.3400   13.6950
+STP         CLA    CL  CL    0     -0.119   -13.7280    2.2630    7.7160
+STP         H      H   HCH3  0     0.09     -18.7290    2.0490   15.3520
+STP         H0     H   HCH3  0     0.09     -19.9100    0.9680   15.6980
+STP         H1     H   HCH3  0     0.09     -20.2910    2.4080   15.0160
+STP         H2     H   HCH3  0     0.09     -18.8910   -1.9520    8.3520
+STP         H3     H   HCH3  0     0.09     -19.0690   -0.3370    8.1430
+STP         H4     H   HCH3  0     0.09     -17.7400   -0.9230    8.9000
+STP         H5     H   HCH3  0     0.09     -21.3940   -3.6370   10.0600
+STP         H6     H   HCH3  0     0.09     -21.9680   -2.4620    9.0740
+STP         H7     H   HCH3  0     0.09     -20.4860   -3.1060    8.8040
+STP         H8     H   HCH3  0     0.09     -19.0510   -6.4470   13.1170
+STP         H9     H   HCH3  0     0.09     -19.7430   -6.8030   14.5580
+STP         H10    H   HCH3  0     0.09     -20.5730   -7.0490   13.1680
+STP         H11    H   HCH3  0     0.09     -14.2310    1.0670   12.8650
+STP         H12    H   HCH3  0     0.09     -13.8310    2.2270   13.9500
+STP         H13    H   HCH3  0     0.09     -13.6240    0.6460   14.3260
+STP         H14    H   HCH3  0     0.09     -15.9070    0.6970   16.4100
+STP         H15    H   HCH3  0     0.09     -14.5340    1.5580   16.1740
+STP         H16    H   HCH3  0     0.09     -15.9860    2.3170   16.1780
+STP         H17    H   HCH3  0     0.09     -15.6110   -0.6020   13.4730
+STP         H18    H   HCH3  0     0.09     -16.1420   -0.6680   15.0210
+STP         H19    H   HCH3  0     0.09     -17.1170   -0.0770   13.8450
+STP         H20    H   HCR6  0     0.184    -14.4550    0.0070    9.1720
+STP         H21    H   HCR6  0     0.184    -15.9700    3.8260    8.7000
+STP         H22    H   HCR6  0     0.115    -16.2440   -0.4960   10.6900
+STP         H23    H   HCR6  0     0.115    -17.7900    3.3110   10.1810
+STP         H24    H   HCR5  0     0.141    -21.1300   -2.4210   15.1860
+STP         H25    H   HCR5  0     0.134    -21.0850   -4.8720   11.7910
+STP         H26    H   HCH2  0     0.09     -22.7150   -2.4580   11.6710
+STP         H27    H   HCH2  0     0.09     -22.5200   -1.4110   12.9020
+STP         H28    H   HCH1  0     0.09     -17.2920    2.6700   12.6480
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+STP   C1      C17   single        1.530 0.02
+STP   C1      H     single        1.000 0.02
+STP   C1      H0    single        1.001 0.02
+STP   C1      H1    single        1.000 0.02
+STP   C2      C19   single        1.521 0.02
+STP   C2      H2    single        1.000 0.02
+STP   C2      H3    single        1.000 0.02
+STP   C2      H4    single        1.000 0.02
+STP   C3      C20   single        1.536 0.02
+STP   C3      H5    single        1.000 0.02
+STP   C3      H6    single        1.000 0.02
+STP   C3      H7    single        1.000 0.02
+STP   C4      N3    single        1.468 0.02
+STP   C4      H8    single        1.000 0.02
+STP   C4      H9    single        1.000 0.02
+STP   C4      H10   single        1.000 0.02
+STP   C5      C27   single        1.539 0.02
+STP   C5      H11   single        1.000 0.02
+STP   C5      H12   single        1.000 0.02
+STP   C5      H13   single        1.000 0.02
+STP   C6      C27   single        1.540 0.02
+STP   C6      H14   single        1.000 0.02
+STP   C6      H15   single        1.000 0.02
+STP   C6      H16   single        1.000 0.02
+STP   C7      C27   single        1.529 0.02
+STP   C7      H17   single        1.000 0.02
+STP   C7      H18   single        1.000 0.02
+STP   C7      H19   single        1.000 0.02
+STP   C8      C10   aromatic      1.391 0.02
+STP   C8      C16   aromatic      1.377 0.02
+STP   C8      H20   single        1.001 0.02
+STP   C9      C11   aromatic      1.396 0.02
+STP   C9      C16   aromatic      1.396 0.02
+STP   C9      H21   single        1.000 0.02
+STP   C10     C21   aromatic      1.392 0.02
+STP   C10     H22   single        1.000 0.02
+STP   C11     C21   aromatic      1.392 0.02
+STP   C11     H23   single        1.000 0.02
+STP   C12     C18   aromatic      1.406 0.02
+STP   C12     N1    aromatic      1.319 0.02
+STP   C12     H24   single        1.000 0.02
+STP   C13     C18   aromatic      1.416 0.02
+STP   C13     N3    aromatic      1.309 0.02
+STP   C13     H25   single        1.000 0.02
+STP   C14     C18   single        1.541 0.02
+STP   C14     N4    single        1.471 0.02
+STP   C14     H26   single        1.000 0.02
+STP   C14     H27   single        1.000 0.02
+STP   C15     C26   single        1.509 0.02
+STP   C15     O1    deloc         1.260 0.02
+STP   C15     O2    deloc         1.253 0.02
+STP   C16     CLA   single        1.775 0.02
+STP   C17     C23   aromatic      1.387 0.02
+STP   C17     N2    aromatic      1.309 0.02
+STP   C19     C20   aromatic      1.390 0.02
+STP   C19     C25   aromatic      1.426 0.02
+STP   C20     N4    aromatic      1.311 0.02
+STP   C21     C22   single        1.560 0.02
+STP   C22     C23   aromatic      1.419 0.02
+STP   C22     C25   aromatic      1.439 0.02
+STP   C23     C26   single        1.562 0.02
+STP   C24     C25   aromatic      1.381 0.02
+STP   C24     N2    aromatic      1.324 0.02
+STP   C24     N4    aromatic      1.343 0.02
+STP   C26     O3    single        1.389 0.02
+STP   C26     H28   single        1.000 0.02
+STP   C27     O3    single        1.446 0.02
+STP   N1      N3    aromatic      1.331 0.02
+#
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+STP   H1      C1      H0          109.96 3.0
+STP   H1      C1      H           109.91 3.0
+STP   H0      C1      H           109.91 3.0
+STP   H1      C1      C17         109.00 3.0
+STP   H0      C1      C17         109.01 3.0
+STP   H       C1      C17         109.02 3.0
+STP   H4      C2      H3          109.90 3.0
+STP   H4      C2      H2          109.96 3.0
+STP   H3      C2      H2          109.97 3.0
+STP   H4      C2      C19         108.99 3.0
+STP   H3      C2      C19         109.02 3.0
+STP   H2      C2      C19         108.98 3.0
+STP   H7      C3      H6          109.93 3.0
+STP   H7      C3      H5          109.97 3.0
+STP   H6      C3      H5          109.91 3.0
+STP   H7      C3      C20         108.97 3.0
+STP   H6      C3      C20         109.02 3.0
+STP   H5      C3      C20         109.02 3.0
+STP   H10     C4      H9          109.95 3.0
+STP   H10     C4      H8          109.93 3.0
+STP   H9      C4      H8          109.96 3.0
+STP   H10     C4      N3          108.98 3.0
+STP   H9      C4      N3          109.00 3.0
+STP   H8      C4      N3          108.99 3.0
+STP   H13     C5      H12         109.96 3.0
+STP   H13     C5      H11         109.89 3.0
+STP   H12     C5      H11         109.95 3.0
+STP   H13     C5      C27         109.01 3.0
+STP   H12     C5      C27         108.99 3.0
+STP   H11     C5      C27         109.02 3.0
+STP   H16     C6      H15         109.99 3.0
+STP   H16     C6      H14         109.95 3.0
+STP   H15     C6      H14         109.92 3.0
+STP   H16     C6      C27         108.97 3.0
+STP   H15     C6      C27         108.99 3.0
+STP   H14     C6      C27         109.00 3.0
+STP   H19     C7      H18         109.97 3.0
+STP   H19     C7      H17         109.94 3.0
+STP   H18     C7      H17         109.93 3.0
+STP   H19     C7      C27         108.99 3.0
+STP   H18     C7      C27         109.02 3.0
+STP   H17     C7      C27         108.96 3.0
+STP   H20     C8      C16         119.97 3.0
+STP   H20     C8      C10         121.07 3.0
+STP   C16     C8      C10         118.96 3.0
+STP   H21     C9      C16         119.97 3.0
+STP   H21     C9      C11         119.97 3.0
+STP   C16     C9      C11         120.07 3.0
+STP   H22     C10     C21         119.52 3.0
+STP   H22     C10     C8          119.47 3.0
+STP   C21     C10     C8          121.01 3.0
+STP   H23     C11     C21         120.28 3.0
+STP   H23     C11     C9          120.49 3.0
+STP   C21     C11     C9          119.23 3.0
+STP   H24     C12     N1          124.13 3.0
+STP   H24     C12     C18         129.09 3.0
+STP   N1      C12     C18         106.78 3.0
+STP   H25     C13     N3          123.24 3.0
+STP   H25     C13     C18         129.33 3.0
+STP   N3      C13     C18         107.43 3.0
+STP   H27     C14     H26         108.98 3.0
+STP   H27     C14     N4          110.13 3.0
+STP   H26     C14     N4          110.13 3.0
+STP   H27     C14     C18         111.77 3.0
+STP   H26     C14     C18         111.82 3.0
+STP   N4      C14     C18         103.94 3.0
+STP   O2      C15     O1          120.86 3.0
+STP   O2      C15     C26         121.35 3.0
+STP   O1      C15     C26         117.78 3.0
+STP   CLA     C16     C9          121.88 3.0
+STP   CLA     C16     C8          117.24 3.0
+STP   C9      C16     C8          120.87 3.0
+STP   N2      C17     C23         122.53 3.0
+STP   N2      C17     C1          119.12 3.0
+STP   C23     C17     C1          118.34 3.0
+STP   C14     C18     C13         126.35 3.0
+STP   C14     C18     C12         128.42 3.0
+STP   C13     C18     C12         105.21 3.0
+STP   C25     C19     C20         107.65 3.0
+STP   C25     C19     C2          129.98 3.0
+STP   C20     C19     C2          122.37 3.0
+STP   N4      C20     C19         108.46 3.0
+STP   N4      C20     C3          125.41 3.0
+STP   C19     C20     C3          126.11 3.0
+STP   C22     C21     C11         123.36 3.0
+STP   C22     C21     C10         116.79 3.0
+STP   C11     C21     C10         119.85 3.0
+STP   C26     C23     C22         131.44 3.0
+STP   C26     C23     C17         110.18 3.0
+STP   C22     C23     C17         118.29 3.0
+STP   N4      C24     N2          127.52 3.0
+STP   N4      C24     C25         110.65 3.0
+STP   N2      C24     C25         121.83 3.0
+STP   C24     C25     C22         118.41 3.0
+STP   C24     C25     C19         103.54 3.0
+STP   C22     C25     C19         138.05 3.0
+STP   H28     C26     O3           76.74 3.0
+STP   H28     C26     C23          75.36 3.0
+STP   O3      C26     C23         114.37 3.0
+STP   H28     C26     C15          72.31 3.0
+STP   O3      C26     C15         108.36 3.0
+STP   C23     C26     C15         117.30 3.0
+STP   N3      N1      C12         110.71 3.0
+STP   C24     N2      C17         121.59 3.0
+STP   N1      N3      C13         109.87 3.0
+STP   N1      N3      C4          126.21 3.0
+STP   C13     N3      C4          123.92 3.0
+STP   C24     N4      C20         109.69 3.0
+STP   C24     N4      C14         124.68 3.0
+STP   C20     N4      C14         125.63 3.0
+STP   C27     O3      C26         127.74 3.0
+STP   O3      C27     C7          116.91 3.0
+STP   O3      C27     C6          114.57 3.0
+STP   C7      C27     C6          108.75 3.0
+STP   O3      C27     C5          101.04 3.0
+STP   C7      C27     C5          107.59 3.0
+STP   C6      C27     C5          107.05 3.0
+STP   C25     C22     C23         117.35 3.0
+STP   C25     C22     C21         119.78 3.0
+STP   C23     C22     C21         122.87 3.0
+#
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+STP CONST_01   C11     C21     C10     C8            0.73   0.0 0
+STP CONST_02   C11     C9      C16     C8           -0.43   0.0 0
+STP CONST_03   C10     C21     C11     C9           -1.45   0.0 0
+STP CONST_04   C10     C8      C16     C9           -0.31   0.0 0
+STP CONST_05   N3      C13     C18     C12           0.16   0.0 0
+STP CONST_06   C13     N3      N1      C12          -0.37   0.0 0
+STP CONST_07   N1      C12     C18     C13          -0.37   0.0 0
+STP CONST_08   C21     C10     C8      C16           0.16   0.0 0
+STP CONST_09   C21     C11     C9      C16           1.31   0.0 0
+STP CONST_10   C25     C22     C23     C17           0.71   0.0 0
+STP CONST_11   C25     C24     N2      C17           0.39   0.0 0
+STP CONST_12   N4      C24     N2      C17        -179.03   0.0 0
+STP CONST_13   N3      N1      C12     C18           0.45   0.0 0
+STP CONST_14   N1      N3      C13     C18           0.11   0.0 0
+STP CONST_15   C24     N4      C20     C19          -1.08   0.0 0
+STP CONST_16   C23     C22     C25     C19         179.57   0.0 0
+STP CONST_17   N2      C24     C25     C19        -180.00   0.0 0
+STP CONST_18   N4      C24     C25     C19          -0.49   0.0 0
+STP CONST_19   C22     C25     C19     C20         179.54   0.0 0
+STP CONST_20   C24     C25     C19     C20          -0.16   0.0 0
+STP CONST_21   C25     C24     N4      C20           1.00   0.0 0
+STP CONST_22   N2      C24     N4      C20        -179.52   0.0 0
+STP CONST_23   N2      C17     C23     C22          -0.12   0.0 0
+STP CONST_24   N2      C24     C25     C22           0.24   0.0 0
+STP CONST_25   N4      C24     C25     C22         179.74   0.0 0
+STP CONST_26   C24     N2      C17     C23          -0.45   0.0 0
+STP CONST_27   C24     C25     C22     C23          -0.77   0.0 0
+STP CONST_28   N4      C20     C19     C25           0.76   0.0 0
+STP CONST_29   C22     C21     C10     C8          179.87   0.0 0
+STP CONST_30   C22     C21     C11     C9          179.47   0.0 0
+STP CONST_31   C21     C22     C23     C17        -178.61   0.0 0
+STP CONST_32   C21     C22     C25     C19          -1.09   0.0 0
+STP CONST_33   C24     C25     C22     C21         178.58   0.0 0
+STP CONST_34   C22     C23     C17     C1          178.80   0.0 0
+STP CONST_35   C24     N2      C17     C1         -179.36   0.0 0
+STP CONST_36   N4      C20     C19     C2         -179.46   0.0 0
+STP CONST_37   C22     C25     C19     C2           -0.22   0.0 0
+STP CONST_38   C24     C25     C19     C2         -179.92   0.0 0
+STP CONST_39   C25     C19     C20     C3          179.22   0.0 0
+STP CONST_40   C24     N4      C20     C3         -179.56   0.0 0
+STP CONST_41   C18     C13     N3      C4          179.66   0.0 0
+STP CONST_42   C12     N1      N3      C4         -179.90   0.0 0
+STP CONST_43   CLA     C16     C8      C10         179.79   0.0 0
+STP CONST_44   CLA     C16     C9      C11         179.47   0.0 0
+STP CONST_45   N1      C12     C18     C14        -178.75   0.0 0
+STP CONST_46   N3      C13     C18     C14         178.58   0.0 0
+STP CONST_47   C19     C20     N4      C14         179.89   0.0 0
+STP CONST_48   C25     C24     N4      C14        -179.96   0.0 0
+STP CONST_49   N2      C24     N4      C14          -0.49   0.0 0
+STP CONST_50   C26     C23     C22     C21          -2.51   0.0 0
+STP CONST_51   C26     C23     C22     C25         176.82   0.0 0
+STP CONST_52   N2      C17     C23     C26        -177.01   0.0 0
+STP CONST_53   H21     C9      C16     C8          179.55   0.0 0
+STP CONST_54   H20     C8      C16     C9          179.68   0.0 0
+STP CONST_55   H23     C11     C21     C10         178.55   0.0 0
+STP CONST_56   H22     C10     C21     C11        -179.29   0.0 0
+STP CONST_57   H25     C13     C18     C12        -179.87   0.0 0
+STP CONST_58   H24     C12     C18     C13         179.61   0.0 0
+STP   Var_01   C23     C22     C21     C10         115.04  30.0 2
+STP   Var_02   C25     C22     C21     C10         -64.27  30.0 2
+STP   Var_03   C23     C22     C21     C11         -65.85  30.0 2
+STP   Var_04   C25     C22     C21     C11         114.84  30.0 2
+STP   Var_05   N4      C14     C18     C12          97.77  30.0 1
+STP   Var_06   N4      C14     C18     C13         -80.29  30.0 1
+STP   Var_07   C20     N4      C14     C18          93.53  30.0 2
+STP   Var_08   C24     N4      C14     C18         -85.36  30.0 2
+STP   Var_09   C17     C23     C26     C15        -108.83  30.0 2
+STP   Var_10   C22     C23     C26     C15          74.82  30.0 2
+STP   Var_11   O3      C26     C23     C17         122.63  30.0 2
+STP   Var_12   O3      C26     C23     C22         -53.71  30.0 2
+STP   Var_13   H26     C14     C18     C12        -143.46  30.0 1
+STP   Var_14   H27     C14     C18     C12         -20.97  30.0 1
+STP   Var_15   H8      C4      N3      C13          73.11  30.0 2
+STP   Var_16   H9      C4      N3      C13        -166.87  30.0 2
+STP   Var_17   H10     C4      N3      C13         -46.87  30.0 2
+STP   Var_18   H28     C26     C23     C17        -169.61  30.0 2
+STP   Var_19   H5      C3      C20     C19         140.99  30.0 2
+STP   Var_20   H6      C3      C20     C19         -99.02  30.0 2
+STP   Var_21   H7      C3      C20     C19          20.96  30.0 2
+STP   Var_22   H2      C2      C19     C20         -21.68  30.0 2
+STP   Var_23   H3      C2      C19     C20          98.35  30.0 2
+STP   Var_24   H4      C2      C19     C20        -141.69  30.0 2
+STP   Var_25   H       C1      C17     C23         -25.19  30.0 2
+STP   Var_26   H0      C1      C17     C23        -145.17  30.0 2
+STP   Var_27   H1      C1      C17     C23          94.80  30.0 2
+STP   Var_28   O1      C15     C26     C23         170.61  30.0 2
+STP   Var_29   O2      C15     C26     C23          -8.42  30.0 2
+STP   Var_30   C27     O3      C26     C23         -64.72  30.0 3
+STP   Var_31   C26     O3      C27     C5          166.29  30.0 3
+STP   Var_32   C26     O3      C27     C6          -79.03  30.0 3
+STP   Var_33   C26     O3      C27     C7           49.91  30.0 3
+STP   Var_34   C27     O3      C26     C15         162.37  30.0 3
+STP   Var_35   O3      C26     C15     O1          -58.05  30.0 3
+STP   Var_36   O3      C26     C15     O2          122.93  30.0 3
+STP   Var_37   H14     C6      C27     C5         -122.40  30.0 3
+STP   Var_38   H15     C6      C27     C5           -2.43  30.0 3
+STP   Var_39   H16     C6      C27     C5          117.61  30.0 3
+STP   Var_40   H17     C7      C27     C5          -16.47  30.0 3
+STP   Var_41   H18     C7      C27     C5          103.51  30.0 3
+STP   Var_42   H19     C7      C27     C5         -136.45  30.0 3
+STP   Var_43   H11     C5      C27     C6          174.17  30.0 3
+STP   Var_44   H12     C5      C27     C6          -65.82  30.0 3
+STP   Var_45   H13     C5      C27     C6           54.21  30.0 3
+#
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+STP plan-1    C8  0.020
+STP plan-1    C9  0.020
+STP plan-1    C10 0.020
+STP plan-1    C11 0.020
+STP plan-1    C16 0.020
+STP plan-1    C21 0.020
+STP plan-1    CLA 0.020
+STP plan-1    H20 0.020
+STP plan-1    H21 0.020
+STP plan-1    H22 0.020
+STP plan-1    H23 0.020
+STP plan-1    C22 0.020
+STP plan-2    C4  0.020
+STP plan-2    C12 0.020
+STP plan-2    C13 0.020
+STP plan-2    C14 0.020
+STP plan-2    C18 0.020
+STP plan-2    N1  0.020
+STP plan-2    N3  0.020
+STP plan-2    H24 0.020
+STP plan-2    H25 0.020
+STP plan-3    C1  0.020
+STP plan-3    C2  0.020
+STP plan-3    C3  0.020
+STP plan-3    C14 0.020
+STP plan-3    C17 0.020
+STP plan-3    C19 0.020
+STP plan-3    C20 0.020
+STP plan-3    C21 0.020
+STP plan-3    C23 0.020
+STP plan-3    C24 0.020
+STP plan-3    C25 0.020
+STP plan-3    C26 0.020
+STP plan-3    N2  0.020
+STP plan-3    N4  0.020
+STP plan-3    C22 0.020
+STP plan-4    C15 0.020
+STP plan-4    C26 0.020
+STP plan-4    O1  0.020
+STP plan-4    O2  0.020
+#
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+STP chir_01   C26     C15     C23     O3    both
+#

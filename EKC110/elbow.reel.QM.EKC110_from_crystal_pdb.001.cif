@@ -1,0 +1,453 @@
+# electronic Ligand Builder and Optimisation Workbench (eLBOW)
+#   - a module of PHENIX version 1.21.2-5419-
+#   - file written: Sat Apr 11 04:28:55 2026
+#
+#   Input file: EKC110_from_crystal.pdb
+#   Random seed: 3628800
+#
+# Restraints Editor Exclusively Ligands (REEL)
+#   - a module of PHENIX
+#   - file written: Sat Apr 11 23:29:46 2026
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+EKC EKC 'Unknown ' ligand 62 34 . 
+#
+data_comp_EKC
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+EKC         C1     C   CH3   0     -0.293   -19.8650    1.6960   14.7250
+EKC         H2     H   HCR5  0     0.162    -19.0850   -0.0480    8.5700
+EKC         C3     C   CH3   0     -0.076   -21.1330   -2.2510    8.7740
+EKC         C4     C   CH3   0     -0.2     -21.7820   -6.7330   12.6260
+EKC         C5     C   CH3   0     -0.27    -14.5500    1.3130   13.6590
+EKC         C6     C   CH3   0     -0.27    -15.4730    1.0020   15.9110
+EKC         C7     C   CH3   0     -0.27    -16.5130   -0.2540   14.1420
+EKC         C8     C   CR16  0     -0.099   -14.9630    0.5710    9.5020
+EKC         C9     C   CR16  0     -0.099   -15.4580    3.0200    9.1800
+EKC         C10    C   CR16  0     -0.107   -16.1110    0.4900   10.2690
+EKC         C11    C   CR16  0     -0.107   -16.7550    2.8440    9.7770
+EKC         C12    C   CR15  0     0.178    -21.1380   -3.4160   13.5780
+EKC         C13    C   CR15  0     -0.007   -22.1140   -4.3450   11.8170
+EKC         C14    C   CH2   0     0.164    -22.0900   -1.8370   11.6830
+EKC         C15    C   C     0     0.559    -17.8790    4.0630   13.3740
+EKC         C16    C   CR6   0     0.055    -14.5880    1.8810    9.0380
+EKC         C17    C   CR6   0     0.386    -19.4630    1.1160   13.3400
+EKC         C18    C   CR5   0     -0.348   -21.7790   -3.1850   12.3560
+EKC         C19    C   CR15  0     -0.2     -19.5660   -0.4230    9.4970
+EKC         C20    C   CR5   0     0.031    -20.4660   -1.3590    9.7680
+EKC         C21    C   CR6   0     -0.022   -17.0960    1.5530   10.3630
+EKC         C22    C   CR6   0     -0.268   -18.3470    1.2310   11.1500
+EKC         C23    C   CR6   0     -0.074   -18.3930    1.7030   12.5250
+EKC         C24    C   CR56  0     0.259    -20.2110   -0.2290   11.7380
+EKC         C25    C   CR56  0     0.133    -19.2890    0.1410   10.8500
+EKC         C26    C   CH1   0     0.183    -17.3480    2.5700   13.2170
+EKC         C27    C   CT    0     0.218    -15.8560    1.0500   14.4290
+EKC         N1     N   N     0     -0.551   -21.1360   -4.7130   13.8110
+EKC         N2     N   N     0     -0.576   -20.3380    0.2800   12.9250
+EKC         N3     N   NR5   0     0.286    -21.6730   -5.2620   12.7120
+EKC         N4     N   NR5   0     -0.247   -20.9590   -1.1950   11.1110
+EKC         O1     O   O     0     -0.801   -17.2590    4.7620   14.2470
+EKC         O2     O   OC    0     -0.801   -18.7650    4.5440   12.6110
+EKC         O3     O   O2    0     -0.436   -16.9030    2.0520   14.4590
+EKC         CLA    CL  CL    0     -0.151   -13.0820    2.1070    8.1870
+EKC         H      H   HCH3  0     0.09     -18.9600    1.5890   15.3610
+EKC         H0     H   HCH3  0     0.09     -20.7140    1.1150   15.1460
+EKC         H1     H   HCH3  0     0.09     -20.2210    2.7460   14.6610
+EKC         H5     H   HCH3  0     0.09     -20.9980   -3.3000    9.1130
+EKC         H6     H   HCH3  0     0.09     -22.2130   -1.9920    8.7790
+EKC         H7     H   HCH3  0     0.09     -20.7310   -2.2360    7.7380
+EKC         H8     H   HCH3  0     0.09     -20.7420   -7.1230   12.6530
+EKC         H9     H   HCH3  0     0.09     -22.3420   -7.2420   13.4390
+EKC         H10    H   HCH3  0     0.09     -22.1680   -6.8840   11.5950
+EKC         H11    H   HCH3  0     0.09     -14.7720    1.3020   12.5710
+EKC         H12    H   HCH3  0     0.09     -14.1500    2.2590   14.0830
+EKC         H13    H   HCH3  0     0.09     -13.7050    0.6010   13.7730
+EKC         H14    H   HCH3  0     0.09     -16.3820    0.8850   16.5390
+EKC         H15    H   HCH3  0     0.09     -14.7470    0.2070   16.1830
+EKC         H16    H   HCH3  0     0.09     -15.0410    1.9740   16.2320
+EKC         H17    H   HCH3  0     0.09     -16.6940   -0.4230   13.0590
+EKC         H18    H   HCH3  0     0.09     -15.9440   -1.1390   14.5000
+EKC         H19    H   HCH3  0     0.09     -17.4510   -0.2940   14.7360
+EKC         H20    H   HCR6  0     0.15     -14.2240   -0.1870    9.2890
+EKC         H21    H   HCR6  0     0.15     -15.1730    3.9870    8.7910
+EKC         H22    H   HCR6  0     0.115    -16.4090   -0.4430   10.7240
+EKC         H23    H   HCR6  0     0.115    -17.4980    3.6280    9.7730
+EKC         H24    H   HCR5  0     0.15     -20.9270   -2.6560   14.3200
+EKC         H25    H   HCR5  0     0.089    -22.4980   -4.7900   10.9070
+EKC         H26    H   HCH2  0     0.09     -22.8910   -1.8770   10.9150
+EKC         H27    H   HCH2  0     0.09     -22.4270   -1.1480   12.4870
+EKC         H28    H   HCH1  0     0.09     -16.4560    2.8300   12.6090
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+EKC   C1      C17   single        1.554 0.02
+EKC   C1      H     single        1.111 0.02
+EKC   C1      H0    single        1.112 0.02
+EKC   C1      H1    single        1.111 0.02
+EKC   H2      C19   single        1.110 0.02
+EKC   C3      C20   single        1.493 0.02
+EKC   C3      H5    single        1.111 0.02
+EKC   C3      H6    single        1.111 0.02
+EKC   C3      H7    single        1.111 0.02
+EKC   C4      N3    single        1.478 0.02
+EKC   C4      H8    single        1.111 0.02
+EKC   C4      H9    single        1.111 0.02
+EKC   C4      H10   single        1.111 0.02
+EKC   C5      C27   single        1.539 0.02
+EKC   C5      H11   single        1.110 0.02
+EKC   C5      H12   single        1.111 0.02
+EKC   C5      H13   single        1.111 0.02
+EKC   C6      C27   single        1.531 0.02
+EKC   C6      H14   single        1.111 0.02
+EKC   C6      H15   single        1.110 0.02
+EKC   C6      H16   single        1.111 0.02
+EKC   C7      C27   single        1.488 0.02
+EKC   C7      H17   single        1.111 0.02
+EKC   C7      H18   single        1.111 0.02
+EKC   C7      H19   single        1.111 0.02
+EKC   C8      C10   aromatic      1.383 0.02
+EKC   C8      C16   aromatic      1.439 0.02
+EKC   C8      H20   single        1.080 0.02
+EKC   C9      C11   aromatic      1.439 0.02
+EKC   C9      C16   aromatic      1.440 0.02
+EKC   C9      H21   single        1.081 0.02
+EKC   C10     C21   aromatic      1.452 0.02
+EKC   C10     H22   single        1.080 0.02
+EKC   C11     C21   aromatic      1.458 0.02
+EKC   C11     H23   single        1.080 0.02
+EKC   C12     C18   aromatic      1.399 0.02
+EKC   C12     N1    aromatic      1.318 0.02
+EKC   C12     H24   single        1.083 0.02
+EKC   C13     C18   aromatic      1.322 0.02
+EKC   C13     N3    aromatic      1.355 0.02
+EKC   C13     H25   single        1.083 0.02
+EKC   C14     C18   single        1.538 0.02
+EKC   C14     N4    single        1.421 0.02
+EKC   C14     H26   single        1.110 0.02
+EKC   C14     H27   single        1.111 0.02
+EKC   C15     C26   single        1.592 0.02
+EKC   C15     O1    deloc         1.279 0.02
+EKC   C15     O2    deloc         1.264 0.02
+EKC   C16     CLA   single        1.745 0.02
+EKC   C17     C23   aromatic      1.468 0.02
+EKC   C17     N2    aromatic      1.279 0.02
+EKC   C19     C20   aromatic      1.326 0.02
+EKC   C19     C25   aromatic      1.492 0.02
+EKC   C20     N4    aromatic      1.440 0.02
+EKC   C21     C22   single        1.513 0.02
+EKC   C22     C23   aromatic      1.454 0.02
+EKC   C22     C25   aromatic      1.472 0.02
+EKC   C23     C26   single        1.524 0.02
+EKC   C24     C25   aromatic      1.332 0.02
+EKC   C24     N2    aromatic      1.298 0.02
+EKC   C24     N4    aromatic      1.373 0.02
+EKC   C26     O3    single        1.417 0.02
+EKC   C26     H28   single        1.110 0.02
+EKC   C27     O3    single        1.450 0.02
+EKC   N1      N3    aromatic      1.341 0.02
+#
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+EKC   H1      C1      H0          105.73 3.0
+EKC   H1      C1      H           112.65 3.0
+EKC   H0      C1      H           110.79 3.0
+EKC   H1      C1      C17         112.60 3.0
+EKC   H0      C1      C17         109.87 3.0
+EKC   H       C1      C17         105.27 3.0
+EKC   H7      C3      H6          110.66 3.0
+EKC   H7      C3      H5          104.67 3.0
+EKC   H6      C3      H5          109.70 3.0
+EKC   H7      C3      C20         116.81 3.0
+EKC   H6      C3      C20         106.99 3.0
+EKC   H5      C3      C20         107.87 3.0
+EKC   H10     C4      H9          116.21 3.0
+EKC   H10     C4      H8          107.46 3.0
+EKC   H9      C4      H8          107.06 3.0
+EKC   H10     C4      N3          102.41 3.0
+EKC   H9      C4      N3          116.80 3.0
+EKC   H8      C4      N3          106.20 3.0
+EKC   H13     C5      H12         103.46 3.0
+EKC   H13     C5      H11         104.26 3.0
+EKC   H12     C5      H11         117.02 3.0
+EKC   H13     C5      C27         118.99 3.0
+EKC   H12     C5      C27         105.08 3.0
+EKC   H11     C5      C27         108.60 3.0
+EKC   H16     C6      H15         107.54 3.0
+EKC   H16     C6      H14         104.30 3.0
+EKC   H15     C6      H14         108.73 3.0
+EKC   H16     C6      C27         110.45 3.0
+EKC   H15     C6      C27         115.02 3.0
+EKC   H14     C6      C27         110.22 3.0
+EKC   H19     C7      H18         103.38 3.0
+EKC   H19     C7      H17         112.22 3.0
+EKC   H18     C7      H17         106.04 3.0
+EKC   H19     C7      C27         107.53 3.0
+EKC   H18     C7      C27         114.18 3.0
+EKC   H17     C7      C27         113.16 3.0
+EKC   H20     C8      C16         113.39 3.0
+EKC   H20     C8      C10         129.52 3.0
+EKC   C16     C8      C10         116.64 3.0
+EKC   H21     C9      C16         120.86 3.0
+EKC   H21     C9      C11         119.78 3.0
+EKC   C16     C9      C11         119.26 3.0
+EKC   H22     C10     C21         114.70 3.0
+EKC   H22     C10     C8          120.88 3.0
+EKC   C21     C10     C8          123.78 3.0
+EKC   H23     C11     C21         118.90 3.0
+EKC   H23     C11     C9          121.99 3.0
+EKC   C21     C11     C9          119.07 3.0
+EKC   H24     C12     N1          124.70 3.0
+EKC   H24     C12     C18         124.88 3.0
+EKC   N1      C12     C18         108.52 3.0
+EKC   H25     C13     N3          113.09 3.0
+EKC   H25     C13     C18         142.43 3.0
+EKC   N3      C13     C18         104.00 3.0
+EKC   H27     C14     H26         107.70 3.0
+EKC   H27     C14     N4          104.63 3.0
+EKC   H26     C14     N4          108.18 3.0
+EKC   H27     C14     C18         106.74 3.0
+EKC   H26     C14     C18         114.63 3.0
+EKC   N4      C14     C18         114.28 3.0
+EKC   O2      C15     O1          122.94 3.0
+EKC   O2      C15     C26         122.06 3.0
+EKC   O1      C15     C26         114.72 3.0
+EKC   CLA     C16     C9          117.85 3.0
+EKC   CLA     C16     C8          120.00 3.0
+EKC   C9      C16     C8          122.04 3.0
+EKC   N2      C17     C23         125.44 3.0
+EKC   N2      C17     C1          110.85 3.0
+EKC   C23     C17     C1          122.29 3.0
+EKC   C14     C18     C13         122.63 3.0
+EKC   C14     C18     C12         128.27 3.0
+EKC   C13     C18     C12         109.10 3.0
+EKC   C25     C19     C20         101.97 3.0
+EKC   C25     C19     H2          123.33 3.0
+EKC   C20     C19     H2          134.69 3.0
+EKC   N4      C20     C19         110.03 3.0
+EKC   N4      C20     C3          122.42 3.0
+EKC   C19     C20     C3          126.07 3.0
+EKC   C22     C21     C11         126.22 3.0
+EKC   C22     C21     C10         116.03 3.0
+EKC   C11     C21     C10         117.61 3.0
+EKC   C26     C23     C22         126.31 3.0
+EKC   C26     C23     C17         118.38 3.0
+EKC   C22     C23     C17         114.72 3.0
+EKC   N4      C24     N2          129.81 3.0
+EKC   N4      C24     C25         105.54 3.0
+EKC   N2      C24     C25         124.64 3.0
+EKC   C24     C25     C22         120.85 3.0
+EKC   C24     C25     C19         111.77 3.0
+EKC   C22     C25     C19         125.72 3.0
+EKC   H28     C26     O3          108.25 3.0
+EKC   H28     C26     C23         115.81 3.0
+EKC   O3      C26     C23         113.91 3.0
+EKC   H28     C26     C15          95.87 3.0
+EKC   O3      C26     C15         111.16 3.0
+EKC   C23     C26     C15         110.46 3.0
+EKC   N3      N1      C12         104.92 3.0
+EKC   C24     N2      C17         119.08 3.0
+EKC   N1      N3      C13         113.24 3.0
+EKC   N1      N3      C4          119.01 3.0
+EKC   C13     N3      C4          127.68 3.0
+EKC   C24     N4      C20         108.63 3.0
+EKC   C24     N4      C14         124.59 3.0
+EKC   C20     N4      C14         126.62 3.0
+EKC   C27     O3      C26         117.47 3.0
+EKC   O3      C27     C7          106.91 3.0
+EKC   O3      C27     C6          100.50 3.0
+EKC   C7      C27     C6          105.64 3.0
+EKC   O3      C27     C5          120.35 3.0
+EKC   C7      C27     C5          115.34 3.0
+EKC   C6      C27     C5          106.10 3.0
+EKC   C25     C22     C23         114.38 3.0
+EKC   C25     C22     C21         125.52 3.0
+EKC   C23     C22     C21         116.67 3.0
+#
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+EKC CONST_01   C11     C21     C10     C8           -9.47   0.0 0
+EKC CONST_02   C11     C9      C16     C8           -1.38   0.0 0
+EKC CONST_03   C10     C21     C11     C9           -2.08   0.0 0
+EKC CONST_04   C10     C8      C16     C9           -9.35   0.0 0
+EKC CONST_05   N3      C13     C18     C12          -0.10   0.0 0
+EKC CONST_06   C13     N3      N1      C12          -4.68   0.0 0
+EKC CONST_07   N1      C12     C18     C13          -2.76   0.0 0
+EKC CONST_08   C21     C10     C8      C16          14.94   0.0 0
+EKC CONST_09   C21     C11     C9      C16           7.04   0.0 0
+EKC CONST_10   C25     C22     C23     C17          -6.20   0.0 0
+EKC CONST_11   C25     C24     N2      C17          -6.26   0.0 0
+EKC CONST_12   N4      C24     N2      C17         175.35   0.0 0
+EKC CONST_13   N3      N1      C12     C18           4.35   0.0 0
+EKC CONST_14   N1      N3      C13     C18           2.97   0.0 0
+EKC CONST_15   C24     N4      C20     C19          -7.80   0.0 0
+EKC CONST_16   C23     C22     C25     C19         172.53   0.0 0
+EKC CONST_17   N2      C24     C25     C19        -168.54   0.0 0
+EKC CONST_18   N4      C24     C25     C19          10.18   0.0 0
+EKC CONST_19   C22     C25     C19     C20         179.94   0.0 0
+EKC CONST_20   C24     C25     C19     C20         -14.75   0.0 0
+EKC CONST_21   C25     C24     N4      C20          -1.99   0.0 0
+EKC CONST_22   N2      C24     N4      C20         176.64   0.0 0
+EKC CONST_23   N2      C17     C23     C22          -1.84   0.0 0
+EKC CONST_24   N2      C24     C25     C22          -2.41   0.0 0
+EKC CONST_25   N4      C24     C25     C22         176.31   0.0 0
+EKC CONST_26   C24     N2      C17     C23           8.43   0.0 0
+EKC CONST_27   C24     C25     C22     C23           8.45   0.0 0
+EKC CONST_28   N4      C20     C19     C25          12.75   0.0 0
+EKC CONST_29   C22     C21     C10     C8          174.57   0.0 0
+EKC CONST_30   C22     C21     C11     C9          173.42   0.0 0
+EKC CONST_31   C21     C22     C23     C17        -166.53   0.0 0
+EKC CONST_32   C21     C22     C25     C19         -29.16   0.0 0
+EKC CONST_33   C24     C25     C22     C21         166.76   0.0 0
+EKC CONST_34   C22     C23     C17     C1         -166.98   0.0 0
+EKC CONST_35   C24     N2      C17     C1          175.02   0.0 0
+EKC CONST_36   C25     C19     C20     C3          179.01   0.0 0
+EKC CONST_37   C24     N4      C20     C3         -174.65   0.0 0
+EKC CONST_38   C18     C13     N3      C4          179.85   0.0 0
+EKC CONST_39   C12     N1      N3      C4          178.14   0.0 0
+EKC CONST_40   CLA     C16     C8      C10         174.49   0.0 0
+EKC CONST_41   CLA     C16     C9      C11         174.86   0.0 0
+EKC CONST_42   N1      C12     C18     C14         176.88   0.0 0
+EKC CONST_43   N3      C13     C18     C14        -179.76   0.0 0
+EKC CONST_44   C19     C20     N4      C14         167.77   0.0 0
+EKC CONST_45   C25     C24     N4      C14        -177.67   0.0 0
+EKC CONST_46   N2      C24     N4      C14           0.96   0.0 0
+EKC CONST_47   C26     C23     C22     C21           4.52   0.0 0
+EKC CONST_48   C26     C23     C22     C25         164.85   0.0 0
+EKC CONST_49   N2      C17     C23     C26        -173.65   0.0 0
+EKC CONST_50   N4      C20     C19     H2         -166.03   0.0 0
+EKC CONST_51   H21     C9      C16     C8         -177.64   0.0 0
+EKC CONST_52   H20     C8      C16     C9          177.65   0.0 0
+EKC CONST_53   H23     C11     C21     C10         175.73   0.0 0
+EKC CONST_54   H22     C10     C21     C11         179.59   0.0 0
+EKC CONST_55   H25     C13     C18     C12        -170.86   0.0 0
+EKC CONST_56   H24     C12     C18     C13        -167.64   0.0 0
+EKC   Var_01   C23     C22     C21     C10          98.82  30.0 2
+EKC   Var_02   C25     C22     C21     C10         -59.05  30.0 2
+EKC   Var_03   C23     C22     C21     C11         -76.74  30.0 2
+EKC   Var_04   C25     C22     C21     C11         125.38  30.0 2
+EKC   Var_05   N4      C14     C18     C12          74.35  30.0 2
+EKC   Var_06   N4      C14     C18     C13        -106.06  30.0 2
+EKC   Var_07   C20     N4      C14     C18          89.51  30.0 2
+EKC   Var_08   C24     N4      C14     C18         -95.59  30.0 2
+EKC   Var_09   C14     N4      C20     C3            0.92  30.0 1
+EKC   Var_10   C17     C23     C26     C15         -83.80  30.0 2
+EKC   Var_11   C22     C23     C26     C15         105.44  30.0 2
+EKC   Var_12   O3      C26     C23     C17          42.13  30.0 2
+EKC   Var_13   O3      C26     C23     C22        -128.63  30.0 2
+EKC   Var_14   H26     C14     C18     C12        -159.96  30.0 2
+EKC   Var_15   H27     C14     C18     C12         -40.81  30.0 2
+EKC   Var_16   H8      C4      N3      C13         120.67  30.0 2
+EKC   Var_17   H9      C4      N3      C13        -120.06  30.0 2
+EKC   Var_18   H10     C4      N3      C13           8.10  30.0 2
+EKC   Var_19   H28     C26     C23     C17         168.64  30.0 2
+EKC   Var_20   H5      C3      C20     C19         127.25  30.0 2
+EKC   Var_21   H6      C3      C20     C19        -114.79  30.0 2
+EKC   Var_22   H7      C3      C20     C19           9.80  30.0 2
+EKC   Var_23   H       C1      C17     C23         -62.38  30.0 2
+EKC   Var_24   H0      C1      C17     C23         178.29  30.0 2
+EKC   Var_25   H1      C1      C17     C23          60.72  30.0 2
+EKC   Var_26   O1      C15     C26     C23         161.54  30.0 2
+EKC   Var_27   O2      C15     C26     C23         -24.30  30.0 2
+EKC   Var_28   C27     O3      C26     C23          83.32  30.0 3
+EKC   Var_29   C26     O3      C27     C5           52.36  30.0 3
+EKC   Var_30   C26     O3      C27     C6          168.18  30.0 3
+EKC   Var_31   C26     O3      C27     C7          -81.77  30.0 3
+EKC   Var_32   C27     O3      C26     C15        -151.12  30.0 3
+EKC   Var_33   O3      C26     C15     O1           34.08  30.0 3
+EKC   Var_34   O3      C26     C15     O2         -151.76  30.0 3
+EKC   Var_35   H14     C6      C27     C5          176.06  30.0 3
+EKC   Var_36   H15     C6      C27     C5          -60.61  30.0 3
+EKC   Var_37   H16     C6      C27     C5           61.33  30.0 3
+EKC   Var_38   H17     C7      C27     C5          -53.71  30.0 3
+EKC   Var_39   H18     C7      C27     C5           67.72  30.0 3
+EKC   Var_40   H19     C7      C27     C5         -178.21  30.0 3
+EKC   Var_41   H11     C5      C27     C6          177.02  30.0 3
+EKC   Var_42   H12     C5      C27     C6          -57.04  30.0 3
+EKC   Var_43   H13     C5      C27     C6           58.10  30.0 3
+#
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+EKC plan-1    C8  0.020
+EKC plan-1    C9  0.020
+EKC plan-1    C10 0.020
+EKC plan-1    C11 0.020
+EKC plan-1    C16 0.020
+EKC plan-1    C21 0.020
+EKC plan-1    CLA 0.020
+EKC plan-1    H20 0.020
+EKC plan-1    H21 0.020
+EKC plan-1    H22 0.020
+EKC plan-1    H23 0.020
+EKC plan-1    C22 0.020
+EKC plan-2    C4  0.020
+EKC plan-2    C12 0.020
+EKC plan-2    C13 0.020
+EKC plan-2    C14 0.020
+EKC plan-2    C18 0.020
+EKC plan-2    N1  0.020
+EKC plan-2    N3  0.020
+EKC plan-2    H24 0.020
+EKC plan-2    H25 0.020
+EKC plan-3    C1  0.020
+EKC plan-3    C17 0.020
+EKC plan-3    C19 0.020
+EKC plan-3    C21 0.020
+EKC plan-3    C23 0.020
+EKC plan-3    C24 0.020
+EKC plan-3    C25 0.020
+EKC plan-3    C26 0.020
+EKC plan-3    N2  0.020
+EKC plan-3    N4  0.020
+EKC plan-3    C22 0.020
+EKC plan-4    C15 0.020
+EKC plan-4    C26 0.020
+EKC plan-4    O1  0.020
+EKC plan-4    O2  0.020
+#
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+EKC chir_01   C26     C15     C23     O3    both
+#
