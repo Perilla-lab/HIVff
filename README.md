@@ -36,13 +36,22 @@ Current parameters:
 |-----------------------|---------------|
 | Inositol Hexaphosphate| IP6           |
 
-The files in this repository were developed in part using the CHARMM General
-Force Field (CGenFF) framework. Portions of the parameterization may
-derive from CHARMM/CGenFF atom types and parameters.
 
-Users should comply with the licensing and distribution requirements of
-the original CHARMM/CGenFF force field where applicable.
+The original parameterization work described in the associated
+publication extends the CHARMM/CGenFF framework for the modeling of
+HIV-1 replication inhibitors.
 
-Original parameters and modifications introduced in this work are
-distributed for academic research purposes. Please cite both the
-associated publication and the relevant CHARMM/CGenFF references.
+The force-field topology and parameter files distributed in this
+repository were developed within the CHARMM/CGenFF framework. 
+These files may contain atom types, topology definitions, and/or
+parameter assignments derived from the CHARMM General Force Field
+(CGenFF) and related CHARMM force-field distributions.
+
+Users are responsible for complying with any applicable licensing,
+distribution, and citation requirements associated with CHARMM and
+CGenFF.
+
+Please cite:
+
+Rey JS, Peeples CA, Macke A, Perilla JR. CHARMM-compatible molecular mechanics force fields for multiscale
+modeling of HIV-1 replication inhibitors.
