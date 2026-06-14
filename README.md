@@ -36,3 +36,13 @@ Current parameters:
 |-----------------------|---------------|
 | Inositol Hexaphosphate| IP6           |
 
+The files in this repository were developed in part using the CHARMM General
+Force Field (CGenFF) framework. Portions of the parameterization may
+derive from CHARMM/CGenFF atom types and parameters.
+
+Users should comply with the licensing and distribution requirements of
+the original CHARMM/CGenFF force field where applicable.
+
+Original parameters and modifications introduced in this work are
+distributed for academic research purposes. Please cite both the
+associated publication and the relevant CHARMM/CGenFF references.
