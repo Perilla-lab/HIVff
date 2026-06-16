@@ -1,3 +1,34 @@
+HEADER    HIVff: CHARMM-compatible force-field parameters for HIV-1 inhibitors
+TITLE     CHARMM-compatible molecular mechanics force fields for multiscale
+TITLE     modeling of HIV-1 replication inhibitors
+TITLE	  EKC110 coordinates 
+TITLE     derived from X-Ray crystal structure of the HIV-1 Integrase (IN) CCD 
+TITLE     and CTD in complex with EKc110 (PDB ID 8T5B)
+
+REMARK 000 ======================================================================
+REMARK 000 HIVff: CHARMM-compatible force-field parameters for HIV-1 inhibitors
+REMARK 000
+REMARK 000 Copyright (c) 2026 Perilla Laboratory,
+REMARK 000 Department of Chemistry and Biochemistry,
+REMARK 000 University of Delaware
+REMARK 000
+REMARK 000 Authors:
+REMARK 000 Juan S. Rey
+REMARK 000 Craig A. Peeples
+REMARK 000 Hamed Meshkin
+REMARK 000 Sruthi Murlidaran
+REMARK 000 Amanda Macke
+REMARK 000 Juan R. Perilla
+REMARK 000
+REMARK 000 This file was developed within the CHARMM/CGenFF framework.
+REMARK 000 Portions may contain CHARMM/CGenFF-derived content.
+REMARK 000
+REMARK 000 Redistribution and use are subject to LICENSE terms.
+REMARK 000
+REMARK 000 If you use this work, please cite:
+REMARK 000 Rey JS, Peeples CA, Macke A, Perilla JR.
+REMARK 000 CHARMM-compatible molecular mechanics force fields...
+REMARK 000 ======================================================================
 CRYST1    0.000    0.000    0.000  90.00  90.00  90.00 P 1           1
 ATOM      1  C1  EKC M1301     -19.865   1.696  14.725  0.80  1.00      M    C
 ATOM      2  H2  EKC M1301     -19.085  -0.048   8.570  0.50  1.00      M    H
