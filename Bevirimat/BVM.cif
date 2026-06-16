@@ -1,0 +1,701 @@
+# ======================================================================
+# HIVff: CHARMM-compatible force-field parameters for HIV-1 inhibitors
+#
+# Copyright (c) 2026 Perilla Laboratory,
+# Department of Chemistry and Biochemistry,
+# University of Delaware
+#
+# Authors:
+# Juan S. Rey
+# Craig A. Peeples
+# Hamed Meshkin
+# Sruthi Murlidaran 
+# Amanda Macke
+# Juan R. Perilla
+#
+# This file was developed within the CHARMM/CGenFF framework.
+# Portions of this file may contain atom types, topology definitions,
+# parameter assignments, or other content derived from CHARMM and/or
+# CGenFF.
+#
+# Redistribution and use of this file are subject to the terms
+# described in the repository LICENSE file and any applicable CHARMM
+# and CGenFF requirements.
+#
+# If you use this work, please cite:
+#
+# Rey JS, Peeples CA, Macke A, Perilla JR.
+# CHARMM-compatible molecular mechanics force fields for multiscale
+# modeling of HIV-1 replication inhibitors. 
+# 
+#
+# ======================================================================
+#
+# Ligand restraint file for Bevirimat (BVM) 
+# Generated using PHENIX eLBOW, REEL, and Visual Molecular Dynamics (VMD)
+# based on QM geometry optimized coordinates for BVM
+#
+# electronic Ligand Builder and Optimisation Workbench (eLBOW)
+#   - a module of PHENIX version 1.21.2-5419-
+#   - file written: Sat Apr 11 02:18:08 2026
+#
+#   Input file: BVM_b3lyp6-31g_geomopt.pdb
+#   Random seed: 3628800
+#
+# Restraints Editor Exclusively Ligands (REEL)
+#   - a module of PHENIX
+#   - file written: Sat Apr 11 21:36:43 2026
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+BVM BVM 'Unknown ' ligand 96 42 . 
+#
+data_comp_BVM
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+BVM         O1     O   O2    0     -0.49     -4.9420   -0.4340   -0.2920
+BVM         O2     O   O     0     -0.76      6.9670   -2.2870    1.0790
+BVM         O3     O   OC    0     -0.76      6.0460   -0.4640    2.0580
+BVM         O4     O   O     0     -0.63     -5.3010    1.1920   -1.8290
+BVM         O5     O   O     0     -0.6      -9.8550   -0.3100   -0.5180
+BVM         O6     O   OC    0     -0.6     -10.1320    1.2850    1.0780
+BVM         C1     C   C     0     0.015      1.7530   -1.3030    0.1000
+BVM         C2     C   CR6   0     -0.026     3.1070   -0.8770   -0.6730
+BVM         C3     C   C     0     -0.088     0.8110   -0.0400    0.2130
+BVM         C4     C   CR16  0     -0.083     3.7880    0.3120    0.1100
+BVM         C5     C   CR6   0     0.005     -0.6880   -0.2810    0.6830
+BVM         C6     C   CH1   0     -0.07      5.1810    0.6390   -0.4680
+BVM         C7     C   CR16  0     -0.099    -1.2810   -1.3990   -0.2470
+BVM         C8     C   CT    0     0.044      6.1130   -0.5960   -0.3980
+BVM         C9     C   C     0     -0.18      0.9940   -2.4070   -0.6830
+BVM         C10    C   C     0     -0.202     1.5280    1.1090    0.9510
+BVM         C11    C   CH2   0     -0.164     4.1110   -2.0720   -0.7500
+BVM         C12    C   C     0     -0.173     2.8360    1.5080    0.2510
+BVM         C13    C   C     0     -0.18     -0.4280   -2.6770   -0.1690
+BVM         C14    C   CH2   0     -0.197     5.5200   -1.7080   -1.2640
+BVM         C15    C   CT    0     0.068     -2.8340   -1.6410   -0.1940
+BVM         C16    C   CH1   0     -0.122     6.0130    1.7830    0.1660
+BVM         C17    C   CH2   0     -0.169    -1.4980    1.0190    0.4040
+BVM         C18    C   CH3   0     -0.262     2.1100   -1.8940    1.4910
+BVM         C19    C   CH3   0     -0.266     2.8010   -0.4630   -2.1390
+BVM         C20    C   CH2   0     -0.185     7.4390    0.0150   -0.8770
+BVM         C21    C   CH2   0     -0.189     7.5110    1.3600   -0.1140
+BVM         C22    C   CH3   0     -0.271    -0.8010   -0.5860    2.2000
+BVM         C23    C   CH1   0     0.206     -3.5130   -0.2670   -0.4320
+BVM         C24    C   CH2   0     -0.188    -3.0200    0.8380    0.4980
+BVM         C25    C   C     0     0.488      6.3880   -1.1740    1.0740
+BVM         C26    C   CH3   0     -0.271    -3.3350   -2.3050    1.1060
+BVM         C27    C   CH3   0     -0.271    -3.2510   -2.5590   -1.3680
+BVM         C28    C   C     0     0.021      5.7630    3.2080   -0.2940
+BVM         C29    C   CH3   0     -0.272     6.2590    4.2630    0.6710
+BVM         C30    C   C2    0     -0.419     5.2100    3.5710   -1.4580
+BVM         C31    C   C     0     0.802     -5.7530    0.3590   -1.0640
+BVM         C32    C   CH2   0     -0.212    -7.2120    0.0620   -0.8330
+BVM         C33    C   CT    0     -0.123    -7.9310    1.0370    0.1410
+BVM         C34    C   CH3   0     -0.272    -7.8870    2.4850   -0.3770
+BVM         C35    C   CH3   0     -0.272    -7.3180    0.9780    1.5500
+BVM         C36    C   C     0     0.317     -9.4770    0.6130    0.2430
+BVM         H1     H   H     0     0.09       0.6780    0.3120   -0.8180
+BVM         H2     H   HCR6  0     0.09       4.0110   -0.0390    1.1220
+BVM         H3     H   HCH1  0     0.09       5.0780    0.8800   -1.5380
+BVM         H4     H   HCR6  0     0.09      -1.1190   -1.0070   -1.2660
+BVM         H5     H   H     0     0.09       1.5750   -3.3380   -0.6620
+BVM         H6     H   H     0     0.09       0.9020   -2.1240   -1.7380
+BVM         H7     H   H     0     0.09       0.8740    1.9870    1.0150
+BVM         H8     H   H     0     0.09       1.7570    0.8210    1.9850
+BVM         H9     H   HCH2  0     0.09       3.6830   -2.8660   -1.3790
+BVM         H10    H   HCH2  0     0.09       4.2620   -2.5040    0.2430
+BVM         H11    H   H     0     0.09       3.3270    2.2990    0.8310
+BVM         H12    H   H     0     0.09       2.6090    1.9540   -0.7280
+BVM         H13    H   H     0     0.09      -0.8710   -3.4690   -0.7840
+BVM         H14    H   H     0     0.09      -0.4030   -3.0700    0.8550
+BVM         H15    H   HCH2  0     0.09       5.4890   -1.4000   -2.3220
+BVM         H16    H   HCH2  0     0.09       6.1590   -2.5940   -1.1900
+BVM         H17    H   HCH1  0     0.09       5.8660    1.7260    1.2480
+BVM         H18    H   HCH2  0     0.09      -1.1960    1.8120    1.0990
+BVM         H19    H   HCH2  0     0.09      -1.2500    1.3830   -0.6040
+BVM         H20    H   HCH3  0     0.09       2.7660   -1.2510    2.0800
+BVM         H21    H   HCH3  0     0.09       1.2190   -2.0870    2.0880
+BVM         H22    H   HCH3  0     0.09       2.6260   -2.8510    1.3780
+BVM         H23    H   HCH3  0     0.09       2.0170    0.2930   -2.2320
+BVM         H24    H   HCH3  0     0.09       3.6930   -0.0510   -2.6180
+BVM         H25    H   HCH3  0     0.09       2.4990   -1.3260   -2.7420
+BVM         H26    H   HCH2  0     0.09       7.4080    0.1960   -1.9650
+BVM         H27    H   HCH2  0     0.09       8.2920   -0.6400   -0.6690
+BVM         H28    H   HCH2  0     0.09       8.0310    1.2200    0.8390
+BVM         H29    H   HCH2  0     0.09       8.0510    2.1280   -0.6830
+BVM         H30    H   HCH3  0     0.09      -1.7610   -0.2520    2.6050
+BVM         H31    H   HCH3  0     0.09      -0.0230   -0.0600    2.7610
+BVM         H32    H   HCH3  0     0.09      -0.7130   -1.6490    2.4370
+BVM         H33    H   HCH1  0     0.09      -3.3180    0.0440   -1.4650
+BVM         H34    H   HCH2  0     0.09      -3.3330    0.6160    1.5250
+BVM         H35    H   HCH2  0     0.09      -3.5210    1.7710    0.2160
+BVM         H36    H   HCH3  0     0.09      -3.2230   -1.6670    1.9850
+BVM         H37    H   HCH3  0     0.09      -2.7910   -3.2370    1.2970
+BVM         H38    H   HCH3  0     0.09      -4.3980   -2.5460    1.0130
+BVM         H39    H   HCH3  0     0.09      -4.3400   -2.5490   -1.4750
+BVM         H40    H   HCH3  0     0.09      -2.8130   -2.2210   -2.3160
+BVM         H41    H   HCH3  0     0.09      -2.9440   -3.5980   -1.2070
+BVM         H42    H   HCH3  0     0.09       5.7260    4.1910    1.6300
+BVM         H43    H   HCH3  0     0.09       7.3230    4.1170    0.9000
+BVM         H44    H   HCH3  0     0.09       6.1280    5.2790    0.2800
+BVM         H46    H   H     0     0.21       4.8330    2.8480   -2.1750
+BVM         H47    H   H     0     0.21       5.1020    4.6200   -1.7300
+BVM         H48    H   HCH2  0     0.09      -7.3310   -0.9560   -0.4550
+BVM         H49    H   HCH2  0     0.09      -7.7270    0.1150   -1.7960
+BVM         H50    H   HCH3  0     0.09      -6.8670    2.8920   -0.4080
+BVM         H51    H   HCH3  0     0.09      -8.2990    2.5490   -1.3930
+BVM         H52    H   HCH3  0     0.09      -8.5060    3.1050    0.2780
+BVM         H53    H   HCH3  0     0.09      -6.3020    1.3980    1.5890
+BVM         H54    H   HCH3  0     0.09      -7.9660    1.5390    2.2280
+BVM         H55    H   HCH3  0     0.09      -7.2620   -0.0570    1.9130
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+BVM   O1      C23   single        1.446 0.02
+BVM   O1      C31   single        1.372 0.02
+BVM   O2      C25   deloc         1.255 0.02
+BVM   O3      C25   deloc         1.261 0.02
+BVM   O4      C31   double        1.218 0.02
+BVM   O5      C36   deloc         1.255 0.02
+BVM   O6      C36   deloc         1.256 0.02
+BVM   C1      C2    single        1.616 0.02
+BVM   C1      C3    single        1.580 0.02
+BVM   C1      C9    single        1.552 0.02
+BVM   C1      C18   single        1.553 0.02
+BVM   C2      C4    single        1.578 0.02
+BVM   C2      C11   single        1.563 0.02
+BVM   C2      C19   single        1.554 0.02
+BVM   C3      C5    single        1.589 0.02
+BVM   C3      C10   single        1.542 0.02
+BVM   C3      H1    single        1.098 0.02
+BVM   C4      C6    single        1.543 0.02
+BVM   C4      C12   single        1.535 0.02
+BVM   C4      H2    single        1.094 0.02
+BVM   C5      C7    single        1.571 0.02
+BVM   C5      C17   single        1.557 0.02
+BVM   C5      C22   single        1.551 0.02
+BVM   C6      C8    single        1.549 0.02
+BVM   C6      C16   single        1.550 0.02
+BVM   C6      H3    single        1.102 0.02
+BVM   C7      C13   single        1.538 0.02
+BVM   C7      C15   single        1.573 0.02
+BVM   C7      H4    single        1.104 0.02
+BVM   C8      C14   single        1.529 0.02
+BVM   C8      C20   single        1.537 0.02
+BVM   C8      C25   single        1.605 0.02
+BVM   C9      C13   single        1.536 0.02
+BVM   C9      H5    single        1.098 0.02
+BVM   C9      H6    single        1.096 0.02
+BVM   C10     C12   single        1.536 0.02
+BVM   C10     H7    single        1.097 0.02
+BVM   C10     H8    single        1.098 0.02
+BVM   C11     C14   single        1.543 0.02
+BVM   C11     H9    single        1.100 0.02
+BVM   C11     H10   single        1.093 0.02
+BVM   C12     H11   single        1.097 0.02
+BVM   C12     H12   single        1.099 0.02
+BVM   C13     H13   single        1.096 0.02
+BVM   C13     H14   single        1.097 0.02
+BVM   C14     H15   single        1.102 0.02
+BVM   C14     H16   single        1.095 0.02
+BVM   C15     C23   single        1.551 0.02
+BVM   C15     C26   single        1.543 0.02
+BVM   C15     C27   single        1.548 0.02
+BVM   C16     C21   single        1.582 0.02
+BVM   C16     C28   single        1.518 0.02
+BVM   C16     H17   single        1.093 0.02
+BVM   C17     C24   single        1.536 0.02
+BVM   C17     H18   single        1.097 0.02
+BVM   C17     H19   single        1.100 0.02
+BVM   C18     H20   single        1.091 0.02
+BVM   C18     H21   single        1.090 0.02
+BVM   C18     H22   single        1.093 0.02
+BVM   C19     H23   single        1.093 0.02
+BVM   C19     H24   single        1.093 0.02
+BVM   C19     H25   single        1.095 0.02
+BVM   C20     C21   single        1.548 0.02
+BVM   C20     H26   single        1.103 0.02
+BVM   C20     H27   single        1.095 0.02
+BVM   C21     H28   single        1.095 0.02
+BVM   C21     H29   single        1.098 0.02
+BVM   C22     H30   single        1.094 0.02
+BVM   C22     H31   single        1.094 0.02
+BVM   C22     H32   single        1.093 0.02
+BVM   C23     C24   single        1.526 0.02
+BVM   C23     H33   single        1.096 0.02
+BVM   C24     H34   single        1.096 0.02
+BVM   C24     H35   single        1.096 0.02
+BVM   C26     H36   single        1.092 0.02
+BVM   C26     H37   single        1.096 0.02
+BVM   C26     H38   single        1.094 0.02
+BVM   C27     H39   single        1.094 0.02
+BVM   C27     H40   single        1.098 0.02
+BVM   C27     H41   single        1.095 0.02
+BVM   C28     C29   single        1.513 0.02
+BVM   C28     C30   single        1.339 0.02
+BVM   C29     H42   single        1.100 0.02
+BVM   C29     H43   single        1.098 0.02
+BVM   C29     H44   single        1.096 0.02
+BVM   C30     H46   single        1.086 0.02
+BVM   C30     H47   single        1.089 0.02
+BVM   C31     C32   single        1.507 0.02
+BVM   C32     C33   single        1.554 0.02
+BVM   C32     H48   single        1.092 0.02
+BVM   C32     H49   single        1.093 0.02
+BVM   C33     C34   single        1.538 0.02
+BVM   C33     C35   single        1.538 0.02
+BVM   C33     C36   single        1.606 0.02
+BVM   C34     H50   single        1.099 0.02
+BVM   C34     H51   single        1.098 0.02
+BVM   C34     H52   single        1.094 0.02
+BVM   C35     H53   single        1.100 0.02
+BVM   C35     H54   single        1.093 0.02
+BVM   C35     H55   single        1.098 0.02
+#
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+BVM   C31     O1      C23         117.58 3.0
+BVM   C18     C1      C9          107.08 3.0
+BVM   C18     C1      C3          112.17 3.0
+BVM   C9      C1      C3          108.26 3.0
+BVM   C18     C1      C2          109.64 3.0
+BVM   C9      C1      C2          110.85 3.0
+BVM   C3      C1      C2          108.85 3.0
+BVM   C19     C2      C11         106.49 3.0
+BVM   C19     C2      C4          110.63 3.0
+BVM   C11     C2      C4          108.87 3.0
+BVM   C19     C2      C1          110.88 3.0
+BVM   C11     C2      C1          111.12 3.0
+BVM   C4      C2      C1          108.83 3.0
+BVM   H1      C3      C10         105.48 3.0
+BVM   H1      C3      C5          102.25 3.0
+BVM   C10     C3      C5          114.20 3.0
+BVM   H1      C3      C1          105.16 3.0
+BVM   C10     C3      C1          110.65 3.0
+BVM   C5      C3      C1          117.54 3.0
+BVM   H2      C4      C12         106.94 3.0
+BVM   H2      C4      C6          103.32 3.0
+BVM   C12     C4      C6          115.41 3.0
+BVM   H2      C4      C2          107.77 3.0
+BVM   C12     C4      C2          111.40 3.0
+BVM   C6      C4      C2          111.31 3.0
+BVM   C22     C5      C17         107.55 3.0
+BVM   C22     C5      C7          114.30 3.0
+BVM   C17     C5      C7          106.97 3.0
+BVM   C22     C5      C3          112.81 3.0
+BVM   C17     C5      C3          108.12 3.0
+BVM   C7      C5      C3          106.80 3.0
+BVM   H3      C6      C16         106.62 3.0
+BVM   H3      C6      C8          105.94 3.0
+BVM   C16     C6      C8          104.30 3.0
+BVM   H3      C6      C4          109.01 3.0
+BVM   C16     C6      C4          119.19 3.0
+BVM   C8      C6      C4          110.93 3.0
+BVM   H4      C7      C15         103.34 3.0
+BVM   H4      C7      C13         105.10 3.0
+BVM   C15     C7      C13         114.71 3.0
+BVM   H4      C7      C5          103.80 3.0
+BVM   C15     C7      C5          117.55 3.0
+BVM   C13     C7      C5          110.61 3.0
+BVM   C25     C8      C20         106.33 3.0
+BVM   C25     C8      C14         108.90 3.0
+BVM   C20     C8      C14         116.57 3.0
+BVM   C25     C8      C6          115.57 3.0
+BVM   C20     C8      C6          100.84 3.0
+BVM   C14     C8      C6          108.72 3.0
+BVM   H6      C9      H5          106.37 3.0
+BVM   H6      C9      C13         106.84 3.0
+BVM   H5      C9      C13         109.55 3.0
+BVM   H6      C9      C1          110.06 3.0
+BVM   H5      C9      C1          109.57 3.0
+BVM   C13     C9      C1          114.14 3.0
+BVM   H8      C10     H7          106.23 3.0
+BVM   H8      C10     C12         108.65 3.0
+BVM   H7      C10     C12         109.05 3.0
+BVM   H8      C10     C3          110.63 3.0
+BVM   H7      C10     C3          110.31 3.0
+BVM   C12     C10     C3          111.79 3.0
+BVM   H10     C11     H9          106.74 3.0
+BVM   H10     C11     C14         105.64 3.0
+BVM   H9      C11     C14         109.58 3.0
+BVM   H10     C11     C2          110.25 3.0
+BVM   H9      C11     C2          109.29 3.0
+BVM   C14     C11     C2          115.00 3.0
+BVM   H12     C12     H11         105.71 3.0
+BVM   H12     C12     C10         109.59 3.0
+BVM   H11     C12     C10         109.12 3.0
+BVM   H12     C12     C4          111.24 3.0
+BVM   H11     C12     C4          109.44 3.0
+BVM   C10     C12     C4          111.56 3.0
+BVM   H14     C13     H13         105.90 3.0
+BVM   H14     C13     C9          110.75 3.0
+BVM   H13     C13     C9          108.26 3.0
+BVM   H14     C13     C7          110.95 3.0
+BVM   H13     C13     C7          110.34 3.0
+BVM   C9      C13     C7          110.51 3.0
+BVM   H16     C14     H15         107.90 3.0
+BVM   H16     C14     C11         108.63 3.0
+BVM   H15     C14     C11         111.09 3.0
+BVM   H16     C14     C8          108.90 3.0
+BVM   H15     C14     C8          110.57 3.0
+BVM   C11     C14     C8          109.69 3.0
+BVM   C27     C15     C26         107.24 3.0
+BVM   C27     C15     C23         106.93 3.0
+BVM   C26     C15     C23         111.61 3.0
+BVM   C27     C15     C7          109.38 3.0
+BVM   C26     C15     C7          114.53 3.0
+BVM   C23     C15     C7          106.91 3.0
+BVM   H17     C16     C28         109.06 3.0
+BVM   H17     C16     C21         106.77 3.0
+BVM   C28     C16     C21         110.69 3.0
+BVM   H17     C16     C6          107.10 3.0
+BVM   C28     C16     C6          118.71 3.0
+BVM   C21     C16     C6          103.80 3.0
+BVM   H19     C17     H18         106.22 3.0
+BVM   H19     C17     C24         108.58 3.0
+BVM   H18     C17     C24         108.62 3.0
+BVM   H19     C17     C5          108.86 3.0
+BVM   H18     C17     C5          110.30 3.0
+BVM   C24     C17     C5          113.97 3.0
+BVM   H22     C18     H21         106.71 3.0
+BVM   H22     C18     H20         106.73 3.0
+BVM   H21     C18     H20         107.47 3.0
+BVM   H22     C18     C1          110.43 3.0
+BVM   H21     C18     C1          111.72 3.0
+BVM   H20     C18     C1          113.42 3.0
+BVM   H25     C19     H24         106.30 3.0
+BVM   H25     C19     H23         107.48 3.0
+BVM   H24     C19     H23         106.70 3.0
+BVM   H25     C19     C2          111.33 3.0
+BVM   H24     C19     C2          110.68 3.0
+BVM   H23     C19     C2          113.94 3.0
+BVM   H27     C20     H26         107.89 3.0
+BVM   H27     C20     C21         112.94 3.0
+BVM   H26     C20     C21         110.17 3.0
+BVM   H27     C20     C8          112.03 3.0
+BVM   H26     C20     C8          110.39 3.0
+BVM   C21     C20     C8          103.41 3.0
+BVM   H29     C21     H28         107.88 3.0
+BVM   H29     C21     C20         112.04 3.0
+BVM   H28     C21     C20         109.88 3.0
+BVM   H29     C21     C16         111.75 3.0
+BVM   H28     C21     C16         109.27 3.0
+BVM   C20     C21     C16         106.00 3.0
+BVM   H32     C22     H31         107.41 3.0
+BVM   H32     C22     H30         106.70 3.0
+BVM   H31     C22     H30         106.70 3.0
+BVM   H32     C22     C5          113.42 3.0
+BVM   H31     C22     C5          110.80 3.0
+BVM   H30     C22     C5          111.46 3.0
+BVM   H33     C23     C24         108.14 3.0
+BVM   H33     C23     C15         108.54 3.0
+BVM   C24     C23     C15         113.99 3.0
+BVM   H33     C23     O1          107.45 3.0
+BVM   C24     C23     O1          110.12 3.0
+BVM   C15     C23     O1          108.40 3.0
+BVM   H35     C24     H34         106.43 3.0
+BVM   H35     C24     C23         108.18 3.0
+BVM   H34     C24     C23         109.39 3.0
+BVM   H35     C24     C17         109.69 3.0
+BVM   H34     C24     C17         111.36 3.0
+BVM   C23     C24     C17         111.61 3.0
+BVM   C8      C25     O3          117.81 3.0
+BVM   C8      C25     O2          113.71 3.0
+BVM   O3      C25     O2          128.44 3.0
+BVM   H38     C26     H37         108.05 3.0
+BVM   H38     C26     H36         107.27 3.0
+BVM   H37     C26     H36         107.80 3.0
+BVM   H38     C26     C15         109.79 3.0
+BVM   H37     C26     C15         110.58 3.0
+BVM   H36     C26     C15         113.17 3.0
+BVM   H41     C27     H40         107.89 3.0
+BVM   H41     C27     H39         107.58 3.0
+BVM   H40     C27     H39         108.05 3.0
+BVM   H41     C27     C15         112.07 3.0
+BVM   H40     C27     C15         111.41 3.0
+BVM   H39     C27     C15         109.69 3.0
+BVM   C30     C28     C29         120.05 3.0
+BVM   C30     C28     C16         125.87 3.0
+BVM   C29     C28     C16         114.03 3.0
+BVM   H44     C29     H43         108.26 3.0
+BVM   H44     C29     H42         108.29 3.0
+BVM   H43     C29     H42         106.21 3.0
+BVM   H44     C29     C28         112.30 3.0
+BVM   H43     C29     C28         110.97 3.0
+BVM   H42     C29     C28         110.59 3.0
+BVM   H47     C30     H46         116.23 3.0
+BVM   H47     C30     C28         121.28 3.0
+BVM   H46     C30     C28         122.48 3.0
+BVM   C32     C31     O4          126.19 3.0
+BVM   C32     C31     O1          111.85 3.0
+BVM   O4      C31     O1          121.96 3.0
+BVM   H49     C32     H48         107.38 3.0
+BVM   H49     C32     C33         107.67 3.0
+BVM   H48     C32     C33         108.50 3.0
+BVM   H49     C32     C31         108.15 3.0
+BVM   H48     C32     C31         110.01 3.0
+BVM   C33     C32     C31         114.85 3.0
+BVM   C36     C33     C35         108.38 3.0
+BVM   C36     C33     C34         107.30 3.0
+BVM   C35     C33     C34         109.46 3.0
+BVM   C36     C33     C32         108.63 3.0
+BVM   C35     C33     C32         111.45 3.0
+BVM   C34     C33     C32         111.48 3.0
+BVM   H52     C34     H51         107.98 3.0
+BVM   H52     C34     H50         109.41 3.0
+BVM   H51     C34     H50         107.49 3.0
+BVM   H52     C34     C33         108.40 3.0
+BVM   H51     C34     C33         110.83 3.0
+BVM   H50     C34     C33         112.63 3.0
+BVM   H55     C35     H54         108.00 3.0
+BVM   H55     C35     H53         107.52 3.0
+BVM   H54     C35     H53         109.25 3.0
+BVM   H55     C35     C33         111.06 3.0
+BVM   H54     C35     C33         108.20 3.0
+BVM   H53     C35     C33         112.71 3.0
+BVM   C33     C36     O6          113.76 3.0
+BVM   C33     C36     O5          116.47 3.0
+BVM   O6      C36     O5          129.77 3.0
+#
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+BVM   Var_01   C6      C4      C2      C1          172.33  30.0 1
+BVM   Var_02   C12     C4      C2      C1          -57.31  30.0 1
+BVM   Var_03   C14     C11     C2      C1         -170.56  30.0 1
+BVM   Var_04   C7      C5      C3      C1          -52.23  30.0 1
+BVM   Var_05   C17     C5      C3      C1         -167.03  30.0 1
+BVM   Var_06   C12     C10     C3      C1           57.75  30.0 1
+BVM   Var_07   C7      C13     C9      C1           59.21  30.0 1
+BVM   Var_08   C5      C3      C1      C2          168.45  30.0 1
+BVM   Var_09   C10     C3      C1      C2          -57.88  30.0 1
+BVM   Var_10   C13     C9      C1      C2         -168.75  30.0 1
+BVM   Var_11   C8      C6      C4      C2          -58.98  30.0 1
+BVM   Var_12   C16     C6      C4      C2          179.92  30.0 1
+BVM   Var_13   C10     C12     C4      C2           57.04  30.0 1
+BVM   Var_14   C8      C14     C11     C2           55.99  30.0 1
+BVM   Var_15   C4      C2      C1      C3           57.23  30.0 1
+BVM   Var_16   C11     C2      C1      C3          177.09  30.0 1
+BVM   Var_17   C13     C9      C1      C3          -49.43  30.0 1
+BVM   Var_18   C13     C7      C5      C3           57.33  30.0 1
+BVM   Var_19   C15     C7      C5      C3         -168.26  30.0 1
+BVM   Var_20   C24     C17     C5      C3          166.49  30.0 1
+BVM   Var_21   C4      C12     C10     C3          -56.83  30.0 1
+BVM   Var_22   C9      C1      C2      C4          176.19  30.0 1
+BVM   Var_23   C14     C11     C2      C4          -50.71  30.0 1
+BVM   Var_24   C14     C8      C6      C4           62.63  30.0 1
+BVM   Var_25   C20     C8      C6      C4         -174.30  30.0 1
+BVM   Var_26   C21     C16     C6      C4          151.96  30.0 1
+BVM   Var_27   C9      C1      C3      C5           47.88  30.0 1
+BVM   Var_28   C12     C10     C3      C5         -166.92  30.0 1
+BVM   Var_29   C9      C13     C7      C5          -62.87  30.0 1
+BVM   Var_30   C23     C15     C7      C5           53.13  30.0 1
+BVM   Var_31   C23     C24     C17     C5          -55.85  30.0 1
+BVM   Var_32   C11     C2      C4      C6           51.08  30.0 1
+BVM   Var_33   C10     C12     C4      C6         -174.77  30.0 1
+BVM   Var_34   C11     C14     C8      C6          -59.37  30.0 1
+BVM   Var_35   C21     C20     C8      C6           44.09  30.0 1
+BVM   Var_36   C20     C21     C16     C6           -0.18  30.0 1
+BVM   Var_37   C10     C3      C5      C7          175.68  30.0 1
+BVM   Var_38   C24     C17     C5      C7           51.80  30.0 1
+BVM   Var_39   C24     C23     C15     C7          -52.83  30.0 1
+BVM   Var_40   C12     C4      C6      C8          172.79  30.0 1
+BVM   Var_41   C21     C16     C6      C8           27.57  30.0 1
+BVM   Var_42   C16     C21     C20     C8          -27.40  30.0 1
+BVM   Var_43   C11     C2      C1      C9          -63.95  30.0 1
+BVM   Var_44   C10     C3      C1      C9         -178.45  30.0 1
+BVM   Var_45   C15     C7      C13     C9          161.34  30.0 1
+BVM   Var_46   C17     C5      C3      C10          60.87  30.0 1
+BVM   Var_47   C12     C4      C2      C11        -178.56  30.0 1
+BVM   Var_48   C20     C8      C14     C11        -172.42  30.0 1
+BVM   Var_49   C16     C6      C4      C12          51.68  30.0 1
+BVM   Var_50   C17     C5      C7      C13         172.92  30.0 1
+BVM   Var_51   C23     C15     C7      C13        -174.26  30.0 1
+BVM   Var_52   C16     C6      C8      C14        -167.85  30.0 1
+BVM   Var_53   C21     C20     C8      C14         161.55  30.0 1
+BVM   Var_54   C17     C5      C7      C15         -52.67  30.0 1
+BVM   Var_55   C17     C24     C23     C15          56.42  30.0 1
+BVM   Var_56   C20     C8      C6      C16         -44.77  30.0 1
+BVM   Var_57   C7      C15     C23     O1         -175.84  30.0 1
+BVM   Var_58   C17     C24     C23     O1          178.49  30.0 1
+BVM   Var_59   C22     C5      C3      C1           74.16  30.0 1
+BVM   Var_60   C19     C2      C1      C3          -64.68  30.0 1
+BVM   Var_61   C18     C1      C2      C4          -65.80  30.0 1
+BVM   Var_62   C25     C8      C6      C4          -60.15  30.0 1
+BVM   Var_63   C28     C16     C6      C4          -84.71  30.0 1
+BVM   Var_64   C18     C1      C3      C5          -70.05  30.0 1
+BVM   Var_65   C26     C15     C7      C5          -71.05  30.0 1
+BVM   Var_66   C27     C15     C7      C5          168.57  30.0 1
+BVM   Var_67   C19     C2      C4      C6          -65.61  30.0 1
+BVM   Var_68   C28     C16     C6      C8          150.90  30.0 1
+BVM   Var_69   C19     C2      C1      C9           54.28  30.0 1
+BVM   Var_70   C18     C1      C3      C10          63.62  30.0 1
+BVM   Var_71   C22     C5      C3      C10         -57.93  30.0 1
+BVM   Var_72   C18     C1      C2      C11          54.06  30.0 1
+BVM   Var_73   C25     C8      C14     C11          67.35  30.0 1
+BVM   Var_74   C19     C2      C4      C12          64.75  30.0 1
+BVM   Var_75   C22     C5      C7      C13         -68.16  30.0 1
+BVM   Var_76   C26     C15     C7      C13          61.56  30.0 1
+BVM   Var_77   C27     C15     C7      C13         -58.83  30.0 1
+BVM   Var_78   C18     C1      C9      C13          71.70  30.0 1
+BVM   Var_79   C19     C2      C11     C14          68.59  30.0 1
+BVM   Var_80   C22     C5      C7      C15          66.25  30.0 1
+BVM   Var_81   C25     C8      C6      C16          69.37  30.0 1
+BVM   Var_82   C28     C16     C21     C20        -128.61  30.0 1
+BVM   Var_83   C25     C8      C20     C21         -76.85  30.0 1
+BVM   Var_84   C24     C17     C5      C22         -71.41  30.0 1
+BVM   Var_85   C26     C15     C23     C24          73.12  30.0 1
+BVM   Var_86   C27     C15     C23     C24        -169.90  30.0 1
+BVM   Var_87   H2      C4      C2      C1           59.70  30.0 1
+BVM   Var_88   H9      C11     C2      C1           65.74  30.0 1
+BVM   Var_89   H10     C11     C2      C1          -51.28  30.0 1
+BVM   Var_90   H7      C10     C3      C1          179.28  30.0 1
+BVM   Var_91   H8      C10     C3      C1          -63.48  30.0 1
+BVM   Var_92   H13     C13     C9      C1         -179.84  30.0 1
+BVM   Var_93   H14     C13     C9      C1          -64.15  30.0 1
+BVM   Var_94   H1      C3      C1      C2           55.55  30.0 1
+BVM   Var_95   H5      C9      C1      C2           68.00  30.0 1
+BVM   Var_96   H6      C9      C1      C2          -48.63  30.0 1
+BVM   Var_97   H3      C6      C4      C2           57.31  30.0 1
+BVM   Var_98   H11     C12     C4      C2          177.89  30.0 1
+BVM   Var_99   H12     C12     C4      C2          -65.67  30.0 1
+BVM  Var_100   H15     C14     C11     C2          -66.55  30.0 1
+BVM  Var_101   H16     C14     C11     C2          174.92  30.0 1
+BVM  Var_102   H4      C7      C5      C3          -54.93  30.0 1
+BVM  Var_103   H18     C17     C5      C3          -71.02  30.0 1
+BVM  Var_104   H19     C17     C5      C3           45.14  30.0 1
+BVM  Var_105   H17     C16     C6      C4           39.22  30.0 1
+BVM  Var_106   H34     C24     C17     C5           66.72  30.0 1
+BVM  Var_107   H35     C24     C17     C5         -175.73  30.0 1
+BVM  Var_108   H26     C20     C8      C6          -73.74  30.0 1
+BVM  Var_109   H27     C20     C8      C6          166.01  30.0 1
+BVM  Var_110   H28     C21     C16     C6         -118.54  30.0 1
+BVM  Var_111   H29     C21     C16     C6          122.14  30.0 1
+BVM  Var_112   H33     C23     C15     C7           67.74  30.0 1
+BVM  Var_113   C26     C15     C23     O1          -49.89  30.0 1
+BVM  Var_114   C27     C15     C23     O1           67.10  30.0 1
+BVM  Var_115   C6      C8      C25     O2          169.37  30.0 2
+BVM  Var_116   C14     C8      C25     O2           46.69  30.0 2
+BVM  Var_117   C20     C8      C25     O2          -79.68  30.0 2
+BVM  Var_118   C6      C8      C25     O3          -12.67  30.0 2
+BVM  Var_119   C14     C8      C25     O3         -135.35  30.0 2
+BVM  Var_120   C20     C8      C25     O3           98.28  30.0 2
+BVM  Var_121   C29     C28     C16     C6          160.60  30.0 3
+BVM  Var_122   C30     C28     C16     C6          -22.06  30.0 3
+BVM  Var_123   C31     O1      C23     C15        -147.71  30.0 1
+BVM  Var_124   C19     C2      C1      C18         172.29  30.0 1
+BVM  Var_125   C29     C28     C16     C21         -79.55  30.0 3
+BVM  Var_126   C30     C28     C16     C21          97.79  30.0 3
+BVM  Var_127   C31     O1      C23     C24          86.97  30.0 1
+BVM  Var_128   H23     C19     C2      C1           52.27  30.0 3
+BVM  Var_129   H24     C19     C2      C1          172.51  30.0 3
+BVM  Var_130   H25     C19     C2      C1          -69.48  30.0 3
+BVM  Var_131   H20     C18     C1      C2           51.81  30.0 3
+BVM  Var_132   H21     C18     C1      C2          173.46  30.0 3
+BVM  Var_133   H22     C18     C1      C2          -67.94  30.0 3
+BVM  Var_134   H30     C22     C5      C3          150.80  30.0 3
+BVM  Var_135   H31     C22     C5      C3           32.14  30.0 3
+BVM  Var_136   H32     C22     C5      C3          -88.76  30.0 3
+BVM  Var_137   H36     C26     C15     C7           66.96  30.0 3
+BVM  Var_138   H37     C26     C15     C7          -54.10  30.0 3
+BVM  Var_139   H38     C26     C15     C7         -173.23  30.0 3
+BVM  Var_140   H39     C27     C15     C7         -167.24  30.0 3
+BVM  Var_141   H40     C27     C15     C7          -47.65  30.0 3
+BVM  Var_142   H41     C27     C15     C7           73.35  30.0 3
+BVM  Var_143   C23     O1      C31     O4           -1.10  30.0 1
+BVM  Var_144   C32     C31     O1      C23         179.02  30.0 3
+BVM  Var_145   H42     C29     C28     C16         -62.93  30.0 3
+BVM  Var_146   H43     C29     C28     C16          54.67  30.0 3
+BVM  Var_147   H44     C29     C28     C16         175.98  30.0 3
+BVM  Var_148   H46     C30     C28     C16           3.38  30.0 2
+BVM  Var_149   H47     C30     C28     C16        -177.50  30.0 2
+BVM  Var_150   C33     C32     C31     O1           98.67  30.0 3
+BVM  Var_151   C33     C32     C31     O4          -81.21  30.0 3
+BVM  Var_152   C32     C33     C36     O5           -5.41  30.0 2
+BVM  Var_153   C34     C33     C36     O5          115.23  30.0 2
+BVM  Var_154   C35     C33     C36     O5         -126.65  30.0 2
+BVM  Var_155   C32     C33     C36     O6          175.47  30.0 2
+BVM  Var_156   C34     C33     C36     O6          -63.89  30.0 2
+BVM  Var_157   C35     C33     C36     O6           54.23  30.0 2
+BVM  Var_158   C34     C33     C32     C31          60.27  30.0 3
+BVM  Var_159   C35     C33     C32     C31         -62.37  30.0 3
+BVM  Var_160   C36     C33     C32     C31         178.29  30.0 3
+BVM  Var_161   H48     C32     C31     O1          -24.08  30.0 3
+BVM  Var_162   H49     C32     C31     O1         -141.07  30.0 3
+BVM  Var_163   H50     C34     C33     C32         -65.54  30.0 3
+BVM  Var_164   H51     C34     C33     C32          54.92  30.0 3
+BVM  Var_165   H52     C34     C33     C32         173.26  30.0 3
+BVM  Var_166   H53     C35     C33     C32          69.07  30.0 3
+BVM  Var_167   H54     C35     C33     C32        -170.01  30.0 3
+BVM  Var_168   H55     C35     C33     C32         -51.64  30.0 3
+#
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+BVM plan-1    O2  0.020
+BVM plan-1    O3  0.020
+BVM plan-1    C8  0.020
+BVM plan-1    C25 0.020
+BVM plan-2    O5  0.020
+BVM plan-2    O6  0.020
+BVM plan-2    C33 0.020
+BVM plan-2    C36 0.020
+BVM plan-3    O1  0.020
+BVM plan-3    O4  0.020
+BVM plan-3    C31 0.020
+BVM plan-3    C32 0.020
+#
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+BVM chir_01   C1      C3      C9      C2    both
+BVM chir_02   C2      C11     C4      C1    both
+BVM chir_03   C3      C10     C5      C1    both
+BVM chir_04   C4      C2      C6      C12   both
+BVM chir_05   C5      C7      C17     C3    both
+BVM chir_06   C6      C4      C8      C16   both
+BVM chir_07   C7      C5      C13     C15   both
+BVM chir_08   C8      C14     C20     C6    both
+BVM chir_09   C16     C6      C21     C28   both
+BVM chir_10   C23     O1      C15     C24   both
+#
