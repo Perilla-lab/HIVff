@@ -1,4 +1,4 @@
-# BIC 
+# Bictegravir (a.k.a. BIC)
 ## Files
 - BIC.pdb
 - BIC.str
