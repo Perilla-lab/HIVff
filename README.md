@@ -25,7 +25,7 @@ Current parameters:
 | BI-D          |                 | ALLINI | https://doi.org/10.1128/mbio.03560-22       |
 | EKC110        |                 | ALLINI | https://doi.org/10.1128/mbio.00465-24       |
 | GS-9822       |                 | ALLINI | In preparation                              |
-| Dolutegravir  | DTG, GSK1349572 | INSTI  | In preparation                              |
+| Dolutegravir  | DTG, S/GSK1349572 | INSTI  | In preparation                              |
 | Bictegravir   | BIC, GS-9883    | INSTI  | In preparation                              |
 | Bevirimat     | BVM, PA-457     | MI     | https://doi.org/10.1101/2024.10.09.617473   |
 | PF-46396      |                 | MI     | In preparation                              |
