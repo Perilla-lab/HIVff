@@ -21,13 +21,13 @@ array set ligmap {
     BI-D           {BID BI-D}
     Dolutegravir   {DTG DTG}
     EKC110         {EKC EKC110}
-    GS-9822        {GS98X GS-9822}
+    GS-9822        {GS98 GS-9822}
     GS-CA1         {GS GS-CA1}
     IP6            {IHP IP6}
     LEN10          {LEN LEN10}
     Lenacapavir    {QNG LEN}
-    PF-46396       {PF46P PF-46396}
-    PF74           {pf74M1147 PF74}
+    PF-46396       {PF96 PF-46396}
+    PF74           {PF74 PF74}
     PIR            {STP PIR}
 }
 
