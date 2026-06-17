@@ -1,4 +1,4 @@
-# BIC (ABR)
+# BIC 
 ## Files
 -BIC.pdb
 -BIC.str

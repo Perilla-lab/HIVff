@@ -1,4 +1,4 @@
-# LEN (ABR)
+# LEN 
 ## Files
 -LEN.pdb
 -LEN.str

@@ -1,4 +1,4 @@
-# PF74 (ABR)
+# PF74 
 ## Files
 -PF74.pdb
 -PF74.str

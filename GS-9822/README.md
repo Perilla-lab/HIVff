@@ -1,4 +1,4 @@
-# GS-9822 (ABR)
+# GS-9822 
 ## Files
 -GS-9822.pdb
 -GS-9822.str

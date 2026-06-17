@@ -1,4 +1,4 @@
-# BI-2 (ABR)
+# BI-2 
 ## Files
 -BI-2.pdb
 -BI-2.str
