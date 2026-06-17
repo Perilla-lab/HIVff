@@ -1,12 +1,36 @@
-! CGenFF/CHARMM-compatible parameters for BI2
-! Developed by Christopher G. Mayne
-! Tajkhorshid Laboratory
-! Date of final revision: 12/12/2013
-! Initial parameters sourced from ParamChem webserver
-! and refined using the Force Field Toolkit (ffTK)
-! via a fragment-based approach
-!
-! Note: CGenFF = par_all36_cgenff.prm
+* ======================================================================
+* HIVff: CHARMM-compatible force-field parameters for HIV-1 inhibitors
+*
+* Copyright (c) 2026 Perilla Laboratory,
+* Department of Chemistry and Biochemistry,
+* University of Delaware
+*
+* Authors:
+* Juan S. Rey
+* Craig A. Peeples
+* Hamed Meshkin
+* Sruthi Murlidaran 
+* Amanda Macke
+* Juan R. Perilla
+*
+* This file was developed within the CHARMM/CGenFF framework.
+* Portions of this file may contain atom types, topology definitions,
+* parameter assignments, or other content derived from CHARMM and/or
+* CGenFF.
+*
+* Redistribution and use of this file are subject to the terms
+* described in the repository LICENSE file and any applicable CHARMM
+* and CGenFF requirements.
+*
+* If you use this work, please cite:
+*
+* Rey JS, Peeples CA, Macke A, Perilla JR.
+* CHARMM-compatible molecular mechanics force fields for multiscale
+* modeling of HIV-1 replication inhibitors. 
+* 
+*
+* ======================================================================
+*
 
 RESI BI2            0.000 ! 
 GROUP            ! CHARGE

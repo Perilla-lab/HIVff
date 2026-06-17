@@ -1,4 +1,31 @@
-CRYST1    1.000    1.000    1.000  90.00  90.00  90.00 P 1           1
+HEADER    HIVff: CHARMM-compatible force-field parameters for HIV-1 inhibitors
+TITLE     CHARMM-compatible molecular mechanics force fields for multiscale
+TITLE     modeling of HIV-1 replication inhibitors
+
+REMARK 000 ======================================================================
+REMARK 000 HIVff: CHARMM-compatible force-field parameters for HIV-1 inhibitors
+REMARK 000
+REMARK 000 Copyright (c) 2026 Perilla Laboratory,
+REMARK 000 Department of Chemistry and Biochemistry,
+REMARK 000 University of Delaware
+REMARK 000
+REMARK 000 Authors:
+REMARK 000 Juan S. Rey
+REMARK 000 Craig A. Peeples
+REMARK 000 Hamed Meshkin
+REMARK 000 Sruthi Murlidaran
+REMARK 000 Amanda Macke
+REMARK 000 Juan R. Perilla
+REMARK 000
+REMARK 000 This file was developed within the CHARMM/CGenFF framework.
+REMARK 000 Portions may contain CHARMM/CGenFF-derived content.
+REMARK 000
+REMARK 000 Redistribution and use are subject to LICENSE terms.
+REMARK 000
+REMARK 000 If you use this work, please cite:
+REMARK 000 Rey JS, Peeples CA, Macke A, Perilla JR.
+REMARK 000 CHARMM-compatible molecular mechanics force fields...
+REMARK 000 ======================================================================CRYST1    1.000    1.000    1.000  90.00  90.00  90.00 P 1           1
 ATOM      1  O24 pf74M1147     -39.303 -18.442  36.300  1.00  0.00      F0   O
 ATOM      2  C23 pf74M1147     -38.552 -17.494  36.202  1.00  0.00      F0   C
 ATOM      3  N4  pf74M1147     -38.575 -16.646  35.029  1.00  0.00      F0   N
