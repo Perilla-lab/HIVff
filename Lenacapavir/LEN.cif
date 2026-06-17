@@ -1,3 +1,40 @@
+# ======================================================================
+# HIVff: CHARMM-compatible force-field parameters for HIV-1 inhibitors
+#
+# Copyright (c) 2026 Perilla Laboratory,
+# Department of Chemistry and Biochemistry,
+# University of Delaware
+#
+# Authors:
+# Juan S. Rey
+# Craig A. Peeples
+# Hamed Meshkin
+# Sruthi Murlidaran 
+# Amanda Macke
+# Juan R. Perilla
+#
+# This file was developed within the CHARMM/CGenFF framework.
+# Portions of this file may contain atom types, topology definitions,
+# parameter assignments, or other content derived from CHARMM and/or
+# CGenFF.
+#
+# Redistribution and use of this file are subject to the terms
+# described in the repository LICENSE file and any applicable CHARMM
+# and CGenFF requirements.
+#
+# If you use this work, please cite:
+#
+# Rey JS, Peeples CA, Macke A, Perilla JR.
+# CHARMM-compatible molecular mechanics force fields for multiscale
+# modeling of HIV-1 replication inhibitors. 
+# 
+#
+# ======================================================================
+#
+# Ligand restraint file for Lenacapavir (LEN)
+# Generated using PHENIX eLBOW, REEL, and Visual Molecular Dynamics (VMD)
+# based on QM geometry optimized coordinates for LEN
+#
 # electronic Ligand Builder and Optimisation Workbench (eLBOW)
 #   - a module of PHENIX version 1.21.2-5419-
 #   - file written: Sat Apr 11 01:25:06 2026
