@@ -11,7 +11,7 @@
 
 | Parameter | Level of Theory |
 |------------|----------------|
-| Geometry Optimization | B3LYP/6-31G*† |
+| Geometry Optimization | B3LYP/6-31G* |
 | Charge Optimization | HF/6-31G* |
 | Bond/Angle Optimization | B3LYP/6-31G* |
 | Dihedral Optimization | B3LYP/6-31G* | 
