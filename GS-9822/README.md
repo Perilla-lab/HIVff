@@ -1,10 +1,10 @@
 # GS-9822 
 ## Files
--GS-9822.pdb
--GS-9822.str
--GS-9822.cif
--README.md
--LICENSE
+- GS-9822.pdb
+- GS-9822.str
+- GS-9822.cif
+- README.md
+- LICENSE
 
 **Type:** Allosteric integrase inhibitor (ALLINI), LEDGF-IN site inhibitor (LEDGIN)
 ## Parameterization Summary

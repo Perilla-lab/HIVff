@@ -1,10 +1,10 @@
 # BI-D 
 ## Files
--BI-D.pdb
--BI-D.str
--BI-D.cif
--README.md
--LICENSE
+- BI-D.pdb
+- BI-D.str
+- BI-D.cif
+- README.md
+- LICENSE
 
 **Type:** Allosteric Integrase Inhibitor (ALLINI), LEDGF-IN site inhibitor (LEDGIN) 
 ## Parameterization Summary

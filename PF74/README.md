@@ -1,10 +1,10 @@
 # PF74 
 ## Files
--PF74.pdb
--PF74.str
--PF74.cif
--README.md
--LICENSE
+- PF74.pdb
+- PF74.str
+- PF74.cif
+- README.md
+- LICENSE
 
 **Type:** Capsid Inhibitor (CI) 
 ## Parameterization Summary

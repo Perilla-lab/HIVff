@@ -1,10 +1,10 @@
 # BIC 
 ## Files
--BIC.pdb
--BIC.str
--BIC.cif
--README.md
--LICENSE
+- BIC.pdb
+- BIC.str
+- BIC.cif
+- README.md
+- LICENSE
 
 **Type:** Integrase strand transfer inhibitor (INSTI)
 ## Parameterization Summary

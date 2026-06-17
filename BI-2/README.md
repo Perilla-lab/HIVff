@@ -1,10 +1,10 @@
 # BI-2 
 ## Files
--BI-2.pdb
--BI-2.str
--BI-2.cif
--README.md
--LICENSE
+- BI-2.pdb
+- BI-2.str
+- BI-2.cif
+- README.md
+- LICENSE
 
 **Type:** Capsid Inhibitor (CI) 
 ## Parameterization Summary
