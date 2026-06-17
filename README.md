@@ -34,7 +34,7 @@ Current parameters:
 
 | Name                  | Also Known As |
 |-----------------------|---------------|
-| Inositol Hexaphosphate| IP6           |
+| Inositol Hexakisphosphate| IP6           |
 
 
 The original parameterization work described in the associated
