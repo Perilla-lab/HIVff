@@ -24,6 +24,7 @@ array set ligmap {
     GS-CA1         {GS GS-CA1}
     IP6            {IHP IP6}
     Lenacapavir    {QNG LEN}
+    LEN10          {LEN LEN10}
     PF-46396       {PF96 PF96_S}
     PF74           {PF74 PF74}
     Pirmitegravir  {STP PIR}
@@ -38,10 +39,6 @@ if {[info exists ligmap($basename)]} {
     set basename $basename
 }
 
-puts $ffdir
-puts $resname
-puts $basename
-
 set segid $resname
 if {[string length $segid] > 7} {
     set segid [string range $segid 0 3]
@@ -54,10 +51,20 @@ $sel set segid $segid
 $sel set resname $resname
 $sel writepdb $basename.pdb
 
-
-topology $ffdir/top_all36_prot.rtf ; # Load CHARMM36
 topology $ffdir/top_all36_cgenff.rtf ; # Load CGenFF
+topology $ffdir/top_all36_prot.rtf ; # Load CHARMM36
+
+set boxsize 20
+set target_concentration 0.15
+
+if {$basename eq "LEN10"} {
+    topology $ffdir/../MD_test_scripts/SBCG2/sod_cla_modified.top ; # Load cluster SOD CLA
+    set boxsize 50
+    set target_concentration 0.03 ;# these are salt clusters not individual salt atoms
+}
+
 topology $ffdir/$basename.str
+
 
 segment $segid {
 	first none
@@ -67,29 +74,22 @@ segment $segid {
 
 }
 coordpdb ${basename}.pdb $segid
-regenerate angles dihedrals
+
+if {$basename ne "LEN10"} {
+    regenerate angles dihedrals
+}
+
 writepsf ${basename}.psf
 
-solvate ${basename}.psf ${basename}.pdb -t 20 -o ${basename}_solvent -s W
+solvate ${basename}.psf ${basename}.pdb -t $boxsize -o ${basename}_solvent -s W
 
-set target_concentration 0.15
 
-puts "consider the ions added during cionize to reach to the target concentration"
-set ID [mol load psf ${basename}_solvent.psf pdb ${basename}_solvent.pdb]
-set all_ions [[atomselect $ID "ions"] num]
-set cla_ions [[atomselect $ID "segid CLA"] num]
-set na_ions [[atomselect $ID "segid SOD"] num]
-set salt [expr { min( $cla_ions, $na_ions )}] ; #number of NaCl added to the system
-set water_molecules [ [atomselect $ID "water and noh"] num]
-set n_salt_at_target [expr { $target_concentration * $water_molecules / 56.0}] ;     #56 is molarity of water
-puts $target_concentration
-puts $salt
-puts $n_salt_at_target
-puts $water_molecules
 
-set justified_concentration [expr {$target_concentration / (1 + $salt / $n_salt_at_target )}]
-
-autoionize -psf ${basename}_solvent.psf -pdb  ${basename}_solvent.pdb -cation SOD -anion CLA -sc $justified_concentration -o ${basename}.preped -seg I1
+if {$basename eq "LEN10"} {
+    autoionize -psf ${basename}_solvent.psf -pdb  ${basename}_solvent.pdb -cation SOD -anion CLA -sc $target_concentration -o ${basename}_ions_solvent_sc150mM -seg I1
+} else {
+    autoionize -psf ${basename}_solvent.psf -pdb  ${basename}_solvent.pdb -cation SOD -anion CLA -sc $target_concentration -o ${basename}.preped -seg I1
+}
 
 # #Load the complex
 set ip [mol load psf ${basename}.preped.psf pdb ${basename}.preped.pdb]
@@ -103,6 +103,21 @@ foreach dim $dims lab {bx by bz} {puts "set $lab $dim"; puts $fp "set $lab $dim"
 foreach dim [measure center $all] lab {cx cy cz} {puts "set $lab $dim"; puts $fp "set $lab $dim"}
 close $fp
 
+if {$basename eq "LEN10"} {
+    resetpsf
+    psfcontext reset
+    readpsf ${basename}_ions_solvent_sc150mM.psf
+    coordpdb ${basename}_ions_solvent_sc150mM.pdb
+    mol load psf ${basename}_ions_solvent_sc150mM.psf pdb ${basename}_ions_solvent_sc150mM.pdb
+    set bad [atomselect top "water"]
+    foreach segid [$bad get segid] resid [$bad get resid] {
+        delatom $segid $resid
+    }
+    set CG [atomselect top all]
+    writepdb LEN10.preped.pdb
+    writepsf LEN10.preped.psf
+} ;# NO solvent with SBCG2
+
 #Gemerate restraints
 set all [atomselect $ip all]
 set sel1 [atomselect $ip "resname ${resname}"]
@@ -113,6 +128,9 @@ $all writepdb AA_run_restraints_1.pdb
 file delete ${basename}_ions.pdb ${basename}_ions_solvent.pdb cionize.in 
 file delete ${basename}_ions_solvent.psf ${basename}_solvent.psf
 file delete ${basename}_solvent.pdb ${basename}_solvent.log
+if {$basename eq "LEN10"} {
+    file delete $${basename}_ions_solvent_sc150mM.psf ${basename}_ions_solvent_sc150mM.pdb
+}
 
 exit
 

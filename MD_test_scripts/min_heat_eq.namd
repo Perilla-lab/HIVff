@@ -23,6 +23,7 @@ array set ligmap {
     GS-CA1         {GS GS-CA1}
     IP6            {IHP IP6}
     Lenacapavir    {QNG LEN}
+    LEN10          {LEN LEN10}
     PF-46396       {PF96 PF96_S}
     PF74           {PF74 PF74}
     Pirmitegravir  {STP PIR}
@@ -38,7 +39,7 @@ if {[info exists ligmap($basename)]} {
 }
 
 set struc $basename.preped
-set n 0
+set n  2 
 
 if { $n == 0 } {
   set output   "output_${struc}/${struc}_min"
@@ -73,8 +74,14 @@ structure   ./${struc}.psf
 coordinates ./${struc}.pdb
 
 paraTypeCharmm on
-parameters ./par_all36_cgenff.prm
-parameters ./toppar_water_ions_namd.str
+
+if {$basename eq "LEN10"} {
+  parameters $ffdir/../MD_test_scripts/SBCG2/sod_cla_modified.par
+} else {
+  parameters ./par_all36_cgenff.prm
+  parameters ./toppar_water_ions_namd.str
+}
+
 parameters ./$basename.str
 
 
@@ -90,17 +97,13 @@ if {$RESTART} {
 
 }
 
-dielectric        1.0
+if {$basename eq "LEN10"} {
+  dielectric        80
+} else {
+  dielectric        1.0
+}
 
 fullDirect off
-
-#Force-Field Parameters
-exclude             scaled1-4
-1-4scaling          1.0
-switching           on
-cutoff              12.
-switchdist          10.
-pairlistdist        14.
 
 if {!$RESTART} {
   cellBasisVector1 $bx 0.0 0.0
@@ -109,16 +112,47 @@ if {!$RESTART} {
   cellOrigin       $cx $cy $cz
 }
 
-PME yes
-PMEGridSpacing 1.0
-PMEPencils 1
-wrapAll on
 
-timestep            2.0  ;# 2fs/step
-rigidBonds          all  ;# TIP3P
-nonbondedFreq       1
-fullElectFrequency  1
-stepspercycle       20
+#Force-Field Parameters
+if {$basename eq "LEN10"} {
+  exclude     1-2
+  switching   on
+  switchdist  18.0
+  cutoff      20.0
+  pairlistdist 25.0
+} else {
+  exclude             scaled1-4
+  1-4scaling          1.0
+  switching           on
+  cutoff              12.
+  switchdist          10.
+  pairlistdist        14.
+}
+
+
+PME on
+if {$basename eq "LEN10"} {
+  PMEGridSpacing 2.0
+  PMEInterpOrder 4
+} else {
+  PMEGridSpacing 1.0
+  PMEPencils 1
+  wrapAll on
+}
+
+if {$basename eq "LEN10"} {
+  #margin 20
+  timestep 30.0
+  nonbondedFreq   1
+  fullElectFrequency  2
+  stepspercycle   100
+} else {
+  timestep            2.0  ;# 2fs/step
+  rigidBonds          all  ;# TIP3P
+  nonbondedFreq       1
+  fullElectFrequency  1
+  stepspercycle       20
+}
 
 #Output
 file mkdir output_${struc}
@@ -133,11 +167,12 @@ conskcol          B
 #Temperature control
 langevin  on
 langevinDamping 2.0
+
 if {!$HEAT} {
   langevinTemp  $temp
 }
 
-if {(!$MINIMIZE) && (!$HEAT)} {
+if {(!$MINIMIZE) && (!$HEAT) && ($basename ne "LEN10")} {
   LangevinPiston 1
   LangevinPistonTarget 1.01325
   LangevinPistonPeriod 200

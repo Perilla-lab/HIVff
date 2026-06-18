@@ -1,0 +1,9 @@
+ATOM
+MASS  1   SOD  139.87  NA   ! 2 x (na-cl pairs) + 1 Sodium(+) Ion
+MASS  2   CLA  152.33  CLA  ! 2 x (na-cl pairs) + 1 Chloride(-) Ion
+
+NONBONDED
+SOD      0.0       -0.08814    4.435  ! std combination rule + correction from Luo and Roux JCP 2010 + (SOD Rmin/2)
+CLA      0.0       -0.10876    4.865  ! std combination rule + correction from Luo and Roux JCP 2010 + (CLA Rmin/2)
+
+END
