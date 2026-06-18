@@ -47,6 +47,11 @@ for f in "${files[@]}"; do
     fi
 done
 
+if (($(basename $ffdir)=="PF-46396")); then 
+	ln -s PF96.str PF96_S.str
+	ln -s PF96.str PF96_R.str
+fi
+
 vmd -dispdev text -e auto_generate_structure.tcl
 
 

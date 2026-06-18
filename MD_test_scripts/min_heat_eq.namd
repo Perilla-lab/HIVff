@@ -23,9 +23,9 @@ array set ligmap {
     GS-CA1         {GS GS-CA1}
     IP6            {IHP IP6}
     Lenacapavir    {QNG LEN}
-    PF-46396       {PF96 PF-46396}
+    PF-46396       {PF96 PF96_S}
     PF74           {PF74 PF74}
-    PIR            {STP PIR}
+    Pirmitegravir  {STP PIR}
 }
 
 
