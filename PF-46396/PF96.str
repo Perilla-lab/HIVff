@@ -78,7 +78,7 @@ MASS     1 CG3CZ  12.01070  C
 MASS     1 CG3C52 12.01070  C
 MASS     1 CG2RCZ 12.01070  C
 
-RESI PF46           0.000 ! param penalty=  42.500 ; charge penalty=  45.462
+RESI PF96           0.000 ! param penalty=  42.500 ; charge penalty=  45.462
 GROUP            ! CHARGE   CH_PENALTY
 ATOM C      CG3Z    0.208 !   18.044
 ATOM H      HGA1    0.090 !    0.428

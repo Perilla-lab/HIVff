@@ -31,14 +31,16 @@
 *
 * ======================================================================
 *
-! CGenFF/CHARMM-compatible parameters for BI1
-! Developed by Christopher G. Mayne
-! Tajkhorshid Laboratory
-! Date of final revision: 12/12/2013
-! Parameters combinded from BI2 and CGenFF
-!
-! Note: CGenFF = par_all36_cgenff.prm
+* CGenFF/CHARMM-compatible parameters for BI1
+* Developed by Christopher G. Mayne
+* Tajkhorshid Laboratory
+* Date of final revision: 12/12/2013
+* Parameters combinded from BI2 and CGenFF
+*
+* Note: CGenFF = par_all36_cgenff.prm
 
+read rtf card append
+36 1
 
 RESI BI1       0.000 ! param penalty= 102.000 ; charge penalty=  86.970
 GROUP            ! CHARGE   CH_PENALTY
@@ -116,7 +118,7 @@ IMPR C6     C8     N5     O6
 
 END
 
-
+read param card flex append
 BONDS
 
 NG2R51  HGP1      477.003  0.995        ! frag1
@@ -259,3 +261,4 @@ OG2D1    0.0       -0.1200     1.7000   0.0 -0.12 1.40   ! CGenFF
 OG311    0.0       -0.1921     1.7650                    ! CGenFF
 
 END
+RETURN

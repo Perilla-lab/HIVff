@@ -1,0 +1,166 @@
+proc get_first_timestep { xsc } {
+
+  set xscfp [open $xsc r]
+  set xscln [split [read $xscfp] "\n"]
+  close $xscfp
+  return [lindex [lindex $xscln 2] 0]
+
+}
+
+set ffdir [pwd]
+set basename [file tail $ffdir]
+
+# Map directory namd -> {resname, filename}
+array set ligmap {
+    Bevirimat      {BVM BVM}
+    BI-1           {BI1 BI-1}
+    BI-2           {BI2 BI-2}
+    Bictegravir    {BIC BIC}
+    BI-D           {BID BI-D}
+    Dolutegravir   {DTG DTG}
+    EKC110         {EKC EKC110}
+    GS-9822        {GS98 GS-9822}
+    GS-CA1         {GS GS-CA1}
+    IP6            {IHP IP6}
+    Lenacapavir    {QNG LEN}
+    PF-46396       {PF96 PF-46396}
+    PF74           {PF74 PF74}
+    PIR            {STP PIR}
+}
+
+
+if {[info exists ligmap($basename)]} {
+    set resname   [lindex $ligmap($basename) 0]
+    set basename  [lindex $ligmap($basename) 1]
+} else {
+    set resname $basename
+    set basename $basename
+}
+
+set struc $basename.preped
+set n 0
+
+if { $n == 0 } {
+  set output   "output_${struc}/${struc}_min"
+  set MINIMIZE 1
+  set HEAT     0
+  set RESTART 0
+} elseif { $n == 1 } {
+  set p_output "output_${struc}/${struc}_min"
+  set output   "output_${struc}/${struc}_heat"
+  set MINIMIZE 0
+  set HEAT     1
+  set RESTART 1
+} elseif { $n == 2 } {
+  set p_output "output_${struc}/${struc}_heat"
+  set output   "output_${struc}/${struc}_eq"
+  set MINIMIZE 0
+  set HEAT     0
+  set RESTART 1
+} else {
+  set p_output "output_${struc}/${struc}_eq"
+  set output   "output_${struc}/${struc}_eq"
+  set MINIMIZE 0
+  set HEAT     0
+  set RESTART 1
+}
+
+set temp 300
+
+source boxdims.txt
+
+structure   ./${struc}.psf
+coordinates ./${struc}.pdb
+
+paraTypeCharmm on
+parameters ./par_all36_cgenff.prm
+parameters ./toppar_water_ions_namd.str
+parameters ./$basename.str
+
+
+if {$RESTART} {
+  bincoordinates ${p_output}[expr {$n - 1}].restart.coor
+  binvelocities ${p_output}[expr {$n - 1}].restart.vel
+  extendedsystem ${p_output}[expr {$n - 1}].restart.xsc
+  firsttimestep [get_first_timestep ${p_output}[expr {$n - 1}].restart.xsc]
+  #firsttimestep 0
+} else {
+  firsttimestep 0
+  temperature   0
+
+}
+
+dielectric        1.0
+
+fullDirect off
+
+#Force-Field Parameters
+exclude             scaled1-4
+1-4scaling          1.0
+switching           on
+cutoff              12.
+switchdist          10.
+pairlistdist        14.
+
+if {!$RESTART} {
+  cellBasisVector1 $bx 0.0 0.0
+  cellBasisVector2 0.0 $by 0.0
+  cellBasisVector3 0.0 0.0 $bz
+  cellOrigin       $cx $cy $cz
+}
+
+PME yes
+PMEGridSpacing 1.0
+PMEPencils 1
+wrapAll on
+
+timestep            2.0  ;# 1fs/step
+rigidBonds          all  ;# TIP3P
+nonbondedFreq       1
+fullElectFrequency  1
+stepspercycle       20
+
+#Output
+file mkdir output_${struc}
+outputName  ${output}${n}
+restartfreq      5000
+dcdfreq          5000
+outputEnergies   5000
+
+constraints off
+conskcol          B
+
+#Temperature control
+langevin  on
+langevinDamping 2.0
+if {!$HEAT} {
+  langevinTemp  $temp
+}
+
+if {(!$MINIMIZE) && (!$HEAT)} {
+  LangevinPiston 1
+  LangevinPistonTarget 1.01325
+  LangevinPistonPeriod 200
+  LangevinPistonDecay 100
+  LangevinPistonTemp 298
+}
+
+
+if {$MINIMIZE} {
+  minimize 5000
+}
+
+if {$HEAT} {
+  for {set i 50} {$i <= 300} {incr i 50} {
+
+    langevinTemp $i
+    reinitvels   $i
+    run          5000
+
+  }
+}
+
+if {(!$MINIMIZE) && (!$HEAT)} {
+  run 250000000 ;#500 ns
+
+}

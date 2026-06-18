@@ -18,13 +18,12 @@ array set ligmap {
     BI-D           {BID BI-D}
     Dolutegravir   {DTG DTG}
     EKC110         {EKC EKC110}
-    GS-9822        {GS98X GS-9822}
+    GS-9822        {GS98 GS-9822}
     GS-CA1         {GS GS-CA1}
     IP6            {IHP IP6}
-    LEN10          {LEN LEN10}
     Lenacapavir    {QNG LEN}
-    PF-46396       {PF46P PF-46396}
-    PF74           {pf74M1147 PF74}
+    PF-46396       {PF96 PF-46396}
+    PF74           {PF74 PF74}
     PIR            {STP PIR}
 }
 
@@ -67,10 +66,7 @@ if { $n == 0 } {
 
 set temp 300
 
-#get box
 source boxdims.txt
-#set bx 54.47400093078613 ; set by 48.17300033569336; set bz 48.17499923706055
-#set cx  1.7860002517700195 ; set cy 5.980499267578125  ; set cz -2.0865001678466797
 
 structure   ./${struc}.psf
 coordinates ./${struc}.pdb

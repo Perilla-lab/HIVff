@@ -11,7 +11,7 @@ set ffdir [pwd]
 set basename [file tail $ffdir]
 
 # -------------------------------
-# ligand mapping: dir -> resname
+# ligand mapping: dir -> {resname, filename}
 # -------------------------------
 array set ligmap {
     Bevirimat      {BVM BVM}
@@ -24,7 +24,6 @@ array set ligmap {
     GS-9822        {GS98 GS-9822}
     GS-CA1         {GS GS-CA1}
     IP6            {IHP IP6}
-    LEN10          {LEN LEN10}
     Lenacapavir    {QNG LEN}
     PF-46396       {PF96 PF-46396}
     PF74           {PF74 PF74}
