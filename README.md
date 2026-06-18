@@ -54,4 +54,4 @@ CGenFF.
 Please cite:
 
 Rey JS, Peeples CA, Macke A, Perilla JR. CHARMM-compatible molecular mechanics force fields for multiscale
-modeling of HIV-1 replication inhibitors.
+modeling of HIV-1 replication inhibitors. (Submitted)
