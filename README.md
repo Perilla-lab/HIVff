@@ -1,6 +1,6 @@
 # HIV-1 inhibitor force-field (HIVff) repository
 
-Here you can find CGenFF analogy and QM-derived CHARMM force-field parameters for various drug inhibitors of the HIV-1 virus.
+Here you can find CGenFF analogy and QM-derived CHARMM force-field parameters for various drug inhibitors of the HIV-1 virus. Geometry optimized coordinates and ligand restraint files are included for structure refinement tasks.
 
 Pfizer (PF)
 Gilead Science (GS)
@@ -28,7 +28,7 @@ Current parameters:
 | Dolutegravir  | DTG, S/GSK1349572 | INSTI  | In preparation                              |
 | Bictegravir   | BIC, GS-9883      | INSTI  | In preparation                              |
 | Bevirimat     | BVM, PA-457       | MI     | https://doi.org/10.1101/2024.10.09.617473   |
-| PF-46396      |                   | MI     | In preparation                              |
+| PF-46396      | PF96              | MI     | In preparation                              |
 
 
 
