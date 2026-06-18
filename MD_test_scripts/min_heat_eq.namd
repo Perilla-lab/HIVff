@@ -39,7 +39,7 @@ if {[info exists ligmap($basename)]} {
 }
 
 set struc $basename.preped
-set n  2 
+set n  0
 
 if { $n == 0 } {
   set output   "output_${struc}/${struc}_min"

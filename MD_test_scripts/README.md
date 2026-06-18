@@ -16,7 +16,7 @@ This directory contains scripts for preparing solvated, ionized ligand systems a
 The workflow requires:
 
 * VMD with the `psfgen`, `solvate`, and `autoionize` plugins
-* NAMD or NAMD3
+* NAMD CPU binary (namd3_cpu) and optionally NAMD GPU enabled binary (namd3)
 * `wget`
 * A ligand PDB file
 * A ligand CGenFF `.str` file
