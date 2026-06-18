@@ -114,7 +114,7 @@ PMEGridSpacing 1.0
 PMEPencils 1
 wrapAll on
 
-timestep            2.0  ;# 1fs/step
+timestep            2.0  ;# 2fs/step
 rigidBonds          all  ;# TIP3P
 nonbondedFreq       1
 fullElectFrequency  1
