@@ -374,7 +374,7 @@ chmod +x setup_system.sh
 
 # 2. Run minimization
 # edit min_heat_eq.namd: set n 0
-namd3 +p8 min_heat_eq.namd > min.log
+namd3_cpu +p8 min_heat_eq.namd > min.log
 
 # 3. Run heating
 # edit min_heat_eq.namd: set n 1
