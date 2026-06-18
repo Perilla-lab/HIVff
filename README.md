@@ -15,8 +15,8 @@ Current parameters:
 
 | Name          | Also Known As     | Type   | Publication                                 |
 |---------------|-------------------|--------|---------------------------------------------|
-| Lenacapavir   | LEN, GS-6207      | CI     | In preparation                              |
-| LEN10         | Lenacapavir       | CI     | In preparation                              |
+| Lenacapavir   | LEN, GS-6207      | CI     | https://doi.org/10.1021/jacs.5c13735        |
+| LEN10         | Lenacapavir (SBCG2) | CI     | In preparation                              |
 | GS-CA-1       |                   | CI     | In preparation                              |
 | PF74          | PF-3450074        | CI     | https://doi.org/10.1021/acs.jpclett.6b00517 |
 | BI-1          |                   | CI     | https://doi.org/10.1021/acs.jpclett.6b00517 |
@@ -27,7 +27,7 @@ Current parameters:
 | GS-9822       |                   | ALLINI | In preparation                              |
 | Dolutegravir  | DTG, S/GSK1349572 | INSTI  | In preparation                              |
 | Bictegravir   | BIC, GS-9883      | INSTI  | In preparation                              |
-| Bevirimat     | BVM, PA-457       | MI     | https://doi.org/10.1101/2024.10.09.617473   |
+| Bevirimat     | BVM, PA-457       | MI     | https://doi.org/10.1021/jacs.5c13735        |
 | PF-46396      | PF96              | MI     | In preparation                              |
 
 
