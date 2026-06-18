@@ -105,6 +105,7 @@ The scripts currently define the following ligand mappings:
 | `GS-CA1`        |         `GS` |       `GS-CA1` |
 | `IP6`           |        `IHP` |          `IP6` |
 | `Lenacapavir`   |        `QNG` |          `LEN` |
+| `LEN10`         |        `LEN` |        `LEN10` |
 | `PF-46396`      |       `PF96` |       `PF96_S` |
 | `PF74`          |       `PF74` |         `PF74` |
 | `Pirmitegravir` |        `STP` |          `PIR` |
