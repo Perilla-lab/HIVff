@@ -10,10 +10,8 @@ files=(
     top_all36_prot.rtf
     par_all36m_prot.prm
     par_all36_prot.prm
-
     par_all36_na.prm
     top_all36_na.rtf
-    # toppar_water_ions.str
 )
 
 # ----------------------------
@@ -22,10 +20,8 @@ files=(
 clean_pre_tags () {
     file="$1"
 
-    # remove <pre> from FIRST line (if present)
+    # clean up HTML formatted text
     sed -i '1s/<pre>//' "$file"
-
-    # remove </pre> from LAST line (if present)
     sed -i '$s/<\/pre>//' "$file"
 }
 
