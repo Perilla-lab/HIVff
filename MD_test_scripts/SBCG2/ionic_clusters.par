@@ -1,0 +1,8 @@
+* SBCG2 cluster-ion parameters
+*
+
+NONBONDED
+SOD      0.0       -0.08814    4.435
+CLA      0.0       -0.10876    4.865
+
+END

@@ -1,0 +1,88 @@
+* C4-PF74: four-bead SBCG PF74 topology and parameters
+* Generated from the selected cg_PF74_4 model.
+*
+
+read rtf card append
+*
+* Topology file in CG representation
+* Generated using the networking algorithm developed
+* in the Klaus Schulten group (Theoretical and
+* Computational Biophysics Group; www.ks.uiuc.edu)
+* Contact vmd@ks.uiuc.edu with questions
+
+27 1
+
+MASS         1      P1      144.1931
+MASS         2      P2      106.1451
+MASS         3      P3       97.0721
+MASS         4      P4       78.1118
+
+DEFA FIRS NONE LAST NONE
+AUTO ANGLES
+
+RESI F74      -0.000000
+ATOM      P1      P1     -0.000000
+ATOM      P2      P2      0.074000
+ATOM      P3      P3     -0.164000
+ATOM      P4      P4      0.090000
+BOND  P1 P3 P2 P3 P3 P4
+END
+
+
+
+read param card flex append
+*
+BONDS
+!
+!V(bond) = Kb(b - b0)**2
+!
+!Kb: kcal/mol A**2
+!b0: A
+!
+!atom type kb         b0
+!
+P1   P3       18.077     5.2947
+P2   P3       30.137     3.8445
+P3   P4       25.545     4.3380
+
+ANGLES
+!
+!V(angle) = Ktheta(theta - theta0)**2
+!
+!Ktheta: kcal/mole/rad**2
+!Theta0: degrees
+!
+!atom types      Ktheta     theta0
+!
+P1   P3   P4       16.026    77.4025
+P1   P3   P2       43.028   123.5312
+P2   P3   P4        9.826    90.1199
+
+DIHEDRALS 
+! 
+!V(dihedral) = Kchi(1 + cos(n(chi) - delta)) 
+! 
+!Kchi: kcal/mole 
+!n: multiplicity 
+!delta: degrees 
+! 
+!atom types             Kchi    n   delta 
+! 
+X    X    X    X    0.0        1     0.0 ! No dihedrals 
+
+NONBONDED
+!
+!V(Lennard-Jones) = Eps,i,j[(Rmin,i,j/ri,j)**12 - 2(Rmin,i,j/ri,j)**6] 
+!
+!epsilon: kcal/mole, Eps,i,j = sqrt(eps,i * eps,j) 
+!Rmin/2: A, Rmin,i,j = Rmin/2,i + Rmin/2,j 
+!
+!atom  ignored    epsilon      Rmin/2 
+!
+P1     0.000000  -3.301962    3.837105
+P2     0.000000  -3.064683    3.472365
+P3     0.000000  -0.020621    2.841726
+P4     0.000000  -4.000000    3.116708
+
+END
+

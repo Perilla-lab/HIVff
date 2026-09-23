@@ -1,0 +1,47 @@
+HIVff License and Terms of Use
+
+Copyright (c) 2026
+Perilla Laboratory
+Department of Chemistry and Biochemistry
+University of Delaware
+
+The HIVff force-field files distributed in this repository were developed
+within the CHARMM and CHARMM General Force Field (CGenFF) framework for
+the modeling of HIV-1 replication inhibitors.
+
+These files may contain topology definitions, atom types, parameters,
+or parameter assignments derived from the CHARMM and CGenFF force-field
+ecosystem. Nothing in this license shall be construed as modifying,
+superseding, or replacing any rights, restrictions, or obligations
+associated with the original CHARMM or CGenFF force fields.
+
+Subject to any applicable rights associated with CHARMM and CGenFF,
+permission is hereby granted to use, copy, modify, and redistribute the
+materials contained in this repository for research, educational, and
+scholarly purposes, provided that:
+
+1. Appropriate attribution is given to the original HIVff authors.
+
+2. Users cite the associated HIVff publication in any work making use
+   of these parameters.
+
+3. Users comply with any applicable citation, licensing, and
+   distribution requirements associated with CHARMM and CGenFF.
+
+4. Modified versions are clearly identified as modified and do not
+   imply endorsement by the original authors.
+
+THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+IN NO EVENT SHALL THE AUTHORS, THE UNIVERSITY OF DELAWARE, OR THEIR
+AFFILIATES BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING
+FROM THE USE OF THESE MATERIALS.
+
+Recommended citation:
+
+Rey JS, Peeples CA, Macke A, Perilla JR.
+CHARMM-compatible molecular mechanics force fields for multiscale
+modeling of HIV-1 replication inhibitors.
+Journal of the American Chemical Society (2026).

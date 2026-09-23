@@ -24,6 +24,7 @@ array set ligmap {
     IP6            {IHP IP6}
     Lenacapavir    {QNG LEN}
     LEN10          {LEN LEN10}
+    C4-PF74        {F74 C4-PF74}
     PF-46396       {PF96 PF96_S}
     PF74           {PF74 PF74}
     Pirmitegravir  {STP PIR}
@@ -40,6 +41,7 @@ if {[info exists ligmap($basename)]} {
 
 set struc $basename.preped
 set n  0
+set is_sbcg2 [expr {$basename eq "LEN10" || $basename eq "C4-PF74"}]
 
 if { $n == 0 } {
   set output   "output_${struc}/${struc}_min"
@@ -75,8 +77,8 @@ coordinates ./${struc}.pdb
 
 paraTypeCharmm on
 
-if {$basename eq "LEN10"} {
-  parameters $ffdir/../MD_test_scripts/SBCG2/sod_cla_modified.par
+if {$is_sbcg2} {
+  parameters $ffdir/../MD_test_scripts/SBCG2/ionic_clusters.par
 } else {
   parameters ./par_all36_cgenff.prm
   parameters ./toppar_water_ions_namd.str
@@ -97,7 +99,7 @@ if {$RESTART} {
 
 }
 
-if {$basename eq "LEN10"} {
+if {$is_sbcg2} {
   dielectric        80
 } else {
   dielectric        1.0
@@ -114,7 +116,7 @@ if {!$RESTART} {
 
 
 #Force-Field Parameters
-if {$basename eq "LEN10"} {
+if {$is_sbcg2} {
   exclude     1-2
   switching   on
   switchdist  18.0
@@ -131,7 +133,7 @@ if {$basename eq "LEN10"} {
 
 
 PME on
-if {$basename eq "LEN10"} {
+if {$is_sbcg2} {
   PMEGridSpacing 2.0
   PMEInterpOrder 4
 } else {
@@ -140,7 +142,7 @@ if {$basename eq "LEN10"} {
   wrapAll on
 }
 
-if {$basename eq "LEN10"} {
+if {$is_sbcg2} {
   #margin 20
   timestep 30.0
   nonbondedFreq   1
@@ -172,7 +174,7 @@ if {!$HEAT} {
   langevinTemp  $temp
 }
 
-if {(!$MINIMIZE) && (!$HEAT) && ($basename ne "LEN10")} {
+if {(!$MINIMIZE) && (!$HEAT) && (!$is_sbcg2)} {
   LangevinPiston 1
   LangevinPistonTarget 1.01325
   LangevinPistonPeriod 200

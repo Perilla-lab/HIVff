@@ -17,6 +17,7 @@ Current parameters:
 |---------------|-------------------|--------|---------------------------------------------|
 | Lenacapavir   | LEN, GS-6207      | CI     | https://doi.org/10.1021/jacs.5c13735        |
 | LEN10         | Lenacapavir (SBCG2) | CI     | In preparation                              |
+| C4-PF74       | PF-3450074 (four-bead SBCG2) | CI | In preparation                              |
 | GS-CA-1       |                   | CI     | In preparation                              |
 | PF74          | PF-3450074        | CI     | https://doi.org/10.1021/acs.jpclett.6b00517 |
 | BI-1          |                   | CI     | https://doi.org/10.1021/acs.jpclett.6b00517 |

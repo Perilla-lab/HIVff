@@ -1,6 +1,7 @@
 #!/bin/bash
 
 ffdir="$(pwd)"
+base="$(basename "$ffdir")"
 base_url="https://charmm-gui.org/?doc=open_toppar&filename="
 
 
@@ -28,22 +29,24 @@ clean_pre_tags () {
 # ----------------------------
 # main loop
 # ----------------------------
-for f in "${files[@]}"; do
-    url="${base_url}${f}"
+if [[ "$base" == "C4-PF74" || "$base" == "LEN10" ]]; then
+    echo "SBCG2 ligand: using the self-contained ligand stream and shared cluster-ion files."
+else
+    for f in "${files[@]}"; do
+        url="${base_url}${f}"
 
-    echo "Downloading: $f"
+        echo "Downloading: $f"
+        wget -q -O "$ffdir/$f" "$url"
 
-    wget -q -O "$ffdir/$f" "$url"
+        if [[ -s "$ffdir/$f" ]]; then
+            clean_pre_tags "$ffdir/$f"
+        else
+            echo "Warning: $f not downloaded properly"
+        fi
+    done
+fi
 
-    # only clean if download succeeded and file is non-empty
-    if [[ -s "$ffdir/$f" ]]; then
-        clean_pre_tags "$ffdir/$f"
-    else
-        echo "Warning: $f not downloaded properly"
-    fi
-done
-
-if (($(basename $ffdir)=="PF-46396")); then 
+if [[ "$base" == "PF-46396" ]]; then
 	ln -s PF96.str PF96_S.str
 	ln -s PF96.str PF96_R.str
 fi

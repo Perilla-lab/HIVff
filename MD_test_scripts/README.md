@@ -19,8 +19,8 @@ The workflow requires:
 * NAMD CPU binary (namd3_cpu) and optionally NAMD GPU enabled binary (namd3)
 * `wget`
 * A ligand PDB file
-* A ligand CGenFF `.str` file
-* Internet access for downloading CHARMM-GUI topology and parameter files
+* A ligand CGenFF or SBCG2 `.str` file
+* Internet access for atomistic ligand setup; it is not required for the `LEN10` or `C4-PF74` SBCG2 branches
 
 ## How this workflow is intended to be used
 
@@ -106,6 +106,7 @@ The scripts currently define the following ligand mappings:
 | `IP6`           |        `IHP` |          `IP6` |
 | `Lenacapavir`   |        `QNG` |          `LEN` |
 | `LEN10`         |        `LEN` |        `LEN10` |
+| `C4-PF74`       |        `F74` |      `C4-PF74` |
 | `PF-46396`      |       `PF96` |       `PF96_S` |
 | `PF74`          |       `PF74` |         `PF74` |
 | `Pirmitegravir` |        `STP` |          `PIR` |
@@ -123,7 +124,7 @@ chmod +x setup_system.sh
 
 The setup script will:
 
-1. Download CHARMM/CGenFF topology and parameter files.
+1. Download CHARMM/CGenFF topology and parameter files for atomistic ligands (the `LEN10` and `C4-PF74` SBCG2 branches skip this download).
 2. Clean the downloaded files by removing HTML `<pre>` tags.
 3. Run `auto_generate_structure.tcl` in VMD text mode.
 4. Generate a solvated and ionized system.
