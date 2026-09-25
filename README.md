@@ -28,7 +28,7 @@ Current parameters:
 | GS-9822       |                   | ALLINI | In preparation                              |
 | Dolutegravir  | DTG, S/GSK1349572 | INSTI  | In preparation                              |
 | Bictegravir   | BIC, GS-9883      | INSTI  | In preparation                              |
-| Bevirimat     | BVM, PA-457       | MI     | https://doi.org/10.1021/jacs.5c13735        |
+| Bevirimat     | BVM, PA-457       | MI     | https://doi.org/10.1038/s41467-023-36569-y, https://doi.org/10.1021/jacs.5c13735        |
 | PF-46396      | PF96              | MI     | In preparation                              |
 
 
