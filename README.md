@@ -13,7 +13,7 @@ Type abbreviations:
 
 Current parameters:
 
-| Name          | Also Known As     | Type   | Publication                                 |
+| Name          | Also Known As     | Type   | Exemplary Application                       |
 |---------------|-------------------|--------|---------------------------------------------|
 | Lenacapavir   | LEN, GS-6207      | CI     | https://doi.org/10.1021/jacs.5c13735        |
 | LEN10         | Lenacapavir (SBCG2) | CI     | In preparation                              |
@@ -24,9 +24,9 @@ Current parameters:
 | BI-2          |                   | CI     | https://doi.org/10.1021/acs.jpclett.6b00517 |
 | Primitegravir | PIR, STP0404      | ALLINI | https://doi.org/10.1128/mbio.03560-22       |
 | BI-D          |                   | ALLINI | https://doi.org/10.1128/mbio.03560-22       |
-| EKC110        |                   | ALLINI | https://doi.org/10.1128/mbio.00465-24       |
+| EKC110        |                   | ALLINI | https://doi.org/10.1128/mbio.00465-24, https://doi.org/10.1021/jacs.6c11578       |
 | GS-9822       |                   | ALLINI | In preparation                              |
-| Dolutegravir  | DTG, S/GSK1349572 | INSTI  | In preparation                              |
+| Dolutegravir  | DTG, S/GSK1349572 | INSTI  | https://doi.org/10.1021/jacs.6c11578        |
 | Bictegravir   | BIC, GS-9883      | INSTI  | In preparation                              |
 | Bevirimat     | BVM, PA-457       | MI     | https://doi.org/10.1038/s41467-023-36569-y, https://doi.org/10.1021/jacs.5c13735        |
 | PF-46396      | PF96              | MI     | In preparation                              |
@@ -54,5 +54,5 @@ CGenFF.
 
 Please cite:
 
-Rey JS, Peeples CA, Macke A, Perilla JR. CHARMM-compatible molecular mechanics force fields for multiscale
-modeling of HIV-1 replication inhibitors. (Submitted)
+Rey JS, Peeples CA, Macke A, Perilla JR. CHARMM-Compatible Molecular Mechanics Force Fields for Multiscale
+Modeling of HIV-1 Replication Inhibitors. JACS. 2026. https://doi.org/10.1021/jacs.6c11578
