@@ -7,6 +7,9 @@
 - LICENSE
 
 **Type:** Allosteric integrase inhibitor (ALLINI), LEDGF-IN site inhibitor (LEDGIN)
+** Warning: ** The GS-9822 parameters have not been validated against an experimental structural reference. 
+Use these parameters with caution and independently assess their suitability to your system.
+
 ## Parameterization Summary
 
 | Parameter | Level of Theory |
