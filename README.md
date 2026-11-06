@@ -1,5 +1,11 @@
 # HIV-1 inhibitor force-field (HIVff) repository
 
+Please cite:
+
+Rey JS, Peeples CA, Macke A, Perilla JR. CHARMM-Compatible Molecular Mechanics Force Fields for Multiscale
+Modeling of HIV-1 Replication Inhibitors. JACS. 2026. https://doi.org/10.1021/jacs.6c11578
+
+
 Here you can find CGenFF analogy and QM-derived CHARMM force-field parameters for various drug inhibitors of the HIV-1 virus. Geometry optimized coordinates and ligand restraint files are included for structure refinement tasks.
 
 Pfizer (PF)
@@ -52,7 +58,3 @@ Users are responsible for complying with any applicable licensing,
 distribution, and citation requirements associated with CHARMM and
 CGenFF.
 
-Please cite:
-
-Rey JS, Peeples CA, Macke A, Perilla JR. CHARMM-Compatible Molecular Mechanics Force Fields for Multiscale
-Modeling of HIV-1 Replication Inhibitors. JACS. 2026. https://doi.org/10.1021/jacs.6c11578
